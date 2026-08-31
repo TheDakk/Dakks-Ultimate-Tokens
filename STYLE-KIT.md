@@ -42,8 +42,12 @@ regeneration is never part of the loop once a file is accepted.
    redo the library.**
 
 **Drift control in-session:** generate in batches of 8–12; when starting a new session,
-attach one previously accepted image and say "match this exact style". If your tool
-supports seeds, fix one per batch.
+attach the master reference and say "match this exact style". **The master reference is
+the accepted sample sheet at `reference/style-sheet-01.png`** — the multi-subject sheet
+the owner approved to lock this style. Attach it (or one accepted single image) at the
+top of every new session; never crop tokens out of the sheet itself (per-figure
+resolution is far too low) — it is a reference, not a source. If your tool supports
+seeds, fix one per batch.
 
 **Foundry wildcard note (optional, GM-side):** Foundry's token wildcard
 (`art/creatures/orc/*.webp`) matches per-directory, and a flat folder would make `orc-*`
@@ -70,12 +74,13 @@ Gerald Brom, Keith Parkinson and Jeff Easley" and keep everything else — the d
 clauses are written to carry the style on their own. Do that consistently for the whole
 batch, not per image.
 
-### TYPE BLOCK 1 — top-down creature token (kind: monster)
+### TYPE BLOCK 1 — standing full-body token (kind: monster)
 
-> Viewed from directly overhead as a tabletop game token. The full body centred and
-> filling about 80 percent of a square frame with clear margin on all sides, limbs and
-> silhouette clearly readable at small size, posed mid-motion as if seen from a bird's
-> eye. Fully transparent background — no ground, no base, no ring, no shadow.
+> The whole figure standing as a full-body tabletop game token, seen from the front or
+> a three-quarter view, centred and filling about 80 percent of a square frame with
+> clear margin on all sides, silhouette clearly readable at small size, posed with
+> weight and attitude as if mid-stride or braced for a fight. Fully transparent
+> background — no ground, no base, no ring, no shadow.
 
 Sizes (the CSV `size` column decides): Tiny/Small/Medium/Large → **512×512** ·
 Huge → **1024×1024** · Gargantuan → **1536×1536**. PNG with alpha.

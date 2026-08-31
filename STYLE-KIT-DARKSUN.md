@@ -47,8 +47,8 @@ All are real worklist rows — accepted images are keepers:
 | Thri-Kreen | circular portrait | 512 | `art/races/thri-kreen.webp` (+ copy in `art/creatures/`) |
 | Mul | circular portrait | 512 | `art/races/mul.webp` (+ copy in `art/creatures/`) |
 | Athasian Dwarf | circular portrait | 512 | `art/races/athasian-dwarf.webp` |
-| Id Fiend | top-down token | 512 | `art/creatures/id-fiend.webp` |
-| Crodlu | top-down token | 512 | `art/creatures/crodlu.webp` |
+| Id Fiend | standing full-body token | 512 | `art/creatures/id-fiend.webp` |
+| Crodlu | standing full-body token | 512 | `art/creatures/crodlu.webp` |
 
 Judge it two ways: the five hold together as one Athas, AND they still sit beside the
 generic calibration set as work by the same hand — same brushwork and lighting, hotter
