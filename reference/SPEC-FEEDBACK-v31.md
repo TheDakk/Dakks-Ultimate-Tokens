@@ -1,5 +1,27 @@
 # Feedback on spec_version 3.1.0 — two fixes for v3.2
 
+> ## ⚠ CORRECTION (recorded after v3.1.1)
+>
+> **FIX 1 below was a FALSE POSITIVE. The v3.1 workbook was already correct.**
+>
+> The XLSX reader used for the review had a regex bug: a greedy attribute match on an
+> empty self-closing cell (`<x:c r="AB24" s="179" />`) ran past its own `>` and captured
+> a *later* cell's value, so `module_relative_path` appeared to be sitting in
+> `foundry_key`. Reading the raw sheet XML directly shows v3.1 row 24 already had
+> `AB24` (`foundry_key`) empty and `AE24` (`module_relative_path`) holding the path —
+> and the same for the `STYLE-REF-0001` row. Fix: make the attribute run lazy
+> (`[^>]*?`).
+>
+> **FIX 2 was real, was needed, and was correctly applied in v3.1.1.**
+>
+> The v3.1.1 validation hardening added in response to Fix 1 (dotted-key pattern,
+> all-present-or-all-empty build triplet, blocking data validation, and "reject invalid
+> mappings rather than shifting values into adjacent columns") is worth keeping on its
+> own merits, so nothing needs reverting. The only inaccuracy is in the v3.1.1 patch
+> record, whose first two bullets describe correcting rows that were already correct.
+>
+> Everything below is left unedited as the original text that was sent.
+
 v3.1 was verified against the workbook itself, not the changelog. **All six items from the
 previous round are correctly implemented:**
 
