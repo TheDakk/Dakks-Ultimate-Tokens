@@ -23,11 +23,13 @@ automatically; delete it and the entry falls back. No manifest, no bookkeeping.
 
 ## The working loop
 
-1. Open the current suite's `build/_image-prompts/art-worklist.csv` — the work list:
-   filename, kind, size, one-sentence visual brief, priority.
+1. Open **`worklist.csv` at this library's root** — the work list now lives here:
+   filename, kind, size, one-sentence visual brief, priority, and the exact save path
+   in every notes cell. (The suite regenerates it — and a mirror copy under its
+   `build/_image-prompts/` — via `npm run art-worklist`; never edit it by hand.)
 2. Generate a batch using **STYLE-KIT.md** in this folder — the byte-identical style
    anchor plus the type block for the row's `token_type`, plus the row's brief.
-3. Save each image as the row's exact filename into `art/<kind>/`.
+3. Save each image at the row's exact save path (`art/<kind-dir>/<slug>.webp`).
 4. In the suite: `npm run build` (Foundry closed), then reload Foundry.
 
 ## Sources
@@ -40,7 +42,17 @@ automatically; delete it and the entry falls back. No manifest, no bookkeeping.
   under this library's slug. Its directory names double as a canonical creature list.
   Full-resolution source images: the Google Drive folder linked from its README.
 
+## canon/
+
+The canon coverage checklist the suite's `art-worklist` generator reads:
+
+- `5e-srd-monsters.json` — 334 monsters from the D&D 5.1 Systems Reference Document
+  (Wizards of the Coast, CC-BY-4.0). Only mechanical fields (size/type/subtype/speed/AC)
+  are ever read; no descriptive prose enters any brief.
+- `tmt-names.txt` — the Too Many Tokens directory listing, used as a NAME LIST ONLY.
+
 ## Licence
 
 Dakk's own generated artwork: private, not distributed. Curated third-party pieces
-retain their own licences (Too Many Tokens: MIT). Nothing in this module is published.
+retain their own licences (Too Many Tokens: MIT; the SRD 5.1 dataset in `canon/`:
+CC-BY-4.0, attribution Wizards of the Coast). Nothing in this module is published.
