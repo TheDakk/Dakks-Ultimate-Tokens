@@ -1,8 +1,10 @@
 # Dakk Style Kit
 
-The master prompts for every image in the library. **style_id: `dakk-v1`** — the frozen
-name for the STYLE ANCHOR below. Any future revision of the anchor is a NEW style_id
-(`dakk-v2`), never an edit in place; images made under `dakk-v1` stay valid forever.
+The master prompts for every image in the library. **style_id: `dakk-v2`** — the frozen
+name for the STYLE ANCHOR below, built on the style of **Gerald Brom** (the Dark Sun
+artist). Any future revision of the anchor is a NEW style_id (`dakk-v3`), never an edit
+in place; images made under a style_id stay valid forever. (`dakk-v1`, a generic 1990s
+sourcebook-plate look, was retired before any image was generated under it.)
 
 Every image in the library uses the SAME style anchor, verbatim, plus one of the three
 type blocks, plus that row's `visual_brief` from worklist.csv. Never improvise the
@@ -45,15 +47,20 @@ the prototype token in-game. The build only resolves the flat `art/creatures/orc
 path, so keep (or copy) the plain file at the flat path — the subfolder is purely for the
 wildcard, and nothing in the build depends on it.
 
-### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v1`)
+### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v2`)
 
-> Classic high-fantasy tabletop RPG illustration in the tradition of 1990s Dungeons &
-> Dragons sourcebook plates: painterly oil-illustration rendering with visible confident
-> brushwork, rich saturated colour, dramatic warm-vs-cool lighting with strong
-> chiaroscuro, crisp detail at the focal point softening toward the edges, grounded
-> heroic realism — weathered leather, notched steel, worn cloth, lived-in gear. Serious
-> and mythic in tone, never cute, never cartoonish, never photorealistic, never anime.
-> Museum-quality digital painting, extremely high detail, sharp focus.
+> Dark heroic fantasy oil painting in the style of the artist Gerald Brom: moody
+> desaturated palette of bone white, ash grey, ochre and rust broken by a single
+> saturated accent, pale alabaster skin tones, lean sinewy figures with ornate grotesque
+> detail — bone ornament, spiked fittings, ragged silk, weathered leather — dramatic rim
+> lighting carving the subject out of deep shadow, visible confident oil brushwork,
+> macabre elegance, grim and mythic in tone, never cute, never cartoonish, never
+> photorealistic, never anime. Museum-quality oil illustration, extremely high detail,
+> sharp focus.
+
+If your generator refuses a living artist's name, drop the words "in the style of the
+artist Gerald Brom" and keep everything else — the descriptive clauses are written to
+carry the style on their own. Do that consistently for the whole batch, not per image.
 
 ### TYPE BLOCK 1 — top-down creature token (kind: monster)
 
