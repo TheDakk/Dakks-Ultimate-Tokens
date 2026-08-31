@@ -25,11 +25,15 @@ automatically; delete it and the entry falls back. No manifest, no bookkeeping.
 
 1. Open **`worklist.csv` at this library's root** — the work list now lives here:
    filename, kind, size, one-sentence visual brief, priority, and the exact save path
-   in every notes cell. (The suite regenerates it — and a mirror copy under its
-   `build/_image-prompts/` — via `npm run art-worklist`; never edit it by hand.)
+   in every notes cell. The suite regenerates it — and a mirror copy under its
+   `build/_image-prompts/` — via `npm run art-worklist`. Don't edit the eight canonical
+   columns (regeneration overwrites them), but **columns you ADD beyond them — e.g.
+   `locked` — are yours and survive regeneration**, carried over by filename.
 2. Generate a batch using **STYLE-KIT.md** in this folder — the byte-identical style
    anchor plus the type block for the row's `token_type`, plus the row's brief.
-3. Save each image at the row's exact save path (`art/<kind-dir>/<slug>.webp`).
+   (First time: run the calibration set in STYLE-KIT.md before any real batch.)
+3. Save each accepted image at the row's exact save path (`art/<kind-dir>/<slug>.webp`)
+   and mark the row locked. A locked filename is never regenerated.
 4. In the suite: `npm run build` (Foundry closed), then reload Foundry.
 
 ## Sources
