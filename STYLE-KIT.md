@@ -1,10 +1,12 @@
 # Dakk Style Kit
 
-The master prompts for every image in the library. **style_id: `dakk-v2`** — the frozen
-name for the STYLE ANCHOR below, built on the style of **Gerald Brom** (the Dark Sun
-artist). Any future revision of the anchor is a NEW style_id (`dakk-v3`), never an edit
-in place; images made under a style_id stay valid forever. (`dakk-v1`, a generic 1990s
-sourcebook-plate look, was retired before any image was generated under it.)
+The master prompts for every image in the library. **style_id: `dakk-v3`** — the frozen
+name for the STYLE ANCHOR below, built on the three **TSR masters: Gerald Brom** (Dark
+Sun), **Keith Parkinson** (Forgotten Realms) and **Jeff Easley** (the AD&D 2e core book
+covers) — the classic D&D oil-painting look. Any future revision of the anchor is a NEW
+style_id (`dakk-v4`), never an edit in place; images made under a style_id stay valid
+forever. (Lineage: `dakk-v1` generic 90s plates, `dakk-v2` Brom-only — both retired
+before any image was generated under them.)
 
 Every image in the library uses the SAME style anchor, verbatim, plus one of the three
 type blocks, plus that row's `visual_brief` from worklist.csv. Never improvise the
@@ -47,20 +49,22 @@ the prototype token in-game. The build only resolves the flat `art/creatures/orc
 path, so keep (or copy) the plain file at the flat path — the subfolder is purely for the
 wildcard, and nothing in the build depends on it.
 
-### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v2`)
+### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v3`)
 
-> Dark heroic fantasy oil painting in the style of the artist Gerald Brom: moody
-> desaturated palette of bone white, ash grey, ochre and rust broken by a single
-> saturated accent, pale alabaster skin tones, lean sinewy figures with ornate grotesque
-> detail — bone ornament, spiked fittings, ragged silk, weathered leather — dramatic rim
-> lighting carving the subject out of deep shadow, visible confident oil brushwork,
-> macabre elegance, grim and mythic in tone, never cute, never cartoonish, never
+> Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
+> Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil
+> brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong
+> chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn
+> cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's
+> macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the
+> darker subjects. Serious and mythic in tone, never cute, never cartoonish, never
 > photorealistic, never anime. Museum-quality oil illustration, extremely high detail,
 > sharp focus.
 
-If your generator refuses a living artist's name, drop the words "in the style of the
-artist Gerald Brom" and keep everything else — the descriptive clauses are written to
-carry the style on their own. Do that consistently for the whole batch, not per image.
+If your generator refuses artist names, drop the words "in the style of the TSR masters
+Gerald Brom, Keith Parkinson and Jeff Easley" and keep everything else — the descriptive
+clauses are written to carry the style on their own. Do that consistently for the whole
+batch, not per image.
 
 ### TYPE BLOCK 1 — top-down creature token (kind: monster)
 
