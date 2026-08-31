@@ -113,3 +113,33 @@ preferred if your tool exports it), at the row's save path in `notes`
 suite. The entry upgrades on the next Foundry reload. A misnamed file simply does
 nothing — check the name against the CSV if an image doesn't appear.
 
+### Verify before filing (30 seconds per image)
+
+Check the PNG **before** converting to webp or marking the row locked:
+
+- **Genuinely transparent background, not white** (tokens and icons — the portrait
+  vignette is the one type that keeps a background). Most previews composite onto
+  white, so open it on a dark background; a crisp white square means it's opaque.
+- **No white halo** — a 1–3 px light fringe from a white-background cutout glows on a
+  dark Foundry scene.
+- **Centred with margin** — nothing clipped at the frame edge; Foundry's ring and
+  status icons need the corners.
+- **Square, at the size the row implies** (512 / 1024 / 1536), **no text, no
+  signature, no baked shadow, one subject only.**
+
+Mechanical check (run from the DnD2E repo root, where `pngjs` is installed):
+
+```powershell
+node -e "const{PNG}=require('pngjs'),fs=require('fs');const f=process.argv[1];const p=PNG.sync.read(fs.readFileSync(f));let clear=0,x0=1e9,y0=1e9,x1=-1,y1=-1;for(let y=0;y<p.height;y++)for(let x=0;x<p.width;x++){const a=p.data[((p.width*y+x)<<2)+3];if(a<16)clear++;else{if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y;}}console.log(f,p.width+'x'+p.height,'| transparent '+(100*clear/(p.width*p.height)).toFixed(1)+'%','| subject '+(100*Math.max(x1-x0,y1-y0)/p.width).toFixed(0)+'% of frame','| margins L'+x0+' R'+(p.width-1-x1)+' T'+y0+' B'+(p.height-1-y1));" path\to\image.png
+```
+
+Good token output looks like `transparent ~25–55% | subject ~80% of frame | margins
+roughly equal`. `transparent 0.0%` means an opaque background.
+
+**If the background comes back white or opaque**, re-prompting rarely fixes it — most
+models can't emit real alpha. Instead ask for the subject "on a flat, uniform pure
+magenta background (#FF00FF), no shadow, no gradient", then key it out with `rembg`
+(one command) or Photopea (Select → Color Range, delete, Layer → Matting → Defringe
+2px), and re-run the check. Converting to webp: squoosh.app or Photopea, lossless,
+and confirm it's STILL transparent after export — a careless export flattens to white.
+
