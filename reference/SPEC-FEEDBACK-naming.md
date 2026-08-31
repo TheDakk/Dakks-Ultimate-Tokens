@@ -75,7 +75,34 @@ a second thing actually exists.
 picture — it is what Foundry's token wildcard matches on, and adding `orc-03` must never
 disturb `orc-01`.
 
+## 5. Export size must follow the token footprint (one behavioural change)
+
+`standing-figure` currently fixes export at 400 px for every subject. Token footprint is not
+constant: in the generic queue alone, **31 figures are Huge (2×2 squares) and 16 are Gargantuan
+(3×3)**. A 400 px image stretched across four or nine grid squares is visibly soft — this is the
+same class of error that previously put dragons on one-square footprints.
+
+**Add a per-row override**, supplied by the generator from the creature's size category:
+
+| Token footprint | Master | Foundry export |
+|---|---:|---:|
+| 1×1 (Tiny–Large) | 1024 | 400 |
+| 2×2 (Huge) | 1024 | 800 |
+| 3×3 (Gargantuan) | 1536 | 1200 |
+
+Add `master_px` and `export_px` as generated, row-level columns that override the layout
+profile's defaults when present. Subjects with no size in the source data default to 1×1 / 400,
+and the row says so explicitly rather than guessing silently.
+
+## 6. Collection separation — confirming, no change needed
+
+Rule 10 (campaign collections are their own package) is being taken literally: the universal
+build contains **no campaign-specific subjects at all**. Verified against the queue — of the
+1,408 universal rows, **zero** share a file with a Dark Sun entry, so the two collections are
+fully independent. Dark Sun ships as its own collection, with its own workbook, contract,
+reference sheet and history, and consumes universal locked assets without ever overwriting them.
+
 ## Summary
 
-Behaviour, framing rules, QA gates, the build contract and the generated/owner column split are
-all unchanged. This edits identifier strings and the master filename pattern only.
+Items 1–4 and 6 edit identifier strings and confirm existing rules. Item 5 is the only
+behavioural change: per-row export sizing so large tokens are not upscaled from a 400 px master.
