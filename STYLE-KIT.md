@@ -4,11 +4,11 @@ The master prompts for the library's generic D&D artwork — every worklist row 
 `style` column says `generic`. Rows marked `darksun` swap in the Athas anchor from
 **STYLE-KIT-DARKSUN.md** (everything else on this sheet still applies to them).
 
-**style_id: `dakk-v1`** — the frozen
+**style_id: `dakk`** — the frozen
 name for the STYLE ANCHOR below, built on the three **TSR masters: Gerald Brom** (Dark
 Sun), **Keith Parkinson** (Forgotten Realms) and **Jeff Easley** (the AD&D 2e core book
 covers) — the classic D&D oil-painting look. Any future revision of the anchor is a NEW
-style_id (`dakk-v2`), never an edit in place; images made under a style_id stay valid
+style_id (`dakk-2`), never an edit in place; images made under a style_id stay valid
 forever.
 
 Every image in the library uses the SAME style anchor, verbatim, plus one of the three
@@ -59,7 +59,7 @@ the prototype token in-game. The build only resolves the flat `art/creatures/orc
 path, so keep (or copy) the plain file at the flat path — the subfolder is purely for the
 wildcard, and nothing in the build depends on it.
 
-### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v1`)
+### STYLE ANCHOR (every image, verbatim — this text IS `dakk`)
 
 > Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
 > Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil

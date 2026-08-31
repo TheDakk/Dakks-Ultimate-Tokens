@@ -1,6 +1,6 @@
 # DARK SUN sample sheet — Dakk's Ultimate Tokens
 
-**This is the DARK SUN sheet** (style_id `dakk-athas-v1`). The generic D&D sheet is a
+**This is the DARK SUN sheet** (style_id `athas`). The generic D&D sheet is a
 SEPARATE document — `GENERIC-SHEET.md` in this folder — and the two are never mixed:
 not in one prompt, not in one batch, not in one chat session.
 
@@ -10,7 +10,7 @@ save it here as `darksun-sheet-01.png` and update this status line.
 
 This sheet is a WORLD REFERENCE — a poster of what Athas things are. Its aged-
 parchment poster register is fine for that job. Actual token generations still open
-with the `dakk-athas-v1` anchor from STYLE-KIT-DARKSUN.md; in an Athas session attach
+with the `athas` anchor from STYLE-KIT-DARKSUN.md; in an Athas session attach
 BOTH this sheet (what things are) and one accepted Athas token (how they're painted).
 
 ---
@@ -18,7 +18,7 @@ BOTH this sheet (what things are) and one accepted Athas token (how they're pain
 ## The sheet prompt
 
 Paste the whole block below. To change the sheet, edit the roster lines — the opening
-style paragraph is the frozen `dakk-athas-v1` anchor.
+style paragraph is the frozen `athas` anchor.
 
 > Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
 > Keith Parkinson and Jeff Easley, leaning hardest on Brom's Dark Sun plates:

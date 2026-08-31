@@ -1,9 +1,9 @@
 # Dakk Style Kit — DARK SUN sheet
 
-The Athas-themed style sheet. **style_id: `dakk-athas-v1`** — used by every worklist
+The Athas-themed style sheet. **style_id: `athas`** — used by every worklist
 row whose `style` column says `darksun` (the Dark Sun module and every Dark Sun
 campaign). Rows marked `generic` use the main sheet, **STYLE-KIT.md**. Same freeze
-rule: any revision is a NEW style_id (`dakk-athas-v2`), never an edit in place.
+rule: any revision is a NEW style_id (`athas-2`), never an edit in place.
 
 **Assembly per image** — identical to the generic sheet, only the anchor swaps:
 `ATHAS ANCHOR (below) + TYPE BLOCK (from STYLE-KIT.md) + visual_brief + NEGATIVE
@@ -17,7 +17,7 @@ file handling, verification — is in STYLE-KIT.md and applies unchanged here.
 plus one accepted Athas token — and NEVER the generic sheet; the two settings stay in
 separate sessions and separate batches.
 
-### ATHAS ANCHOR (every darksun-row image, verbatim — this text IS `dakk-athas-v1`)
+### ATHAS ANCHOR (every darksun-row image, verbatim — this text IS `athas`)
 
 > Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
 > Keith Parkinson and Jeff Easley, leaning hardest on Brom's Dark Sun plates: painterly

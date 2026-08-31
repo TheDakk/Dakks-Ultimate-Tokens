@@ -1,14 +1,25 @@
 # GENERIC sample sheet — Dakk's Ultimate Tokens
 
-**This is the GENERIC D&D sheet** (style_id `dakk-v1`). The Dark Sun sheet is a
+**This is the GENERIC D&D sheet** (style_id `dakk`). The Dark Sun sheet is a
 SEPARATE document — `DARKSUN-SHEET.md` in this folder — and the two are never mixed:
 not in one prompt, not in one batch, not in one chat session.
 
-**Status: ACCEPTED.** The approved image is `generic-sheet-01.png` in this folder —
-the master style reference for every `generic` row in worklist.csv. Attach it at the
+**Status: ACCEPTED and LOCKED.** The approved image is `generic-sheet-01.png` in this
+folder (SHA-256 `2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`,
+1254×1254) — the canonical style reference for every `generic` row. Attach it at the
 top of every generation session ("match this exact style"). It is a reference, never a
-source: individual tokens are always generated one subject at a time from the
-worklist, never cropped out of the sheet.
+source: production images are generated one subject at a time, never cropped out of
+the sheet. Note its checkerboard is baked into the pixels — the file has no real
+alpha, which is fine for a style reference and disqualifying for anything else.
+
+**Production is driven by the pipeline package in `pipeline/`** —
+`DAKKS-ULTIMATE-TOKENS.md` (the contract: frozen `dakk` anchor, layout profiles
+`standing-figure` / `item-icon` / `armor-icon` / `emblem` / the `top-down-*` family,
+QA gates, `masters/` + `art/` naming, `_superseded/` archival) and
+`Dakk-Ultimate-Tokens-Master.xlsx` (the ASSETS queue, COVERAGE, HISTORY, CONFIG).
+Per-asset prompts come from the workbook's `resolved_prompt` column, not from this
+file. THIS file governs the sample sheet only: what the accepted reference depicts,
+and how to iterate it if the roster ever changes.
 
 ---
 
@@ -16,7 +27,7 @@ worklist, never cropped out of the sheet.
 
 Paste the whole block below into the image generator (attach `generic-sheet-01.png`
 when iterating on an accepted version). To change the sheet, edit the roster lines —
-never the opening style paragraph, which is the frozen `dakk-v1` anchor.
+never the opening style paragraph, which is the frozen `dakk` anchor.
 
 > Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
 > Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil

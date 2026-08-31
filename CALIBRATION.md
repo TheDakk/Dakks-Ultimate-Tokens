@@ -1,4 +1,4 @@
-# Calibration set — GENERIC sheet, style_id `dakk-v1`
+# Calibration set — GENERIC sheet, style_id `dakk`
 
 (This calibrates the generic D&D sheet. The Dark Sun sheet has its own smaller
 calibration set in STYLE-KIT-DARKSUN.md — run it after this one is locked.)
