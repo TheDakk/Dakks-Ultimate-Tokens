@@ -43,11 +43,13 @@ regeneration is never part of the loop once a file is accepted.
 
 **Drift control in-session:** generate in batches of 8–12; when starting a new session,
 attach the master reference and say "match this exact style". **The master reference is
-the accepted sample sheet at `reference/style-sheet-01.png`** — the multi-subject sheet
-the owner approved to lock this style. Attach it (or one accepted single image) at the
-top of every new session; never crop tokens out of the sheet itself (per-figure
-resolution is far too low) — it is a reference, not a source. If your tool supports
-seeds, fix one per batch.
+the accepted GENERIC sample sheet at `reference/generic-sheet-01.png`** (its editable
+prompt spec is `reference/GENERIC-SHEET.md`) — the multi-subject sheet the owner
+approved to lock this style. Attach it (or one accepted single image) at the top of
+every new session; never crop tokens out of the sheet itself (per-figure resolution is
+far too low) — it is a reference, not a source. If your tool supports seeds, fix one
+per batch. The Dark Sun sheet is separate (`reference/DARKSUN-SHEET.md`) and never
+appears in a generic session.
 
 **Foundry wildcard note (optional, GM-side):** Foundry's token wildcard
 (`art/creatures/orc/*.webp`) matches per-directory, and a flat folder would make `orc-*`

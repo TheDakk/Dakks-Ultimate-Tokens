@@ -12,6 +12,11 @@ rule: any revision is a NEW style_id (`dakk-athas-v2`), never an edit in place.
 Everything else — the studio workflow, lock discipline, variants, drift rule, sizes,
 file handling, verification — is in STYLE-KIT.md and applies unchanged here.
 
+**This sheet's world reference** is `reference/DARKSUN-SHEET.md` (image:
+`reference/darksun-sheet-01.png` once accepted). In an Athas session attach that sheet
+plus one accepted Athas token — and NEVER the generic sheet; the two settings stay in
+separate sessions and separate batches.
+
 ### ATHAS ANCHOR (every darksun-row image, verbatim — this text IS `dakk-athas-v1`)
 
 > Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
