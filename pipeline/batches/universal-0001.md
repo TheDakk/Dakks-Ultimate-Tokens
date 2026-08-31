@@ -1,745 +1,178 @@
-# 23 images to generate
+# 23 images — one paste
 
-**Setup, once:** open a new ChatGPT chat, attach `reference/generic-sheet-01.png`, and say
-"match this exact style". Keep that one chat for this whole sheet.
+**Setup:** open a new ChatGPT chat and attach `reference/generic-sheet-01.png`.
+Then copy everything below the line and paste it as ONE message.
 
-**Then:** paste each block below, one at a time. Save each image with the filename
-shown above it. That filename is what makes it appear in Foundry, so use it exactly.
+It generates the images one at a time. Say **next** after each to continue.
 
 ---
 
-## 1. Black Dragon
-Save as **black-dragon.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Black Dragon.
-Colossal (40 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a swimmer, visible venom apparatus
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 2. Blue Dragon
-Save as **blue-dragon.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Blue Dragon.
-Colossal (56 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a burrower, distended throat or vent, sun-bleached sand colouring
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 3. Brass Dragon
-Save as **brass-dragon.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Brass Dragon.
-Colossal (40 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a burrower, distended throat or vent, sun-bleached sand colouring
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 4. Bronze Dragon
-Save as **bronze-dragon.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Bronze Dragon.
-Colossal (56 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a swimmer, distended throat or vent
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 5. Bugbear
-Save as **bugbear.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Bugbear.
-Large (7 ft tall), a heavy slamming limb, wearing strapped armour
-
-ACCURACY
-Anatomy/count constraints: one slam; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 6. Chimera
-Save as **chimera.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Chimera.
-Large (5 ft tall), two clawed limbs, a goring horn and two biting heads, heavy bony or chitinous plating, a flier, distended throat or vent
-
-ACCURACY
-Anatomy/count constraints: two claws; one gore; two bites.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 7. Cloud Giant
-Save as **cloud-giant.webp** in `art/creatures/` · 800×800
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Cloud Giant.
-Huge (24 ft tall), massively built, a heavy slamming limb, sheathed in fused armour plating, carrying crafted gear, dust-grey rock colouring
-
-ACCURACY
-Anatomy/count constraints: one slam; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: huge — occupies two grid squares across, towering over a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 8. Cryohydra
-Save as **cryohydra.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Cryohydra.
-Colossal (30 ft long), five biting heads, hard scaled or chitinous shell, distended throat or vent
-
-ACCURACY
-Anatomy/count constraints: five bites.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 9. Fire Giant
-Save as **fire-giant.webp** in `art/creatures/` · 800×800
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Fire Giant.
-Huge (21 ft tall), massively built, a heavy slamming limb, wearing strapped armour
-
-ACCURACY
-Anatomy/count constraints: one slam; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: huge — occupies two grid squares across, towering over a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 10. Frost Giant
-Save as **frost-giant.webp** in `art/creatures/` · 800×800
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Frost Giant.
-Huge (18 ft tall), massively built, a heavy slamming limb, wearing strapped armour
-
-ACCURACY
-Anatomy/count constraints: one slam; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: huge — occupies two grid squares across, towering over a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 11. Gnoll
-Save as **gnoll.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Gnoll.
-Large (7 ft tall), armed with carried weapons, hard scaled or chitinous shell
-
-ACCURACY
-Anatomy/count constraints: carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 12. Goblin
-Save as **goblin.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Goblin.
-Small (4 ft tall), armed with carried weapons, wearing strapped armour
-
-ACCURACY
-Anatomy/count constraints: carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: small — visibly shorter than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 13. Half-Ogre
-Save as **half-ogre.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Half-Ogre.
-Large (8 to 9 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
-
-ACCURACY
-Anatomy/count constraints: carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 14. Half-Orc
-Save as **half-orc.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Half-Orc.
-Man-sized (6 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
-
-ACCURACY
-Anatomy/count constraints: carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: man-sized.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 15. Hobgoblin
-Save as **hobgoblin.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Hobgoblin.
-Man-sized (6 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
-
-ACCURACY
-Anatomy/count constraints: carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: man-sized.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 16. Hydra
-Save as **hydra.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Hydra.
-Colossal (30 ft long), five biting heads, hard scaled or chitinous shell
-
-ACCURACY
-Anatomy/count constraints: five bites.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 17. Lizard, Fire
-Save as **lizard-fire.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Lizard, Fire.
-Colossal (30 ft long), massively built, two clawed limbs and a biting head, heavy bony or chitinous plating, distended throat or vent
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 18. Lizard, Minotaur
-Save as **lizard-minotaur.webp** in `art/creatures/` · 1200×1200
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Lizard, Minotaur.
-Colossal (40 ft long), two clawed limbs and a biting head, hard scaled or chitinous shell, dust-grey rock colouring
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: gargantuan — occupies three grid squares across, vastly larger than a human.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1536 x 1536 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 19. Lizardman
-Save as **lizardman.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Lizardman.
-Man-sized (7 ft tall), two clawed limbs and a biting head, hard scaled or chitinous shell, a swimmer
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: man-sized.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 20. Minotaur
-Save as **minotaur.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Minotaur.
-Large (7 ft or more tall), two forward-pointing horns, tough leathery hide, reinforced ramming front
-
-ACCURACY
-Anatomy/count constraints: two horns; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 21. Ogre
-Save as **ogre.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Ogre.
-Large (9 ft tall), a heavy slamming limb, hard scaled or chitinous shell, carrying crafted gear
-
-ACCURACY
-Anatomy/count constraints: one slam; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 22. Orc
-Save as **orc.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Orc.
-Man-sized (6 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
-
-ACCURACY
-Anatomy/count constraints: carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: man-sized.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
-
-## 23. Troll
-Save as **troll.webp** in `art/creatures/` · 400×400
-
-```text
-REFERENCE LOCK
-Match the exact visual language of the attached approved reference `generic-sheet-01.png#2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9`, style_id `dakk`. Do not redesign or reinterpret the style.
-
-FROZEN STYLE
-Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
-
-SUBJECT
-Generate exactly 1 isolated subject: Troll.
-Large (9 ft tall), two clawed limbs and a biting head, hard scaled or chitinous shell
-
-ACCURACY
-Anatomy/count constraints: two claws; one bite; carried weapons as described.
-Must include: the complete creature from head to feet or tail; every limb described.
-Must exclude: ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
-Scale relationship: large — noticeably bigger and heavier than a human, still one grid square.
-
-LAYOUT
-One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane.
-Default facing: south/front with slight three-quarter turn.
-Framing target: 80 percent. Safe margin: at least 8 percent on every side.
-
-TECHNICAL OUTPUT
-Create a square 1024 x 1024 PNG master with genuine transparent alpha. No ground, base, token ring, frame, scenery, or cast shadow. The Foundry WebP derivative is created only after approval; do not repaint during export.
-
-NEGATIVE
-No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
-```
+Match the exact visual language of the attached reference image. Do not redesign or
+reinterpret the style. You are producing 23 game tokens for me.
+
+WORK ONE AT A TIME, in the order listed. Generate image 1, then stop and wait for me
+to say "next" before generating image 2. Never combine subjects into one picture, and
+never produce a sheet or grid of several subjects.
+
+EVERY image in this set follows these rules without exception:
+
+STYLE — Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom, Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil brushwork, rich earthen colour deepened by dramatic warm-vs-cool lighting and strong chiaroscuro, grounded weighty figures in weathered leather, notched steel and worn cloth, crisp ornate detail at the focal point softening toward the edges, with Brom's macabre elegance — pale alabaster skin, bone ornament, ragged silk — surfacing in the darker subjects. Serious and mythic in tone, never cute, never cartoonish, never photorealistic, never anime. Museum-quality oil illustration, extremely high detail, sharp focus.
+
+COMPOSITION — One isolated standing full-body subject, centered, weighty and readable, shown front-to-three-quarter in a clear action-ready pose. Entire anatomy and carried equipment visible. No floor plane. Default facing: south/front with slight three-quarter turn. The subject fills about
+80 percent of a square frame with at least 8 percent clear margin on every side.
+
+OUTPUT — a square PNG with a genuinely transparent background, at the pixel size given
+for each subject below.
+
+NEVER — No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
+
+ALSO NEVER — ground; floor plane; cast shadow; base; token ring; scenery; text; a second creature; a companion animal unless described; extra or missing limbs; bird's-eye view; top-down view.
+
+MUST SHOW — the complete creature from head to feet or tail; every limb described.
+
+The subjects:
+
+1. **Black Dragon** — 1200×1200 — save as `black-dragon.webp`
+   Colossal (40 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a swimmer, visible venom apparatus
+   Anatomy: two claws; one bite.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+2. **Blue Dragon** — 1200×1200 — save as `blue-dragon.webp`
+   Colossal (56 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a burrower, distended throat or vent, sun-bleached sand colouring
+   Anatomy: two claws; one bite.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+3. **Brass Dragon** — 1200×1200 — save as `brass-dragon.webp`
+   Colossal (40 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a burrower, distended throat or vent, sun-bleached sand colouring
+   Anatomy: two claws; one bite.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+4. **Bronze Dragon** — 1200×1200 — save as `bronze-dragon.webp`
+   Colossal (56 ft long), massively built, two clawed limbs and a biting head, sheathed in fused armour plating, a flier, a swimmer, distended throat or vent
+   Anatomy: two claws; one bite.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+5. **Bugbear** — 400×400 — save as `bugbear.webp`
+   Large (7 ft tall), a heavy slamming limb, wearing strapped armour
+   Anatomy: one slam; carried weapons as described.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+6. **Chimera** — 400×400 — save as `chimera.webp`
+   Large (5 ft tall), two clawed limbs, a goring horn and two biting heads, heavy bony or chitinous plating, a flier, distended throat or vent
+   Anatomy: two claws; one gore; two bites.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+7. **Cloud Giant** — 800×800 — save as `cloud-giant.webp`
+   Huge (24 ft tall), massively built, a heavy slamming limb, sheathed in fused armour plating, carrying crafted gear, dust-grey rock colouring
+   Anatomy: one slam; carried weapons as described.
+   Scale: huge — occupies two grid squares across, towering over a human
+
+8. **Cryohydra** — 1200×1200 — save as `cryohydra.webp`
+   Colossal (30 ft long), five biting heads, hard scaled or chitinous shell, distended throat or vent
+   Anatomy: five bites.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+9. **Fire Giant** — 800×800 — save as `fire-giant.webp`
+   Huge (21 ft tall), massively built, a heavy slamming limb, wearing strapped armour
+   Anatomy: one slam; carried weapons as described.
+   Scale: huge — occupies two grid squares across, towering over a human
+
+10. **Frost Giant** — 800×800 — save as `frost-giant.webp`
+   Huge (18 ft tall), massively built, a heavy slamming limb, wearing strapped armour
+   Anatomy: one slam; carried weapons as described.
+   Scale: huge — occupies two grid squares across, towering over a human
+
+11. **Gnoll** — 400×400 — save as `gnoll.webp`
+   Large (7 ft tall), armed with carried weapons, hard scaled or chitinous shell
+   Anatomy: carried weapons as described.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+12. **Goblin** — 400×400 — save as `goblin.webp`
+   Small (4 ft tall), armed with carried weapons, wearing strapped armour
+   Anatomy: carried weapons as described.
+   Scale: small — visibly shorter than a human
+
+13. **Half-Ogre** — 400×400 — save as `half-ogre.webp`
+   Large (8 to 9 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
+   Anatomy: carried weapons as described.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+14. **Half-Orc** — 400×400 — save as `half-orc.webp`
+   Man-sized (6 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
+   Anatomy: carried weapons as described.
+   Scale: man-sized
+
+15. **Hobgoblin** — 400×400 — save as `hobgoblin.webp`
+   Man-sized (6 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
+   Anatomy: carried weapons as described.
+   Scale: man-sized
+
+16. **Hydra** — 1200×1200 — save as `hydra.webp`
+   Colossal (30 ft long), five biting heads, hard scaled or chitinous shell
+   Anatomy: five bites.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+17. **Lizard, Fire** — 1200×1200 — save as `lizard-fire.webp`
+   Colossal (30 ft long), massively built, two clawed limbs and a biting head, heavy bony or chitinous plating, distended throat or vent
+   Anatomy: two claws; one bite.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+18. **Lizard, Minotaur** — 1200×1200 — save as `lizard-minotaur.webp`
+   Colossal (40 ft long), two clawed limbs and a biting head, hard scaled or chitinous shell, dust-grey rock colouring
+   Anatomy: two claws; one bite.
+   Scale: gargantuan — occupies three grid squares across, vastly larger than a human
+
+19. **Lizardman** — 400×400 — save as `lizardman.webp`
+   Man-sized (7 ft tall), two clawed limbs and a biting head, hard scaled or chitinous shell, a swimmer
+   Anatomy: two claws; one bite; carried weapons as described.
+   Scale: man-sized
+
+20. **Minotaur** — 400×400 — save as `minotaur.webp`
+   Large (7 ft or more tall), two forward-pointing horns, tough leathery hide, reinforced ramming front
+   Anatomy: two horns; carried weapons as described.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+21. **Ogre** — 400×400 — save as `ogre.webp`
+   Large (9 ft tall), a heavy slamming limb, hard scaled or chitinous shell, carrying crafted gear
+   Anatomy: one slam; carried weapons as described.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+22. **Orc** — 400×400 — save as `orc.webp`
+   Man-sized (6 ft tall), armed with carried weapons, wearing strapped armour, carrying crafted gear
+   Anatomy: carried weapons as described.
+   Scale: man-sized
+
+23. **Troll** — 400×400 — save as `troll.webp`
+   Large (9 ft tall), two clawed limbs and a biting head, hard scaled or chitinous shell
+   Anatomy: two claws; one bite; carried weapons as described.
+   Scale: large — noticeably bigger and heavier than a human, still one grid square
+
+Begin with number 1.
+
+---
+
+## Where each file goes
+
+1. Black Dragon → `art/creatures/black-dragon.webp`
+2. Blue Dragon → `art/creatures/blue-dragon.webp`
+3. Brass Dragon → `art/creatures/brass-dragon.webp`
+4. Bronze Dragon → `art/creatures/bronze-dragon.webp`
+5. Bugbear → `art/creatures/bugbear.webp`
+6. Chimera → `art/creatures/chimera.webp`
+7. Cloud Giant → `art/creatures/cloud-giant.webp`
+8. Cryohydra → `art/creatures/cryohydra.webp`
+9. Fire Giant → `art/creatures/fire-giant.webp`
+10. Frost Giant → `art/creatures/frost-giant.webp`
+11. Gnoll → `art/creatures/gnoll.webp`
+12. Goblin → `art/creatures/goblin.webp`
+13. Half-Ogre → `art/creatures/half-ogre.webp`
+14. Half-Orc → `art/creatures/half-orc.webp`
+15. Hobgoblin → `art/creatures/hobgoblin.webp`
+16. Hydra → `art/creatures/hydra.webp`
+17. Lizard, Fire → `art/creatures/lizard-fire.webp`
+18. Lizard, Minotaur → `art/creatures/lizard-minotaur.webp`
+19. Lizardman → `art/creatures/lizardman.webp`
+20. Minotaur → `art/creatures/minotaur.webp`
+21. Ogre → `art/creatures/ogre.webp`
+22. Orc → `art/creatures/orc.webp`
+23. Troll → `art/creatures/troll.webp`
