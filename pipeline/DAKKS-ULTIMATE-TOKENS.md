@@ -60,6 +60,7 @@ A lower level never overrides a higher one.
 11. A locked asset may be revised only from its exact approved source. Its prior row, hashes, and archived file remain preserved before the new approved image takes the clean active path.
 12. Campaign-specific visual collections use separate packages, references, workbooks, histories, batches, and output paths. They may consume generic locked assets but never overwrite them.
 13. A keyed game document is wired through `foundry_key`, `art_dir`, and `build_filename`; the generator supplies all three. `art_dir` and `build_filename` are exact mapping values and are never derived, inferred, slugified, normalized, or recomputed from `foundry_key`.
+14. `master_px` and `export_px` are generator-supplied row-level pixel sizes. When present, they override the selected layout profile's default master and export sizes for that row.
 
 ## Accepted reference: technical note
 
@@ -125,6 +126,19 @@ The profiles `top-down-actor`, `top-down-creature`, and `portrait` remain define
 | `top-down-vehicle` | Vehicle or siege object | `tile` | 1536 → 800 |
 
 The exact composition prompts, margins, facing rules, and readability gates are stored in `CONFIG`.
+
+### Row-level pixel-size overrides
+
+`master_px` and `export_px` are generated row-level columns in `ASSETS`.
+
+- When populated, they override the selected `layout_profile`'s default PNG-master and WebP-export pixel sizes for that row.
+- For footprint-driven creature and actor tokens, the generator supplies them from the token footprint:
+  - 1×1 squares → `master_px` 1024, `export_px` 400
+  - 2×2 squares → `master_px` 1024, `export_px` 800
+  - 3×3 squares → `master_px` 1536, `export_px` 1200
+- If the source queue does not provide a creature or actor footprint, the generator defaults that row to 1×1 and supplies `1024 / 400`.
+- Non-footprint assets may leave these columns blank and inherit the layout profile defaults.
+
 
 ## Foundry build contract
 
@@ -239,6 +253,7 @@ The only production table. Each row is one image version and combines:
 - Art brief and mechanical count constraints
 - Clean active master naming with `_superseded` archival
 - Foundry document-key wiring
+- Optional row-level pixel-size overrides
 - Exact prompt and prompt hash
 - QA, approval, registry, and export state
 
@@ -287,6 +302,8 @@ foundry_key
 art_dir
 build_filename
 module_relative_path
+master_px
+export_px
 resolved_prompt
 prompt_sha256
 ```
@@ -464,6 +481,9 @@ Every output is reviewed at native resolution and Foundry export size.
 - Typical Foundry derivative: 400 × 400 WebP
 - Vehicle derivative: 800 × 800 WebP
 - Condition derivative: 128 × 128 WebP
+- When `master_px` and `export_px` are populated on a row, those values override the layout profile defaults for that specific output.
+- For footprint-driven creature and actor tokens, the generator supplies row overrides from token footprint: 1×1 → 1024/400, 2×2 → 1024/800, 3×3 → 1536/1200.
+- If a creature or actor row has no supplied footprint, the generator defaults it to 1×1 and supplies 1024/400.
 - Genuine transparent alpha required for every production output
 - Exactly one subject unless a swarm, rider/mount set, or explicit grouped profile permits more
 
@@ -515,3 +535,12 @@ This reproduces the reference concept and is not the per-asset production prompt
 - Kept `ASSETS.version` for row lineage and `HISTORY`, while removing it from filenames.
 - Added the mandatory archive-before-replace path `_superseded/<art_dir>/<name>-<YYYY-MM-DD>.<ext>`.
 - Preserved all framing rules, composition prompts, QA gates, Foundry mapping semantics, and generated-versus-owner column behavior.
+
+
+## Spec 3.1.3 row-size-override patch record
+
+- Added generated `master_px` and `export_px` columns to `ASSETS` as row-level pixel-size overrides.
+- Documented that populated row overrides take precedence over the selected layout profile's default output sizes.
+- Defined generator footprint mapping for creature and actor tokens: 1×1 → 1024/400, 2×2 → 1024/800, and 3×3 → 1536/1200.
+- Documented that when a creature or actor row has no supplied footprint, the generator defaults it to 1×1 and supplies 1024/400.
+- Left every other accepted 3.1.2 naming, build-mapping, QA, and lock rule unchanged.
