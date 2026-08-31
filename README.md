@@ -29,10 +29,12 @@ automatically; delete it and the entry falls back. No manifest, no bookkeeping.
    `build/_image-prompts/` — via `npm run art-worklist`. Don't edit the eight canonical
    columns (regeneration overwrites them), but **columns you ADD beyond them — e.g.
    `locked` — are yours and survive regeneration**, carried over by filename.
-2. Generate a batch using **STYLE-KIT.md** in this folder — the byte-identical style
-   anchor plus the type block for the row's `token_type`, plus the row's brief.
-   (First time: run the calibration set first — **CALIBRATION.md** has all eight
-   prompts fully assembled, ready to paste.)
+2. Generate a batch using the style sheet the row's `style` column names —
+   **STYLE-KIT.md** for `generic` rows (all-D&D look), **STYLE-KIT-DARKSUN.md** for
+   `darksun` rows (Athas look; same type blocks, different anchor). Don't mix the two
+   sheets inside one batch. (First time: run the generic calibration set —
+   **CALIBRATION.md**, all eight prompts assembled — then the Athas one in
+   STYLE-KIT-DARKSUN.md.)
 3. Save each accepted image at the row's exact save path (`art/<kind-dir>/<slug>.webp`)
    and mark the row locked. A locked filename is never regenerated.
 4. In the suite: `npm run build` (Foundry closed), then reload Foundry.

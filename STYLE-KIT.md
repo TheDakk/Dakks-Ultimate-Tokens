@@ -1,6 +1,10 @@
-# Dakk Style Kit
+# Dakk Style Kit — GENERIC sheet
 
-The master prompts for every image in the library. **style_id: `dakk-v1`** — the frozen
+The master prompts for the library's generic D&D artwork — every worklist row whose
+`style` column says `generic`. Rows marked `darksun` swap in the Athas anchor from
+**STYLE-KIT-DARKSUN.md** (everything else on this sheet still applies to them).
+
+**style_id: `dakk-v1`** — the frozen
 name for the STYLE ANCHOR below, built on the three **TSR masters: Gerald Brom** (Dark
 Sun), **Keith Parkinson** (Forgotten Realms) and **Jeff Easley** (the AD&D 2e core book
 covers) — the classic D&D oil-painting look. Any future revision of the anchor is a NEW

@@ -1,4 +1,7 @@
-# Calibration set — style_id `dakk-v1`
+# Calibration set — GENERIC sheet, style_id `dakk-v1`
+
+(This calibrates the generic D&D sheet. The Dark Sun sheet has its own smaller
+calibration set in STYLE-KIT-DARKSUN.md — run it after this one is locked.)
 
 Eight paste-ready prompts, one per subject, spanning all three type blocks. Run these
 BEFORE any real batch and iterate until all eight feel like plates from the same book —
