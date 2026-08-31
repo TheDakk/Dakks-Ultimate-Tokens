@@ -16,8 +16,8 @@ art/spells/      art/equipment/ art/weapons/    art/armor/
 art/creatures/   art/npcs/      art/tables/     art/abilities/   art/journals/
 ```
 
-One `.webp` (or `.png`) per subject, filename = the slug from the suite's
-`art-worklist.csv`. The suites' builds are **existence-driven**: drop a file here,
+One `.webp` (or `.png`) per subject, filename = the slug from this library's
+`worklist.csv`. The suites' builds are **existence-driven**: drop a file here,
 rebuild the suite, and the matching entry upgrades from its placeholder icon
 automatically; delete it and the entry falls back. No manifest, no bookkeeping.
 
@@ -31,7 +31,8 @@ automatically; delete it and the entry falls back. No manifest, no bookkeeping.
    `locked` — are yours and survive regeneration**, carried over by filename.
 2. Generate a batch using **STYLE-KIT.md** in this folder — the byte-identical style
    anchor plus the type block for the row's `token_type`, plus the row's brief.
-   (First time: run the calibration set in STYLE-KIT.md before any real batch.)
+   (First time: run the calibration set first — **CALIBRATION.md** has all eight
+   prompts fully assembled, ready to paste.)
 3. Save each accepted image at the row's exact save path (`art/<kind-dir>/<slug>.webp`)
    and mark the row locked. A locked filename is never regenerated.
 4. In the suite: `npm run build` (Foundry closed), then reload Foundry.

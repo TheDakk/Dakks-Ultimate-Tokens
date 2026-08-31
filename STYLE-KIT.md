@@ -1,12 +1,11 @@
 # Dakk Style Kit
 
-The master prompts for every image in the library. **style_id: `dakk-v3`** — the frozen
+The master prompts for every image in the library. **style_id: `dakk-v1`** — the frozen
 name for the STYLE ANCHOR below, built on the three **TSR masters: Gerald Brom** (Dark
 Sun), **Keith Parkinson** (Forgotten Realms) and **Jeff Easley** (the AD&D 2e core book
 covers) — the classic D&D oil-painting look. Any future revision of the anchor is a NEW
-style_id (`dakk-v4`), never an edit in place; images made under a style_id stay valid
-forever. (Lineage: `dakk-v1` generic 90s plates, `dakk-v2` Brom-only — both retired
-before any image was generated under them.)
+style_id (`dakk-v2`), never an edit in place; images made under a style_id stay valid
+forever.
 
 Every image in the library uses the SAME style anchor, verbatim, plus one of the three
 type blocks, plus that row's `visual_brief` from worklist.csv. Never improvise the
@@ -23,7 +22,8 @@ regeneration is never part of the loop once a file is accepted.
 1. **Calibrate first.** Before any real batch, generate this calibration set and iterate
    until all of them feel like plates from the same book: **human, orc, goblin, skeleton,
    wolf, dragon, mundane sword, potion** (6–8 subjects spanning all three type blocks).
-   Only when the set holds together is the style locked — then start real batches.
+   **CALIBRATION.md** has all eight fully assembled, ready to paste. Only when the set
+   holds together is the style locked — then start real batches.
 2. **Generate → accept → save → lock.** Generate a candidate; when one is accepted, save
    it at the row's exact save path (the `notes` cell), then mark that row **locked**
    (add a `locked` column value — the regenerator preserves any columns you add to
@@ -49,7 +49,7 @@ the prototype token in-game. The build only resolves the flat `art/creatures/orc
 path, so keep (or copy) the plain file at the flat path — the subfolder is purely for the
 wildcard, and nothing in the build depends on it.
 
-### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v3`)
+### STYLE ANCHOR (every image, verbatim — this text IS `dakk-v1`)
 
 > Classic Dungeons & Dragons oil painting in the style of the TSR masters Gerald Brom,
 > Keith Parkinson and Jeff Easley: painterly heroic realism with visible confident oil

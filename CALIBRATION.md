@@ -1,4 +1,4 @@
-# Calibration set — style_id `dakk-v3`
+# Calibration set — style_id `dakk-v1`
 
 Eight paste-ready prompts, one per subject, spanning all three type blocks. Run these
 BEFORE any real batch and iterate until all eight feel like plates from the same book —
