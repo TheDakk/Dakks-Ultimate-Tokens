@@ -1,5 +1,13 @@
 # Dakk Style Kit — DARK SUN sheet
 
+> **STATUS: DRAFT — not in production.** Dark Sun has no accepted reference sheet yet, so
+> nothing is generated for it and no queue is emitted (`npm run art-worklist` skips the
+> collection deliberately). Before it goes live this sheet must be reconciled to the
+> production contract the way the generic collection was: its own
+> `DAKKS-ULTIMATE-TOKENS-DARKSUN.md`, its own workbook and its own `upload-darksun/`
+> folder. The anchor and negative below are the content for that; the framing and pixel
+> sizes come from the contract, not from here.
+
 The Athas-themed style sheet. **style_id: `athas`** — used by every worklist
 row whose `style` column says `darksun` (the Dark Sun module and every Dark Sun
 campaign). Rows marked `generic` use the main sheet, **STYLE-KIT.md**. Same freeze
@@ -42,10 +50,10 @@ The materials rule matters most on weapons and armour: an Athasian blade is chip
 obsidian or knapped stone, armour is bone plates and chitin lashed with hide cord.
 Naming the replacement material in the prompt works better than "no metal" alone.
 
-### Athas calibration (run AFTER the generic set in CALIBRATION.md is locked)
+### Athas calibration (run once this collection is set up, before any volume)
 
-Four to six subjects, assembled exactly like CALIBRATION.md but with the anchor above.
-All are real worklist rows — accepted images are keepers:
+Four to six subjects, prompted with the anchor above plus the contract's standing-figure
+framing. All are real queue subjects — accepted images are keepers:
 
 | Subject | Type block | Size | Save as |
 |---|---|---|---|
@@ -56,5 +64,5 @@ All are real worklist rows — accepted images are keepers:
 | Crodlu | standing full-body token | 512 | `art/creatures/crodlu.webp` |
 
 Judge it two ways: the five hold together as one Athas, AND they still sit beside the
-generic calibration set as work by the same hand — same brushwork and lighting, hotter
-and dustier world. Check each row's `visual_brief` in worklist.csv before assembling.
+generic library as work by the same hand — same brushwork and lighting, hotter and
+dustier world.

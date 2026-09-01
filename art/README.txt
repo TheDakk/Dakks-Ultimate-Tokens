@@ -1,2 +1,10 @@
-Drop generated .webp files here, named by entry slug per art-worklist.csv.
-Then: npm run build. The suite prefers a file here over any library icon.
+This is the library itself: art/<kind>/<slug>.webp
+
+Save each generated image under the exact build_filename its queue row names — the
+filename is what wires it into Foundry, so it cannot be renamed.
+
+Then, from the suite repo (C:ProjectsFoundryVTTDnD2E):
+  npm run art-check     verify what you saved
+  npm run build         with Foundry closed
+
+Full procedure: ../upload/README-UPLOAD.md
