@@ -12,8 +12,8 @@ source: production images are generated one subject at a time, never cropped out
 the sheet. Note its checkerboard is baked into the pixels — the file has no real
 alpha, which is fine for a style reference and disqualifying for anything else.
 
-**Production is driven by the pipeline package in `pipeline/`** —
-`DAKKS-ULTIMATE-TOKENS.md` (the contract: frozen `dakk` anchor, layout profiles
+**Production is driven by the package in `upload/`** —
+`DAKKS-ULTIMATE-TOKENS-GENERIC.md` (the contract: frozen `dakk` anchor, layout profiles
 `standing-figure` / `item-icon` / `armor-icon` / `emblem` / the `top-down-*` family,
 QA gates, `masters/` + `art/` naming, `_superseded/` archival) and
 `Dakk-Ultimate-Tokens-Master.xlsx` (the ASSETS queue, COVERAGE, HISTORY, CONFIG).
