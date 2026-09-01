@@ -9,6 +9,48 @@ name, with the real production queue already in the workbook.
 | `Dakk-Ultimate-Tokens-Master.xlsx` | the queue and state ledger — **1,408 real rows**, all `prompt_ready` |
 | `generic-sheet-01.png` | the locked visual reference (style only, never cropped) |
 
+---
+
+# THE PASTE
+
+Upload the three files, then paste this. It is the generator's own setup line with two
+additions: the rule that stops it improvising, and a check that proves it really read the
+queue before any image is made.
+
+```text
+Read DAKKS-ULTIMATE-TOKENS-GENERIC.md as the controlling specification, use
+Dakk-Ultimate-Tokens-Master.xlsx as the authoritative queue and state ledger, and use
+generic-sheet-01.png only as the locked visual reference.
+
+For each row, use the resolved_prompt column VERBATIM as the image prompt. Never
+re-derive, rewrite, summarise or improve it from the specification — the specification is
+what produced it, and prompt_sha256 is the proof. Generate exactly one image per row, in
+job_id order, one at a time. Never combine rows into a single picture and never produce a
+contact sheet or grid.
+
+Save nothing and generate nothing yet. First confirm you can read the queue: open the
+ASSETS sheet, find row JOB-0001, and reply with only its display_name, build_filename,
+export_px, and the first 12 characters of its prompt_sha256.
+```
+
+**It must answer exactly:** `Black Dragon · black-dragon.webp · 1200 · 9e1de8734769`
+
+Anything else — a different creature, a guess, "I cannot open the file" — means it is not
+reading the queue, and every image after that would be improvised. Fix it before
+continuing (see the .xlsx fallback below).
+
+When the answer is right:
+
+```text
+Generate rows JOB-0001 through JOB-0020, one image at a time.
+```
+
+Save each result as its row's `build_filename` into `art/<art_dir>/` — e.g.
+`art/creatures/black-dragon.webp`. That exact filename is the wiring; Foundry finds art by
+that path, so it cannot be renamed.
+
+---
+
 ## Where the instruction has to live
 
 Uploading the files gives the generator *access*; it does not make it read them. The
@@ -21,46 +63,6 @@ instruction must sit somewhere it is re-applied on every message:
 - **In an ordinary chat** — the text is just your first message. It fades as the
   conversation grows, and a new chat starts with nothing. Workable for twenty images,
   not for 1,408.
-
-## Add this one line to the generator's instructions
-
-The spec lets a reader assemble a prompt from its rules, and the workbook also carries a
-finished prompt per row. Both must not happen, or two interpreters will drift apart over
-1,408 images. So pin it:
-
-> For each row, use the `resolved_prompt` column **verbatim** as the image prompt. Never
-> re-derive, rewrite, summarise, or "improve" it from the specification — the
-> specification is what produced it, and `prompt_sha256` is the proof. Generate one image
-> per row, in `job_id` order, and never combine rows into one picture.
-
-With that line, the two ends agree: the spec governs how rows were built, and the row is
-what gets generated.
-
-## Prove it is actually reading the queue
-
-Before generating anything, ask this once:
-
-    Open the workbook, find row JOB-0001 on the ASSETS sheet, and reply with only:
-    its display_name, its build_filename, its export_px, and the first 12 characters
-    of its prompt_sha256. Do not generate an image.
-
-The correct answer is:
-
-    Black Dragon · black-dragon.webp · 1200 · 9e1de8734769
-
-If it comes back with anything else — a different creature, a guess, "I cannot read the
-file" — it is not using the queue, and every image it makes will be improvised. Fix that
-before generating, do not push through it.
-
-Re-run this check whenever you start a fresh chat.
-
-## Then just ask for work
-
-    Generate rows JOB-0001 through JOB-0020.
-
-Each result is saved as its row's `build_filename` into `art/<art_dir>/`, e.g.
-`art/creatures/black-dragon.webp`. That filename is the wiring — Foundry finds art by
-that exact path, so it cannot be renamed.
 
 ## Regenerating this folder
 
