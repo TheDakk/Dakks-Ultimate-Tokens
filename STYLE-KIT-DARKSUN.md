@@ -1,29 +1,26 @@
 # Dakk Style Kit — DARK SUN sheet
 
-> **STATUS: DRAFT — not in production.** Dark Sun has no accepted reference sheet yet, so
-> nothing is generated for it and no queue is emitted (`npm run art-worklist` skips the
-> collection deliberately). Before it goes live this sheet must be reconciled to the
-> production contract the way the generic collection was: its own
-> `DAKKS-ULTIMATE-TOKENS-DARKSUN.md`, its own workbook and its own `upload-darksun/`
-> folder. The anchor and negative below are the content for that; the framing and pixel
-> sizes come from the contract, not from here.
+> **STATUS: DRAFT — not authorized for token generation.** Dark Sun remains blocked until
+> all four prerequisites exist: (1) an accepted `darksun-sheet-01.png` reference and its
+> approved SHA-256, (2) the Dark Sun contract, (3) the Dark Sun production queue and its
+> approved SHA-256, and (4) the Dark Sun handshake. The anchor and negative below are
+> planning material only. The future contract and queue will define the exact prompts,
+> framing, filenames and pixel sizes.
 
-The Athas-themed style sheet. **style_id: `athas`** — used by every worklist
-row whose `style` column says `darksun` (the Dark Sun module and every Dark Sun
-campaign). Rows marked `generic` use the main sheet, **STYLE-KIT.md**. Same freeze
-rule: any revision is a NEW style_id (`athas-2`), never an edit in place.
+The proposed Athas-themed style sheet. **style_id: `athas`** — intended for the future
+Dark Sun queue. Same freeze rule after acceptance: any revision is a NEW style_id
+(`athas-2`), never an edit in place.
 
-**Assembly per image** — identical to the generic sheet, only the anchor swaps:
-`ATHAS ANCHOR (below) + TYPE BLOCK (from STYLE-KIT.md) + visual_brief + NEGATIVE
-(from STYLE-KIT.md) + ATHAS NEGATIVE (below)`
+Do not assemble production prompts from this file or from the superseded
+`STYLE-KIT.md`. The accepted Dark Sun contract and queue will supply each complete,
+hashed `resolved_prompt` and the collection-specific generation procedure.
 
-Everything else — the studio workflow, lock discipline, variants, drift rule, sizes,
-file handling, verification — is in STYLE-KIT.md and applies unchanged here.
-
-**This sheet's world reference** is `reference/DARKSUN-SHEET.md` (image:
-`reference/darksun-sheet-01.png` once accepted). In an Athas session attach that sheet
-plus one accepted Athas token — and NEVER the generic sheet; the two settings stay in
-separate sessions and separate batches.
+**This sheet's proposed world reference** is `reference/DARKSUN-SHEET.md` (image:
+`reference/darksun-sheet-01.png` once accepted). Even an accepted reference does not
+authorize token generation by itself: the contract, queue and queue hash, and handshake
+must also be supplied. When authorized, attach only the reference(s) named by that
+contract — NEVER the generic sheet; the two settings stay in separate sessions and
+separate batches.
 
 ### ATHAS ANCHOR (every darksun-row image, verbatim — this text IS `athas`)
 
@@ -50,18 +47,19 @@ The materials rule matters most on weapons and armour: an Athasian blade is chip
 obsidian or knapped stone, armour is bone plates and chitin lashed with hide cord.
 Naming the replacement material in the prompt works better than "no metal" alone.
 
-### Athas calibration (run once this collection is set up, before any volume)
+### Proposed Athas calibration roster (after authorization)
 
-Four to six subjects, prompted with the anchor above plus the contract's standing-figure
-framing. All are real queue subjects — accepted images are keepers:
+The future contract and queue will determine the layout profile, export size, filename
+and exact prompt for each calibration row. Do not create these subjects before all four
+prerequisites are accepted.
 
-| Subject | Type block | Size | Save as |
-|---|---|---|---|
-| Thri-Kreen | circular portrait | 512 | `art/races/thri-kreen.webp` (+ copy in `art/creatures/`) |
-| Mul | circular portrait | 512 | `art/races/mul.webp` (+ copy in `art/creatures/`) |
-| Athasian Dwarf | circular portrait | 512 | `art/races/athasian-dwarf.webp` |
-| Id Fiend | standing full-body token | 512 | `art/creatures/id-fiend.webp` |
-| Crodlu | standing full-body token | 512 | `art/creatures/crodlu.webp` |
+| Subject |
+|---|
+| Thri-Kreen |
+| Mul |
+| Athasian Dwarf |
+| Id Fiend |
+| Crodlu |
 
 Judge it two ways: the five hold together as one Athas, AND they still sit beside the
 generic library as work by the same hand — same brushwork and lighting, hotter and

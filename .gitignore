@@ -1,2 +1,17 @@
 # Curated third-party sources land under art/ by slug; keep originals out of git until curated.
 _incoming/
+
+# Generated pipeline outputs and local Python/runtime caches.
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+temp-work/
+
+# Version-control policy after Universal collection closure.
+# Track code, documentation, results ledgers, art/, and art/aliases.json.
+# Masters and retired generations live in the verified external archive, not Git.
+/masters/
+/_superseded/
+**/*superseded/

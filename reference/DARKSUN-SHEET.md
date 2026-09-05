@@ -4,14 +4,19 @@
 SEPARATE document — `GENERIC-SHEET.md` in this folder — and the two are never mixed:
 not in one prompt, not in one batch, not in one chat session.
 
-**Status: DRAFT — in progress.** The first render was close but had canon misses (the
-corrections are already folded into the roster below). When a version is accepted,
-save it here as `darksun-sheet-01.png` and update this status line.
+**Status: DRAFT — in progress; not authorized for token generation.** The first render
+was close but had canon misses (the corrections are already folded into the roster
+below). When a version is accepted, save it here as `darksun-sheet-01.png`, record its
+approved SHA-256, and update this status line. Token generation remains blocked until
+all four prerequisites exist: (1) that accepted reference and hash, (2) the Dark Sun
+contract, (3) the Dark Sun production queue and its approved SHA-256, and (4) the Dark
+Sun handshake.
 
 This sheet is a WORLD REFERENCE — a poster of what Athas things are. Its aged-
-parchment poster register is fine for that job. Actual token generations still open
-with the `athas` anchor from STYLE-KIT-DARKSUN.md; in an Athas session attach
-BOTH this sheet (what things are) and one accepted Athas token (how they're painted).
+parchment poster register is fine for that job. This document may be used to iterate
+the reference poster only; it does not authorize token generation. Once the full gate
+above is satisfied, attach only the references specified by the accepted Dark Sun
+contract, and never the generic sheet.
 
 ---
 
@@ -97,5 +102,6 @@ than fighting them.
 
 Same loop as GENERIC-SHEET.md: the owner edits roster lines and generates; on
 acceptance, save the image here (`darksun-sheet-01.png`), tell Claude what changed,
-and this file is updated to match. The anchor only changes with a new style_id in
-STYLE-KIT-DARKSUN.md.
+record its approved hash, and update this file to match. Reference acceptance completes
+only the first of the four prerequisites for token generation. The anchor only changes
+with a new style_id in STYLE-KIT-DARKSUN.md.

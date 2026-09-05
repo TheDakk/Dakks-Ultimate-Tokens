@@ -1,0 +1,7 @@
+{
+  "_format": "Keys are \"<kind>/<alias-slug>\", values are the canonical slug in the same kind directory. An alias is the SAME subject under another name; a subject that looks different is a new row. Aliases never chain. Files must live under the canonical name; the intake gate flags a file saved under an alias name.",
+  "creatures/hellhound": "hell-hound",
+  "creatures/giant-seahorse": "giant-sea-horse",
+  "creatures/deep-gnome-svirfneblin": "deep-gnome",
+  "creatures/giant-rat-diseased": "giant-rat"
+}

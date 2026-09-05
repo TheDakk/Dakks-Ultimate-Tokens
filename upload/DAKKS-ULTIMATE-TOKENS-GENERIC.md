@@ -3,7 +3,7 @@
 ```yaml
 collection_id: generic
 style_id: dakk
-spec_version: 3.1.2
+spec_version: 3.1.3
 status: ACCEPTED_LOCKED
 workbook: Dakk-Ultimate-Tokens-Master.xlsx
 canonical_style_reference: generic-sheet-01.png
@@ -11,7 +11,7 @@ canonical_style_reference_sha256: 2b0c44d077d651709fcacc8845c25417815d2df882af4a
 canonical_style_reference_dimensions: 1254x1254
 canonical_style_reference_role: style_reference_only
 canonical_style_reference_true_alpha: false
-prompt_template_id: dakk-production-v3
+prompt_template_id: dakk-production-v4
 created: 2026-08-31
 ```
 
@@ -27,7 +27,7 @@ There are no separately maintained CSV, README, schema, changelog, audit, regist
 
 ## Purpose
 
-This is the canonical generic production pipeline for **Dakk's Ultimate Token Module in Foundry VTT**. It scales from the included pilot examples to the generated production queue of approximately 1,765 game documents without changing the architecture.
+This is the canonical generic production pipeline for **Dakk's Ultimate Token Module in Foundry VTT**. It scaled from the original pilot examples to the generated production queue of 1,408 game documents without changing the architecture.
 
 The accepted sheet is a **style reference only**. It is never cropped into individual assets, never used as a sprite sheet, and never silently replaced. Every production image is generated independently.
 
@@ -55,7 +55,7 @@ A lower level never overrides a higher one.
 6. **The current release uses one image per living subject.** Actors, creatures, ancestry/race depictions, class depictions, and portrait subjects use `standing-figure`.
 7. Do not pair a standing render with a second overhead or portrait render of the same living subject in the current release.
 8. True top-down art is used only when the asset is naturally map-oriented: props, doors, furniture, traps, hazards, area effects, vehicles, siege engines, deliberate swarms, and prone/corpse states.
-9. Every production output must contain genuine transparent alpha.
+9. Every production master must contain genuine transparent alpha. The generator's capture is painted on the magenta key and is never a production output; the importer's keyed RGBA master is (see "Generation on a key colour").
 10. Never improvise unrecorded anatomy, equipment, companions, scenery, or variants.
 11. A locked asset may be revised only from its exact approved source. Its prior row, hashes, and archived file remain preserved before the new approved image takes the clean active path.
 12. Campaign-specific visual collections use separate packages, references, workbooks, histories, batches, and output paths. They may consume generic locked assets but never overwrite them.
@@ -86,7 +86,15 @@ The choice is made **once for the entire batch**, never image by image. Record `
 
 ### Global negative anchor
 
-> No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must contain genuine transparent alpha.
+> No text, letters, numbers, watermark, signature, border, frame, grid, token ring, base, pedestal, scenery, floor plane, cast shadow, drop shadow, white background, checkered background, baked transparency pattern, modern objects, science-fiction objects, photorealism, anime, chibi styling, duplicate subject, unintended companion, extra limbs, missing limbs, merged weapons, malformed hands, cropped anatomy, or contact-sheet layout. Background must be one flat uniform magenta fill and nothing else.
+
+## Generation on a key colour (prompt template v4)
+
+The generator in production use returns opaque RGB and cannot emit an alpha channel. Asking it for transparency produces a painted checkerboard copied from the reference sheet, which is the one artefact this pipeline can never ship. Prompt template `dakk-production-v4` therefore asks for something the generator can do exactly: the subject on **one flat, uniform, pure magenta fill (#FF00FF)**, with a crisp fully opaque outline, no glow or haze bleeding into the fill, and no magenta or pink on the subject itself.
+
+Transparency is then produced deterministically by keying the magenta out (`chroma_key.py`, invoked by the importer). The untouched capture is preserved under `masters/_captures/`; only the keyed RGBA image becomes the master, and every existing gate still applies to it: true alpha, no halo, square, correct export size. A capture whose background is not the key is refused, never guessed at.
+
+This is the contract's own remedy for an opaque result (render onto a flat key and key it out rather than re-roll the art), applied by design instead of as a rescue. The frozen style anchor is unchanged; only the technical-output instruction and the last sentence of the global negative anchor differ from v3.
 
 ## What the reference controls
 
@@ -273,7 +281,7 @@ The locked style, clean naming defaults, 13 layout profiles, prompt settings, ba
 
 The production generator creates the real rows from game data. That source supplies accurate document keys, size categories, attack-derived anatomy or equipment constraints, and document-specific briefs.
 
-The included pilot rows demonstrate the schema. They are replaced by the approximately 1,765 generated production rows when the actual game-data queue is imported.
+The pilot rows demonstrated the schema. They have already been replaced by the 1,408 generated production rows, and no pilot row remains in ASSETS — nothing described as a pilot, sample or example is to be generated.
 
 ### Columns regenerated from game data
 
@@ -345,7 +353,7 @@ It then updates only fields marked `generated` in the `CONFIG` field guide.
 
 An `approved_locked` row is never updated by regeneration under any circumstance.
 
-`resolved_prompt` and `prompt_sha256` are computed together by the same generation script, so the `prompt_ready` gate is automatic rather than a manual 1,765-row task.
+`resolved_prompt` and `prompt_sha256` are computed together by the same generation script, so the `prompt_ready` gate is automatic rather than a manual 1,408-row task.
 
 ### `catalog_id`
 
@@ -406,8 +414,7 @@ Default facing: {CONFIG.layout_profile.default_facing}.
 Framing and safe margin come from the selected profile unless the row overrides them.
 
 TECHNICAL OUTPUT
-Create the profile-controlled square PNG master with genuine transparent alpha.
-The approved WebP derivative is created later without repainting.
+Create a square {ASSETS.master_px} x {ASSETS.master_px} PNG. Every pixel that is not the subject is one flat, uniform, pure magenta fill (#FF00FF): no gradient, vignette, texture, noise, checkerboard or transparency pattern, and no ground, base, token ring, frame, scenery or cast shadow. The subject's outline is crisp and fully opaque against the magenta, with no glow, haze, smoke or soft feathering bleeding into it, and nothing on the subject is magenta or pink. The magenta is keyed out afterwards to produce the transparent master; the Foundry WebP derivative is created only after approval. Do not repaint during export.
 
 NEGATIVE
 {CONFIG.global_negative_anchor}
@@ -467,7 +474,7 @@ Every output is reviewed at native resolution and Foundry export size.
 
 **Composition:** correct layout profile; full silhouette inside the square; safe margin on every side; readable at export size; no accidental contact-sheet composition. Every living subject must be standing full-body three-quarter.
 
-**Transparency:** actual alpha channel; transparent pixels present; no white matte or baked checkerboard; no text, watermark, signature, border, ring, base, or shadow unless explicitly permitted.
+**Transparency:** judged on the keyed master, never the capture; actual alpha channel; transparent pixels present; no white matte or baked checkerboard; no magenta, green or rose rim left by the key; no text, watermark, signature, border, ring, base, or shadow unless explicitly permitted.
 
 **Foundry:** PNG master present at the clean `masters/` path; WebP derivative created without repainting; clean resolved path correct; readable at normal grid zoom; build file exists at the supplied path; any replaced prior file is present under `_superseded/`.
 
@@ -484,7 +491,7 @@ Every output is reviewed at native resolution and Foundry export size.
 - When `master_px` and `export_px` are populated on a row, those values override the layout profile defaults for that specific output.
 - For footprint-driven creature and actor tokens, the generator supplies row overrides from token footprint: 1×1 → 1024/400, 2×2 → 1024/800, 3×3 → 1536/1200.
 - If a creature or actor row has no supplied footprint, the generator defaults it to 1×1 and supplies 1024/400.
-- Genuine transparent alpha required for every production output
+- Genuine transparent alpha required for every production master; the capture on the magenta key is the importer's input, never an output
 - Exactly one subject unless a swarm, rider/mount set, or explicit grouped profile permits more
 
 ## CSV use

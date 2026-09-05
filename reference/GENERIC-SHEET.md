@@ -89,5 +89,5 @@ the whole iteration.
    (`generic-sheet-02.png`, keeping 01), and tell Claude what changed — the roster
    lines here get updated to match, so this file and the accepted image never drift
    apart.
-3. The anchor paragraph only ever changes with a new style_id in STYLE-KIT.md — never
-   as part of a sheet iteration.
+3. The anchor paragraph only ever changes with a new style_id in
+   `upload/DAKKS-ULTIMATE-TOKENS-GENERIC.md` — never as part of a sheet iteration.
