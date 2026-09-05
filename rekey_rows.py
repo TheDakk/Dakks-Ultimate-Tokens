@@ -47,6 +47,7 @@ for job in jobs:
     master_sha = approved.sha256_file(row.master_path)
     approved.export_webp_premultiplied(row.master_path, row.export_path, row.export_px)
     export_sha = approved.sha256_file(row.export_path)
+    bridge.write_export_copies(ROOT, row)
     approved.append_result(results_path, approved.result_record(
         row, status="generated", model_id=bridge.BUILTIN_MODEL_ID,
         master_sha256=master_sha, export_sha256=export_sha, observation=observation,

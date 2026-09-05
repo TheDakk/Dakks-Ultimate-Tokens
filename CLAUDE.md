@@ -9,7 +9,12 @@ the project-specific state and the exact moves. Codex's side of the same contrac
 Images come from Codex's built-in image tool (no OpenAI API; Nick chose the Pro plan). Each
 row's prompt (template `dakk-production-v4`) asks for the subject on a flat magenta fill.
 `import_builtin_image.py` keeps the untouched capture under `masters/_captures/`, keys it
-with `chroma_key.py` into the RGBA master, exports the WebP, and appends `results-*.jsonl`.
+with `chroma_key.py` into the RGBA master, exports the WebP (plus a copy in every other
+directory the row's notes say it serves; `sync-copies` repairs missing ones), and appends
+`results-*.jsonl`. Revisions of approved rows go through `--polish` (preamble in
+`POLISH-PREAMBLE.txt`, image-to-image from the capture); the importer retires the old
+files to `_superseded/` as `<stem>-<date>-polish-v<N>` and bumps `art/versions.json`, which
+the generator copies into the workbook's version column. Filenames never carry a version.
 `verify_gate.py` is the automated gate Codex runs after each block. `npm run art-check` (in
 `C:\Projects\FoundryVTT\DnD2E`) is the suite's intake gate. The handshake that proves a
 reader is on the real queue: `Black Dragon · black-dragon.webp · 1200 · e8e2ca32bd15`
