@@ -629,8 +629,8 @@ def import_png(
             f"export_sha256={approved.sha256_file(row.export_path)}"
         )
         suffix = f"polish-v{current_version}"
-        for path in (capture_path, row.master_path, row.export_path):
-            moved = retire(root, row, path, suffix)
+        for path, tag in ((capture_path, "-capture"), (row.master_path, ""), (row.export_path, "")):
+            moved = retire(root, row, path, suffix + tag)
             if moved is not None:
                 retired.append(moved)
         approved.atomic_write_bytes(capture_path, capture_bytes)
@@ -784,6 +784,105 @@ def record_refusal(
     return 0
 
 
+def retired_set(root: Path, row: approved.PreparedRow, version: int) -> dict[str, Path]:
+    """The capture, master and export retired when version `version` was superseded."""
+    folder = root / "_superseded" / Path(*row.art_dir.split("/"))
+    stem = row.master_path.stem
+    found: dict[str, list[Path]] = {"capture": [], "master": [], "export": []}
+    for path in sorted(folder.glob(f"{stem}-*-polish-v{version}*")):
+        name = path.name[len(stem) + 1:]
+        if "-rejected" in name:
+            continue
+        if path.suffix.lower() == ".webp":
+            found["export"].append(path)
+        elif name.endswith("-capture.png"):
+            found["capture"].append(path)
+        elif path.suffix.lower() == ".png":
+            # legacy naming from the first polish pass: tell capture (RGB) from master (RGBA)
+            with Image.open(path) as opened:
+                found["capture" if "A" not in opened.getbands() else "master"].append(path)
+    out: dict[str, Path] = {}
+    for role, paths in found.items():
+        if len(paths) > 1:
+            raise approved.GeneratorError(
+                f"{row.job_id} has more than one retired {role} for v{version}: "
+                + ", ".join(str(x) for x in paths)
+            )
+        if paths:
+            out[role] = paths[0]
+    return out
+
+
+def revert_polish(context: GateContext, reason: str, *, restore: bool = True) -> int:
+    """Reject the current polish revision: retire it as rejected and restore the previous one."""
+    row = context.row
+    root = context.root
+    reason = approved.safe_filename(reason, field="reason", job_id=row.job_id)
+    versions = load_versions(root)
+    current = versions.get(version_key(row), 1)
+    if current < 2:
+        raise approved.GeneratorError(f"{row.job_id} is at version 1; there is no polish to revert")
+    previous = retired_set(root, row, current - 1) if restore else {}
+    if restore and ("master" not in previous or "export" not in previous):
+        raise approved.GeneratorError(
+            f"{row.job_id} cannot restore v{current - 1}: retired master/export not found under _superseded/"
+        )
+    capture_path = capture_path_for(root, row)
+    approved.verify_sources(context.queue_path, context.queue_hash, context.reference_path)
+    results_path = root / f"results-{approved.local_date()}.jsonl"
+
+    rejected: list[Path] = []
+    suffix = f"polish-v{current}-rejected-{reason}"
+    for path, tag in ((capture_path, "-capture"), (row.master_path, ""), (row.export_path, "")):
+        moved = retire(root, row, path, suffix + tag)
+        if moved is not None:
+            rejected.append(moved)
+    restored: list[Path] = []
+    if restore:
+        for role, target in (("capture", capture_path), ("master", row.master_path), ("export", row.export_path)):
+            source = previous.get(role)
+            if source is not None:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                source.replace(target)
+                restored.append(target)
+        write_export_copies(root, row)
+    if current - 1 >= 2:
+        versions[version_key(row)] = current - 1
+    else:
+        versions.pop(version_key(row), None)
+    save_versions(root, versions)
+
+    note = approved.merge_notes(
+        f"polish v{current} rejected by review: {reason}",
+        "rejected files retired as " + ", ".join(x.relative_to(root).as_posix() for x in rejected),
+        ("restored v%d: " % (current - 1)) + ", ".join(x.relative_to(root).as_posix() for x in restored)
+        if restore else "row left empty for a re-roll (plain import)",
+    )
+    if restore:
+        approved.append_result(
+            results_path,
+            approved.result_record(
+                row,
+                status="generated",
+                model_id=POLISH_MODEL_ID,
+                master_sha256=approved.sha256_file(row.master_path),
+                export_sha256=approved.sha256_file(row.export_path),
+                extra_note=note,
+            ),
+        )
+    else:
+        approved.append_result(
+            results_path,
+            approved.result_record(
+                row, status="error", model_id=POLISH_MODEL_ID, extra_note=note,
+                error=f"polish v{current} rejected by review: {reason}; row emptied for re-roll",
+            ),
+        )
+    print(f"REVERTED {row.job_id}: v{current} -> v{current - 1 if restore else 'none'}; {note}")
+    print(f"RESULTS {results_path}")
+    return 0
+
+
 def sync_copies(root: Path) -> int:
     """Write every shared-file copy the queue asks for that is missing or stale."""
     root = root.resolve()
@@ -857,6 +956,13 @@ def build_parser() -> argparse.ArgumentParser:
     refusal.add_argument("--error-base64", required=True)
     refusal.add_argument("--polish", action="store_true", help=polish_help)
     refusal.add_argument("--model", default=None)
+    revert = subparsers.add_parser(
+        "revert-polish",
+        parents=[common],
+        help="reject the current polish revision: retire it as rejected and restore the previous files",
+    )
+    revert.add_argument("--reason", required=True, help="short slug recorded in the retired filename and the ledger")
+    revert.add_argument("--no-restore", action="store_true", help="leave the row empty for a fresh re-roll instead of restoring the previous version")
     sync = subparsers.add_parser(
         "sync-copies",
         help='write every shared-file copy the queue asks for ("also drop a copy at ...") that is missing or stale',
@@ -890,6 +996,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             return import_png(
                 context, args.input, args.sent_prompt_sha256, polish=polish, model_id=model_id
             )
+        if args.command == "revert-polish":
+            return revert_polish(context, args.reason, restore=not args.no_restore)
         if args.command == "record-refusal":
             return record_refusal(
                 context, args.sent_prompt_sha256, args.error_base64, polish=polish, model_id=model_id

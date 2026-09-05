@@ -127,5 +127,37 @@ class VersionRecordTests(unittest.TestCase):
             self.assertIsNone(builtin.retire(root, row, row.master_path, "polish-v1"))
 
 
+class RetiredSetTests(unittest.TestCase):
+    def test_retired_files_are_found_by_role_including_legacy_names(self) -> None:
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp).resolve()
+            row = make_row(root)
+            folder = root / "_superseded" / "races"
+            folder.mkdir(parents=True)
+            Image.new("RGB", (8, 8)).save(folder / "dwarf-2026-09-05-polish-v1.png")        # legacy capture
+            Image.new("RGBA", (8, 8)).save(folder / "dwarf-2026-09-05-polish-v1-2.png")     # legacy master
+            (folder / "dwarf-2026-09-05-polish-v1.webp").write_bytes(b"w")
+            (folder / "dwarf-2026-09-05-polish-v2-rejected-legs.webp").write_bytes(b"x")   # ignored
+            found = builtin.retired_set(root, row, 1)
+            self.assertEqual(found["capture"].name, "dwarf-2026-09-05-polish-v1.png")
+            self.assertEqual(found["master"].name, "dwarf-2026-09-05-polish-v1-2.png")
+            self.assertEqual(found["export"].name, "dwarf-2026-09-05-polish-v1.webp")
+            self.assertEqual(builtin.retired_set(root, row, 2), {})
+
+    def test_new_naming_marks_the_capture(self) -> None:
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp).resolve()
+            row = make_row(root)
+            folder = root / "_superseded" / "races"
+            folder.mkdir(parents=True)
+            Image.new("RGB", (8, 8)).save(folder / "dwarf-2026-09-06-polish-v1-capture.png")
+            Image.new("RGBA", (8, 8)).save(folder / "dwarf-2026-09-06-polish-v1.png")
+            found = builtin.retired_set(root, row, 1)
+            self.assertTrue(found["capture"].name.endswith("-capture.png"))
+            self.assertEqual(found["master"].name, "dwarf-2026-09-06-polish-v1.png")
+
+
 if __name__ == "__main__":
     unittest.main()

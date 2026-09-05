@@ -1,0 +1,23 @@
+{
+  "stamp": "2026-09-05_014358",
+  "verdict": "GO",
+  "reasons": [],
+  "cursor_start": 2017,
+  "ledger_total": 2044,
+  "attempted": 27,
+  "generated": 27,
+  "refused": [],
+  "errored": [],
+  "pixel_failures": [],
+  "log": [
+    "ledger lines: 2044 total, 27 since cursor 2017",
+    "block: attempted=27 generated=27 refused=0 error=0",
+    "  art-check | > ad2e-foundry-suite@0.1.0 art-check",
+    "  art-check | > node tools/check-art.mjs",
+    "  art-check | universal: 1408 of 1408 rows have art (1414 image files scanned)",
+    "  art-check |   1408 pass every check",
+    "  art-check |   6 shared-file copies in place (one file serving a second pack)",
+    "  art-check | All clear. Safe to run npm run build (Foundry closed), then npm run art-upload-clean.",
+    "pixel checks: 27 masters, 0 failing"
+  ]
+}

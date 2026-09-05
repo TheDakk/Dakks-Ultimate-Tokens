@@ -1,0 +1,28 @@
+{
+  "stamp": "2026-09-05_062043",
+  "verdict": "STOP",
+  "reasons": [
+    "1 of 1 attempts failed, above 0.1"
+  ],
+  "cursor_start": 2044,
+  "ledger_total": 2045,
+  "attempted": 1,
+  "generated": 0,
+  "refused": [],
+  "errored": [
+    "JOB-0033"
+  ],
+  "pixel_failures": [],
+  "log": [
+    "ledger lines: 2045 total, 1 since cursor 2044",
+    "block: attempted=1 generated=0 refused=0 error=1",
+    "  error   JOB-0033: polish v2 rejected by review: legs; row emptied for re-roll",
+    "  art-check | > ad2e-foundry-suite@0.1.0 art-check",
+    "  art-check | > node tools/check-art.mjs",
+    "  art-check | universal: 1407 of 1408 rows have art (1413 image files scanned)",
+    "  art-check |   1407 pass every check",
+    "  art-check |   6 shared-file copies in place (one file serving a second pack)",
+    "  art-check | All clear. Safe to run npm run build (Foundry closed), then npm run art-upload-clean.",
+    "pixel checks: 0 masters, 0 failing"
+  ]
+}

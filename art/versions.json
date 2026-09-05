@@ -1,0 +1,23 @@
+{
+  "_format": "\"<art_dir>/<stem>\": accepted revision number of art/<art_dir>/<stem>.webp; absent means version 1. Written only by import_builtin_image.py when it supersedes an approved file (the previous files go to _superseded/), read by the queue generator for the ASSETS version column. Filenames never carry the version.",
+  "creatures/awakened-tree": 2,
+  "creatures/balor": 2,
+  "creatures/black-dragon": 2,
+  "creatures/dragon-turtle": 2,
+  "creatures/elephant": 2,
+  "creatures/fire-giant": 2,
+  "creatures/giant-ape": 2,
+  "creatures/giant-constrictor-snake": 2,
+  "creatures/giant-elk": 2,
+  "creatures/giant-shark": 2,
+  "creatures/hill-giant": 2,
+  "creatures/killer-whale": 2,
+  "creatures/lizard-fire": 2,
+  "creatures/mammoth": 2,
+  "creatures/purple-worm": 2,
+  "creatures/red-dragon": 2,
+  "creatures/roc": 2,
+  "creatures/stone-giant": 2,
+  "creatures/titan": 2,
+  "creatures/wyvern": 2
+}
