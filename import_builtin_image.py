@@ -553,6 +553,7 @@ def import_png(
     current_version = 1
     if polish and revise:
         raise approved.GeneratorError(f"{row.job_id}: --polish and --revise are mutually exclusive")
+    revising = polish or revise is not None
     if revise is not None:
         revise = approved.safe_filename(revise, field="revise", job_id=row.job_id)
         expected_prompt_hash = approved.sha256_bytes(row.prompt.encode("utf-8"))
@@ -678,7 +679,6 @@ def import_png(
         return 1
 
     retired: list[Path] = []
-    revising = polish or revise is not None
     if revising and not row.export_path.exists():
         # a row emptied by review (its files already under _superseded/): nothing to retire
         approved.atomic_write_bytes(capture_path, capture_bytes)
@@ -1047,6 +1047,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    context: GateContext | None = None
     try:
         if args.command == "sync-copies":
             return sync_copies(args.root)
@@ -1081,6 +1082,21 @@ def main(argv: Sequence[str] | None = None) -> int:
     except approved.GeneratorError as exc:
         print(f"BLOCKED: {exc}")
         return 2
+    except Exception as exc:  # a defect in this tool, not in the row: say so on the ledger too
+        message = f"{type(exc).__name__}: {exc}"
+        if context is not None:
+            try:
+                results_path = context.root / f"results-{approved.local_date()}.jsonl"
+                append_import_error(
+                    context, results_path,
+                    error=f"importer crashed before completing: {message}",
+                    extra_note="source=builtin_imagegen; tool defect; library untouched unless a MASTER/EXPORT line was printed above",
+                )
+                print(f"RESULTS {results_path}")
+            except Exception as ledger_exc:  # never hide the original crash behind a ledger problem
+                print(f"LEDGER-WRITE-FAILED: {type(ledger_exc).__name__}: {ledger_exc}")
+        print(f"CRASH {getattr(args, 'job', '')}: {message}".strip())
+        return 3
 
 
 if __name__ == "__main__":

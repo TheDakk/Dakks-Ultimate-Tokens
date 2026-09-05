@@ -142,10 +142,14 @@ def main() -> int:
     last: dict[str, dict] = {}
     for r in block:
         last[r.get("job_id", "?")] = r
+    # A reviewer's rejection (revert-polish --no-restore) is an "error" line so the row reads
+    # as not-generated, but it is not a failed generation attempt: leave it out of the rate.
+    reviewer = {j for j, r in last.items() if "rejected by review" in r.get("error", "")}
     generated = [j for j, r in last.items() if r.get("status") == "generated"]
     refused = [j for j, r in last.items() if r.get("status") == "refused"]
-    errored = [j for j, r in last.items() if r.get("status") == "error"]
-    attempted = len(last)
+    errored = [j for j, r in last.items() if r.get("status") == "error" and j not in reviewer]
+    for j in sorted(reviewer): log.append(f"  reviewer rejection (not an attempt) {j}: {last[j].get('error', '')[:100]}")
+    attempted = len(last) - len(reviewer)
     log.append(f"block: attempted={attempted} generated={len(generated)} refused={len(refused)} error={len(errored)}")
     for j in refused: log.append(f"  refused {j}: {last[j].get('error', '')[:100]}")
     for j in errored: log.append(f"  error   {j}: {last[j].get('error', '')[:100]}")
