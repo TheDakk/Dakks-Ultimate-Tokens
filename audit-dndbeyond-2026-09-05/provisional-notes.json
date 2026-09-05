@@ -1,0 +1,352 @@
+[
+  [
+    1,
+    "review",
+    "Generic spiky black dragon; check swept-forward skull horns."
+  ],
+  [
+    2,
+    "major",
+    "Blue dragon lacks clear single nasal horn; generic spiky dragon."
+  ],
+  [
+    3,
+    "review",
+    "Brass dragon generic spiky head, missing characteristic head plate."
+  ],
+  [
+    4,
+    "review",
+    "Bronze dragon generic horned silhouette."
+  ],
+  [
+    6,
+    "major",
+    "Chimera predominantly dragon-bodied; central head horned/reptilian rather than clear goat."
+  ],
+  [
+    7,
+    "review",
+    "Cloud giant looks rock-skinned; distinguish from elemental/stone giant."
+  ],
+  [
+    18,
+    "unmatched",
+    "Minotaur lizard rendered bull-headed quadruped; older-edition name needs reference."
+  ],
+  [
+    23,
+    "review",
+    "Troll heavily armored/stocky rather than lean long-nosed troll."
+  ],
+  [
+    32,
+    "major",
+    "Basilisk rendered four-legged reptile; eight-legged identity absent."
+  ],
+  [
+    34,
+    "major",
+    "Black Pudding has distinct head eyes toothy mouth and arm-like limbs."
+  ],
+  [
+    35,
+    "unmatched",
+    "Brown Pudding has toothy face and defined limbs."
+  ],
+  [
+    36,
+    "unmatched",
+    "Brownie portrayed goblinlike armored creature."
+  ],
+  [
+    39,
+    "major",
+    "Cockatrice has separate foreclaws/hindlegs plus wings, mostly dragon body."
+  ],
+  [
+    40,
+    "unmatched",
+    "Corpse Ravager tentacled floating maw; clarify source/name."
+  ],
+  [
+    41,
+    "major",
+    "Couatl rendered legged feathered dragon instead of winged serpent."
+  ],
+  [
+    43,
+    "major",
+    "Dretch rendered armored reptile."
+  ],
+  [
+    46,
+    "major",
+    "Efreeti has bat wings, resembles devil."
+  ],
+  [
+    49,
+    "major",
+    "Gazer has numerous eye stalks plus wings/tail; compare four-stalk gazer and older name alias."
+  ],
+  [
+    52,
+    "unmatched",
+    "Gorgimera humanoid reptile chimera form; need older counterpart."
+  ],
+  [
+    53,
+    "review",
+    "Griffon scaled armored body and reptilian tail, little lion body."
+  ],
+  [
+    60,
+    "major",
+    "Manticore lion face rather than humanlike face, scorpionlike tail."
+  ],
+  [
+    62,
+    "major",
+    "Medusa snake lower body (5e counterpart has legs)."
+  ],
+  [
+    66,
+    "review",
+    "Night hag reads pale vampire sorceress, lacks bulky hag character."
+  ],
+  [
+    67,
+    "unmatched",
+    "Nixie fishlike biped rather than small water fey; source needed."
+  ],
+  [
+    69,
+    "major",
+    "Otyugh looks quadruped shell beast with two facial tubes; eye stalk absent."
+  ],
+  [
+    70,
+    "review",
+    "Owlbear body plated/scaly, limited bear fur."
+  ],
+  [
+    74,
+    "review",
+    "Rakshasa reads lion not tiger; reversed palms unclear."
+  ],
+  [
+    75,
+    "major",
+    "Remorhaz four-legged armored beast; centipede body absent."
+  ],
+  [
+    76,
+    "major",
+    "Salamander biped reptile rather than humanoid torso serpent tail."
+  ],
+  [
+    81,
+    "unmatched",
+    "Spigazu winged reptile humanoid; source needed."
+  ],
+  [
+    82,
+    "review",
+    "Sprite reptilian goblinlike rather than tiny winged person."
+  ],
+  [
+    86,
+    "major",
+    "Triton fish tail rather than legs (modern counterpart)."
+  ],
+  [
+    87,
+    "unmatched",
+    "Tunnel Lurk armored grub with claw limbs; source needed."
+  ],
+  [
+    95,
+    "review",
+    "Winter Wolf has reptilian armor/spines."
+  ],
+  [
+    96,
+    "unmatched",
+    "Wolfwere pictured wolf-man hybrid; older counterpart needed."
+  ],
+  [
+    100,
+    "review",
+    "Xorn three eyes but only two clear arms/legs; rear limb visibility unresolved."
+  ],
+  [
+    101,
+    "review",
+    "Yeti carries club and tailored gear, closer to giant than wild yeti."
+  ],
+  [
+    1168,
+    "review",
+    "Awakened Tree looks treant warrior; tree silhouette heavily anthropomorphized."
+  ],
+  [
+    1173,
+    "major",
+    "Balor flail and chain instead of sword and flaming whip."
+  ],
+  [
+    1179,
+    "review",
+    "Bearded devil ordinary beard and axelike weapon, compare tentacular beard/glaive."
+  ],
+  [
+    1185,
+    "major",
+    "Bone devil bat wings/heavy bone armor instead of insect wings and gaunt body."
+  ],
+  [
+    1196,
+    "review",
+    "Constrictor snake has large venom fangs."
+  ],
+  [
+    1199,
+    "review",
+    "Crawling claw fingers appear elongated/spiderlike; count needs close inspection."
+  ],
+  [
+    1209,
+    "review",
+    "Dire Wolf wears substantial metal armor."
+  ],
+  [
+    1212,
+    "major",
+    "Dragon Turtle has tall land-beast posture, clawed limbs rather than aquatic flippers."
+  ],
+  [
+    1224,
+    "major",
+    "Erinyes bat wings/horns rather than feathered fallen angel."
+  ],
+  [
+    1225,
+    "major",
+    "Ettercap has four arms plus two legs."
+  ],
+  [
+    1228,
+    "major",
+    "Flameskull has arms/hands and partial torso."
+  ],
+  [
+    1235,
+    "major",
+    "Giant Ape wears complex rope harness, metal hooks and clothing; reads humanoid fighter."
+  ],
+  [
+    1240,
+    "review",
+    "Giant Constrictor Snake has prominent venom fangs."
+  ],
+  [
+    1255,
+    "major",
+    "Giant Sea Horse has articulated arms and clawlike hands."
+  ],
+  [
+    1264,
+    "major",
+    "Glabrezu only two pincer arms, missing small humanoid arm pair."
+  ],
+  [
+    1270,
+    "review",
+    "Gold dragon generic spiky silhouette; whiskers/sail traits absent."
+  ],
+  [
+    1273,
+    "review",
+    "Green dragon generic silhouette; distinctive high neck crest unclear."
+  ],
+  [
+    1275,
+    "major",
+    "Grick appears five thin mouth tentacles instead of four thick lobed tentacles."
+  ],
+  [
+    1276,
+    "review",
+    "Grimlock eye sockets dark but blindness not clearly apparent."
+  ],
+  [
+    1285,
+    "major",
+    "Hippogriff has lion hindquarters with paws and lion tail rather than horse hindquarters and hooves."
+  ],
+  [
+    1298,
+    "review",
+    "Killer Whale retains orca pattern but has sharklike triangular teeth and enormous monster mouth."
+  ],
+  [
+    1300,
+    "review",
+    "Kraken resembles armored squid; edition variation needs review."
+  ],
+  [
+    1305,
+    "major",
+    "Lemure is upright humanoid with two separate legs rather than melting blob lower body."
+  ],
+  [
+    1318,
+    "major",
+    "Merrow has two legs and separate tail rather than aquatic serpentine lower body."
+  ],
+  [
+    1346,
+    "review",
+    "Quasit has prominent bat wings and reads as an imp; check ordinary form."
+  ],
+  [
+    1356,
+    "major",
+    "Rug of Smothering has enormous toothed maw, looks like a rug mimic."
+  ],
+  [
+    1360,
+    "major",
+    "Sahuagin Baron appears to have six arms instead of four."
+  ],
+  [
+    1370,
+    "review",
+    "Silver Dragon generic spiky dragon; characteristic tall head frill unclear."
+  ],
+  [
+    1377,
+    "review",
+    "Stone Giant rendered as craggy rock elemental/golem rather than gray-skinned giant."
+  ],
+  [
+    33,
+    "retired-major",
+    "Rejected v2 Behir has only a few forebody legs, generic spiky brown-black dragon head; official art has long blue body with legs along its length. Active master missing; already retired."
+  ],
+  [
+    1398,
+    "major",
+    "Vrock has batlike membrane wings and armored reptilian body rather than feathered vulture demon."
+  ],
+  [
+    1402,
+    "review",
+    "Water Elemental wears solid metal shoulder armor and belt; fluid body remains recognizable."
+  ],
+  [
+    1407,
+    "review",
+    "White Dragon has generic spiky head; characteristic swept-back crest unclear."
+  ]
+]

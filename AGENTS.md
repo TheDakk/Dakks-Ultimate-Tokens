@@ -75,6 +75,14 @@ The route is the same three commands with `--polish`:
    workbook's version column. An ERROR leaves the library untouched.
 3. `record-refusal --polish ...` for a refusal, with the polish hash.
 
+A CORRECTED DESIGN is not a polish. When the reviewer has changed a row's brief (wrong body
+plan, wrong object, misleading icon), the row is generated FRESH from its new prompt through
+`prompt-json` (plain) and imported with `import --revise <reason>`: the importer verifies the
+plain prompt hash, keys and checks the image, retires the current capture, master and export
+as `<stem>-<date>-<reason>-v<N>.<ext>`, writes the new files under the unchanged names and
+records version N+1. The reason tag comes from the pass file. Never attach the previous
+painting to a revise generation. `--polish` and `--revise` are never combined.
+
 Never touch `_superseded\`, `art\versions.json` or `POLISH-PREAMBLE.txt` yourself; a revert
 is the reviewer's move. Everything else above (verbatim prompt, no retouching, one route,
 the refusal and source-change rules, verify_gate.py after the block) applies unchanged.
@@ -105,10 +113,11 @@ technical defects; the reviewer catches the rest.
 ## Collections
 
 You work on ONE collection per session. `universal` (the generic D&D / Forgotten Realms
-look) is complete (1408/1408) and released as 1.0.0. New rows are not authorised. Revisions
-of approved rows happen only through the polish route above, for the rows a
-`POLISH-PASS-<n>.md` file names (the 2026-09-05 pilot, PILOT-ASTRA-GPT6.md, is closed:
-NO-GO for a full pass, GO for the scoped large-token pass in POLISH-PASS-1.md). Dark Sun
+look) is complete (1408/1408) and released as 1.0.0. New rows are not authorised. Universal
+2.0 (PLAN-UNIVERSAL-2.0.md) revises every row: block 1 re-rolls 107 corrected briefs through
+`--revise` (PASS-2-REROLL.md); blocks 2 to 7 polish every other row (PASS-2-POLISH.md). Work
+only the block you were handed; each pass file carries the queue hash it was written for.
+Dark Sun
 is a separate collection and remains blocked until all four prerequisites exist: an accepted
 `darksun-sheet` reference and its hash; its own contract; its own queue and queue hash; and
 its own handshake. Never attach one collection's reference to another collection's rows, and

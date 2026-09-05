@@ -1,0 +1,167 @@
+[
+  [
+    107,
+    "review",
+    "Field Plate is just a breastplate; category may imply a fuller suit in older rules."
+  ],
+  [
+    122,
+    "review",
+    "Splint Mail uses broad horizontal rectangular plates rather than clear narrow vertical splints."
+  ],
+  [
+    129,
+    "major",
+    "Full Scale Barding appears made of large solid plates, without overlapping scale construction."
+  ],
+  [
+    132,
+    "major",
+    "Half Scale Barding appears made of large solid plates, without overlapping scale construction."
+  ],
+  [
+    191,
+    "review",
+    "Curragh looks like a carved dugout; verify older-edition boat construction reference."
+  ],
+  [
+    238,
+    "review",
+    "Bull's-Eye Lantern looks like an all-around lantern; directional lens/reflector is not clear."
+  ],
+  [
+    342,
+    "review",
+    "Water Clock appears to use a sealed hourglass arrangement; verify a readable water-flow clock mechanism."
+  ],
+  [
+    349,
+    "review",
+    "Arquebus resembles a later flintlock musket; check intended older firearm illustration."
+  ],
+  [
+    350,
+    "major",
+    "Arquebus Shot is a pointed modern bullet rather than an early firearm round ball."
+  ],
+  [
+    353,
+    "review",
+    "Awl Pike appears to have dagger proportions and a short hand grip; long pike shaft absent."
+  ],
+  [
+    354,
+    "review",
+    "Bardiche has a small halberd-like axe head rather than a long attached cleaver blade."
+  ],
+  [
+    358,
+    "review",
+    "Bec de Corbin appears double-axed rather than beaked hammer/pick."
+  ],
+  [
+    377,
+    "review",
+    "Guisarme reads as another halberd; characteristic hooked blade unclear."
+  ],
+  [
+    378,
+    "review",
+    "Guisarme-Voulge reads as another halberd; specialist polearm identity unclear."
+  ],
+  [
+    389,
+    "review",
+    "Khopesh reads as a recurved sword rather than a clear sickle-shaped khopesh."
+  ],
+  [
+    392,
+    "review",
+    "Jousting Lance resembles a sharp spear; tournament lance head and hand protection unclear."
+  ],
+  [
+    398,
+    "review",
+    "Lucern Hammer is a short-handled hammer rather than a long pole hammer."
+  ],
+  [
+    399,
+    "major",
+    "Man Catcher is a pointed spear with one small side hook; no neck-catching enclosure."
+  ],
+  [
+    402,
+    "review",
+    "Partisan has a halberd axe blade instead of a symmetric spearhead with side projections."
+  ],
+  [
+    403,
+    "major",
+    "Hand Quarrel is depicted as a double-ended war pick, not a hand-crossbow bolt."
+  ],
+  [
+    405,
+    "major",
+    "Light Quarrel looks like an unfletched spear, not a crossbow bolt."
+  ],
+  [
+    417,
+    "review",
+    "Spetum is a plain spear; distinctive side prongs absent."
+  ],
+  [
+    441,
+    "review",
+    "Acrobatics icon emphasizes lute and juggling props; performance is more prominent than balance/tumbling."
+  ],
+  [
+    449,
+    "review",
+    "Arquebus proficiency repeats a later flintlock-like firearm."
+  ],
+  [
+    452,
+    "review",
+    "Awl Pike proficiency repeats a short-handled spike."
+  ],
+  [
+    454,
+    "review",
+    "Bardiche proficiency repeats a generic halberd-like head."
+  ],
+  [
+    488,
+    "review",
+    "Fauchard proficiency is a perpendicular farming-scythe silhouette, unlike its equipment counterpart."
+  ],
+  [
+    499,
+    "review",
+    "Guisarme proficiency repeats a halberd-like axe head."
+  ],
+  [
+    500,
+    "review",
+    "Guisarme-Voulge proficiency repeats a halberd-like head."
+  ],
+  [
+    540,
+    "review",
+    "Lucern Hammer proficiency is a short barrel-headed mallet rather than pole hammer."
+  ],
+  [
+    541,
+    "major",
+    "Man Catcher proficiency looks like a chained spiked shield/trap, without a pole or catching jaws."
+  ],
+  [
+    552,
+    "major",
+    "Morning Star proficiency is a chained flail; equipment row JOB-0401 correctly uses a fixed spiked head."
+  ],
+  [
+    582,
+    "review",
+    "Spetum proficiency repeats a plain spear, missing side prongs."
+  ]
+]

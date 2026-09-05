@@ -37,7 +37,7 @@ The chat-paste procedure below still works as a fallback, but production runs th
 
 The handshake row still proves any reader is on the real queue:
 
-    Black Dragon · black-dragon.webp · 1200 · e8e2ca32bd15
+    Black Dragon · black-dragon.webp · 1200 · bfe60d6a8251
 
 ---
 
@@ -98,7 +98,7 @@ first 12 characters of its prompt_sha256.
 
 **It must answer exactly:**
 
-    Black Dragon · black-dragon.webp · 1200 · e8e2ca32bd15
+    Black Dragon · black-dragon.webp · 1200 · bfe60d6a8251
 
 Anything else — a different creature, a guess, "I can't open the file" — means it is not
 reading the queue, and every image after that would be invented. Do not continue. Try

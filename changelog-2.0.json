@@ -1,0 +1,376 @@
+{
+ "summary": {
+  "release": "2.0.0",
+  "rows_revised": 20,
+  "redesign": 0,
+  "change": 2,
+  "polish": 18,
+  "unknown": 0,
+  "thresholds": {
+   "mad": 12.0,
+   "scale": 0.05
+  }
+ },
+ "rows": [
+  {
+   "job_id": "JOB-0001",
+   "name": "Black Dragon",
+   "key": "creatures/black-dragon",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 10.6,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/black-dragon-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/black-dragon-2026-09-05-polish-v1.png",
+    "_superseded/creatures/black-dragon-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:24:48Z"
+  },
+  {
+   "job_id": "JOB-0009",
+   "name": "Fire Giant",
+   "key": "creatures/fire-giant",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 2.73,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/fire-giant-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/fire-giant-2026-09-05-polish-v1.png",
+    "_superseded/creatures/fire-giant-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:41:57Z"
+  },
+  {
+   "job_id": "JOB-0017",
+   "name": "Lizard, Fire",
+   "key": "creatures/lizard-fire",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "change",
+   "mad": 14.05,
+   "scale": 1.011,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/lizard-fire-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/lizard-fire-2026-09-05-polish-v1.png",
+    "_superseded/creatures/lizard-fire-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:30:21Z"
+  },
+  {
+   "job_id": "JOB-0084",
+   "name": "Titan",
+   "key": "creatures/titan",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.14,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/titan-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/titan-2026-09-05-polish-v1.png",
+    "_superseded/creatures/titan-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:29:37Z"
+  },
+  {
+   "job_id": "JOB-0099",
+   "name": "Wyvern",
+   "key": "creatures/wyvern",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.55,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/wyvern-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/wyvern-2026-09-05-polish-v1.png",
+    "_superseded/creatures/wyvern-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:31:08Z"
+  },
+  {
+   "job_id": "JOB-1168",
+   "name": "Awakened Tree",
+   "key": "creatures/awakened-tree",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.67,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/awakened-tree-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/awakened-tree-2026-09-05-polish-v1.png",
+    "_superseded/creatures/awakened-tree-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:43:40Z"
+  },
+  {
+   "job_id": "JOB-1173",
+   "name": "Balor",
+   "key": "creatures/balor",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.37,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/balor-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/balor-2026-09-05-polish-v1.png",
+    "_superseded/creatures/balor-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:41:06Z"
+  },
+  {
+   "job_id": "JOB-1212",
+   "name": "Dragon Turtle",
+   "key": "creatures/dragon-turtle",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "change",
+   "mad": 12.28,
+   "scale": 1.022,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/dragon-turtle-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/dragon-turtle-2026-09-05-polish-v1.png",
+    "_superseded/creatures/dragon-turtle-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:28:10Z"
+  },
+  {
+   "job_id": "JOB-1222",
+   "name": "Elephant",
+   "key": "creatures/elephant",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 4.68,
+   "scale": 0.999,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/elephant-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/elephant-2026-09-05-polish-v1.png",
+    "_superseded/creatures/elephant-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:34:42Z"
+  },
+  {
+   "job_id": "JOB-1235",
+   "name": "Giant Ape",
+   "key": "creatures/giant-ape",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.7,
+   "scale": 1.006,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/giant-ape-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/giant-ape-2026-09-05-polish-v1.png",
+    "_superseded/creatures/giant-ape-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:40:08Z"
+  },
+  {
+   "job_id": "JOB-1240",
+   "name": "Giant Constrictor Snake",
+   "key": "creatures/giant-constrictor-snake",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 1.78,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/giant-constrictor-snake-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/giant-constrictor-snake-2026-09-05-polish-v1.png",
+    "_superseded/creatures/giant-constrictor-snake-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:39:21Z"
+  },
+  {
+   "job_id": "JOB-1244",
+   "name": "Giant Elk",
+   "key": "creatures/giant-elk",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 2.01,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/giant-elk-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/giant-elk-2026-09-05-polish-v1.png",
+    "_superseded/creatures/giant-elk-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:36:49Z"
+  },
+  {
+   "job_id": "JOB-1256",
+   "name": "Giant Shark",
+   "key": "creatures/giant-shark",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.0,
+   "scale": 1.009,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/giant-shark-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/giant-shark-2026-09-05-polish-v1.png",
+    "_superseded/creatures/giant-shark-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:36:08Z"
+  },
+  {
+   "job_id": "JOB-1284",
+   "name": "Hill Giant",
+   "key": "creatures/hill-giant",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.45,
+   "scale": 0.994,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/hill-giant-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/hill-giant-2026-09-05-polish-v1.png",
+    "_superseded/creatures/hill-giant-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:38:32Z"
+  },
+  {
+   "job_id": "JOB-1298",
+   "name": "Killer Whale",
+   "key": "creatures/killer-whale",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.09,
+   "scale": 1.001,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/killer-whale-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/killer-whale-2026-09-05-polish-v1.png",
+    "_superseded/creatures/killer-whale-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:33:53Z"
+  },
+  {
+   "job_id": "JOB-1315",
+   "name": "Mammoth",
+   "key": "creatures/mammoth",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 4.43,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/mammoth-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/mammoth-2026-09-05-polish-v1.png",
+    "_superseded/creatures/mammoth-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:35:28Z"
+  },
+  {
+   "job_id": "JOB-1344",
+   "name": "Purple Worm",
+   "key": "creatures/purple-worm",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 6.68,
+   "scale": 1.008,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/purple-worm-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/purple-worm-2026-09-05-polish-v1.png",
+    "_superseded/creatures/purple-worm-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:25:40Z"
+  },
+  {
+   "job_id": "JOB-1350",
+   "name": "Red Dragon",
+   "key": "creatures/red-dragon",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.33,
+   "scale": 1.0,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/red-dragon-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/red-dragon-2026-09-05-polish-v1.png",
+    "_superseded/creatures/red-dragon-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:37:41Z"
+  },
+  {
+   "job_id": "JOB-1354",
+   "name": "Roc",
+   "key": "creatures/roc",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 8.37,
+   "scale": 1.002,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/roc-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/roc-2026-09-05-polish-v1.png",
+    "_superseded/creatures/roc-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:27:21Z"
+  },
+  {
+   "job_id": "JOB-1377",
+   "name": "Stone Giant",
+   "key": "creatures/stone-giant",
+   "version": 2,
+   "kind": "polish",
+   "reason": "",
+   "class": "polish",
+   "mad": 3.51,
+   "scale": 1.002,
+   "model": "unreported (Codex built-in)",
+   "predecessors": [
+    "_superseded/creatures/stone-giant-2026-09-05-polish-v1-capture.png",
+    "_superseded/creatures/stone-giant-2026-09-05-polish-v1.png",
+    "_superseded/creatures/stone-giant-2026-09-05-polish-v1.webp"
+   ],
+   "ledger_created_at": "2026-09-05T05:42:45Z"
+  }
+ ]
+}

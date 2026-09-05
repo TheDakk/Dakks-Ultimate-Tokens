@@ -12,12 +12,16 @@ row's prompt (template `dakk-production-v4`) asks for the subject on a flat mage
 with `chroma_key.py` into the RGBA master, exports the WebP (plus a copy in every other
 directory the row's notes say it serves; `sync-copies` repairs missing ones), and appends
 `results-*.jsonl`. Revisions of approved rows go through `--polish` (preamble in
-`POLISH-PREAMBLE.txt`, image-to-image from the capture); the importer retires the old
-files to `_superseded/` as `<stem>-<date>-polish-v<N>` and bumps `art/versions.json`, which
-the generator copies into the workbook's version column. Filenames never carry a version.
+`POLISH-PREAMBLE.txt`, image-to-image from the capture) or `--revise <reason>` (a fresh
+generation on a corrected brief); the importer retires the old files to `_superseded/` as
+`<stem>-<date>-<reason>-v<N>` and bumps `art/versions.json`, which the generator copies into
+the workbook's version column. Filenames never carry a version. `changelog.py` classifies
+every revision (redesign / change / polish, by measured difference) into `CHANGELOG-2.0.md`;
+`prune_superseded.py` deletes only minor-polish predecessors whose hash is in a verified
+backup manifest. The 2.0 plan of record is `PLAN-UNIVERSAL-2.0.md`.
 `verify_gate.py` is the automated gate Codex runs after each block. `npm run art-check` (in
 `C:\Projects\FoundryVTT\DnD2E`) is the suite's intake gate. The handshake that proves a
-reader is on the real queue: `Black Dragon · black-dragon.webp · 1200 · e8e2ca32bd15`
+reader is on the real queue: `Black Dragon · black-dragon.webp · 1200 · bfe60d6a8251`
 (changes whenever JOB-0001's prompt changes; keep README-UPLOAD and generate_tokens.py in step
 with it).
 

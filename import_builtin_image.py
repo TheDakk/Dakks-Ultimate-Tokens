@@ -505,14 +505,34 @@ def import_png(
     sent_prompt_sha256: str,
     *,
     polish: bool = False,
+    revise: str | None = None,
     model_id: str = BUILTIN_MODEL_ID,
 ) -> int:
+    """Import one capture. Plain: a first image for an empty row. ``polish``: an image-to-image
+    revision. ``revise=<reason>``: a fresh generation replacing an accepted image (a corrected
+    brief). Both revisions retire the current files and record version N+1."""
     row = context.row
     root = context.root
     capture_path = capture_path_for(root, row)
     polish_note = ""
     current_version = 1
-    if polish:
+    if polish and revise:
+        raise approved.GeneratorError(f"{row.job_id}: --polish and --revise are mutually exclusive")
+    if revise is not None:
+        revise = approved.safe_filename(revise, field="revise", job_id=row.job_id)
+        expected_prompt_hash = approved.sha256_bytes(row.prompt.encode("utf-8"))
+        if sent_prompt_sha256 != expected_prompt_hash or sent_prompt_sha256 != row.prompt_sha256:
+            raise approved.GeneratorError(
+                f"{row.job_id} sent prompt hash mismatch: "
+                f"sent={sent_prompt_sha256!r}, expected={row.prompt_sha256}"
+            )
+        current_version = load_versions(root).get(version_key(row), 1)
+        polish_note = approved.merge_notes(
+            f"revise:{revise} v{current_version + 1}",
+            "fresh generation on a corrected brief" if row.export_path.exists()
+            else "fresh generation for a row emptied by review",
+        )
+    elif polish:
         _, polish_hash, preamble_hash = polish_prompt(root, row)
         if sent_prompt_sha256 != polish_hash:
             raise approved.GeneratorError(
@@ -561,7 +581,7 @@ def import_png(
     # the contract's own remedy for an opaque result. The untouched capture is kept under
     # masters/_captures as evidence; only the keyed image becomes the master. A polish
     # leaves the library untouched until the new image has passed every check.
-    if not polish and not capture_path.exists():
+    if not revising and not capture_path.exists():
         approved.atomic_write_bytes(capture_path, capture_bytes)
     try:
         png_bytes, key_note = chroma_key.key_png_if_needed(capture_bytes)
@@ -572,7 +592,7 @@ def import_png(
             error=str(exc),
             extra_note=approved.merge_notes(
                 "source=builtin_imagegen",
-                "polish rejected; library untouched" if polish else "capture kept under masters/_captures",
+                "revision rejected; library untouched" if revising else "capture kept under masters/_captures",
                 polish_note,
             ),
         )
@@ -606,7 +626,7 @@ def import_png(
     elif not observation.transparent_background:
         failure = approved.transparency_failure_reason(observation)
 
-    if polish and failure:
+    if revising and failure:
         append_import_error(
             context,
             results_path,
@@ -623,12 +643,16 @@ def import_png(
         return 1
 
     retired: list[Path] = []
-    if polish:
+    revising = polish or revise is not None
+    if revising and not row.export_path.exists():
+        # a row emptied by review (its files already under _superseded/): nothing to retire
+        approved.atomic_write_bytes(capture_path, capture_bytes)
+    elif revising:
         previous = (
             f"supersedes master_sha256={approved.sha256_file(row.master_path)} "
             f"export_sha256={approved.sha256_file(row.export_path)}"
         )
-        suffix = f"polish-v{current_version}"
+        suffix = f"polish-v{current_version}" if polish else f"{revise}-v{current_version}"
         for path, tag in ((capture_path, "-capture"), (row.master_path, ""), (row.export_path, "")):
             moved = retire(root, row, path, suffix + tag)
             if moved is not None:
@@ -696,7 +720,7 @@ def import_png(
         print(f"RESULTS {results_path}")
         return 1
 
-    if polish:
+    if revising:
         versions = load_versions(root)
         versions[version_key(row)] = current_version + 1
         save_versions(root, versions)
@@ -728,10 +752,10 @@ def import_png(
     print(f"EXPORT {row.export_path} sha256={export_hash}")
     for path in copies:
         print(f"COPY {path}")
-    if polish:
+    if revising:
         print(
             f"VERSION {version_key(row)} v{current_version + 1}; previous retired: "
-            + ", ".join(path.relative_to(root).as_posix() for path in retired)
+            + (", ".join(path.relative_to(root).as_posix() for path in retired) or "none (row was empty)")
         )
     print(f"RESULTS {results_path}")
     return 0
@@ -785,17 +809,25 @@ def record_refusal(
 
 
 def retired_set(root: Path, row: approved.PreparedRow, version: int) -> dict[str, Path]:
-    """The capture, master and export retired when version `version` was superseded."""
+    """The capture, master and export retired when version `version` was superseded
+    (by a polish or a revise; the suffix is <reason>-v<version>)."""
     folder = root / "_superseded" / Path(*row.art_dir.split("/"))
     stem = row.master_path.stem
     found: dict[str, list[Path]] = {"capture": [], "master": [], "export": []}
-    for path in sorted(folder.glob(f"{stem}-*-polish-v{version}*")):
-        name = path.name[len(stem) + 1:]
-        if "-rejected" in name:
+    # <stem>-<date>-<reason>-v<N>[-capture][-<n>].<ext>; the keyer's own -key-v* retirements
+    # from the first run and -rejected files are not revision predecessors
+    pattern = re.compile(r"^-(\d{4}-\d{2}-\d{2})-(?P<reason>[a-z0-9]+(?:-[a-z0-9]+)*?)-v(?P<v>\d+)(?P<cap>-capture)?(?:-\d+)?\.(?:png|webp)$", re.I)
+    for path in sorted(folder.glob(f"{stem}-*-v{version}*")):
+        name = path.name[len(stem):]
+        m = pattern.match(name)
+        if not m or int(m.group("v")) != version:
+            continue
+        reason = m.group("reason").lower()
+        if reason == "key" or "rejected" in reason:
             continue
         if path.suffix.lower() == ".webp":
             found["export"].append(path)
-        elif name.endswith("-capture.png"):
+        elif m.group("cap"):
             found["capture"].append(path)
         elif path.suffix.lower() == ".png":
             # legacy naming from the first polish pass: tell capture (RGB) from master (RGBA)
@@ -943,6 +975,13 @@ def build_parser() -> argparse.ArgumentParser:
     importer.add_argument("--sent-prompt-sha256", required=True)
     importer.add_argument("--polish", action="store_true", help=polish_help)
     importer.add_argument(
+        "--revise",
+        default=None,
+        metavar="REASON",
+        help="versioned re-roll: a fresh generation replacing an accepted image on a corrected brief; "
+             "the current files are retired to _superseded/ as <stem>-<date>-<REASON>-v<N> and version N+1 is recorded",
+    )
+    importer.add_argument(
         "--model",
         default=None,
         help="model id the image tool reports, recorded on the ledger line (default: the route's constant)",
@@ -994,7 +1033,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             return 0
         if args.command == "import":
             return import_png(
-                context, args.input, args.sent_prompt_sha256, polish=polish, model_id=model_id
+                context, args.input, args.sent_prompt_sha256, polish=polish,
+                revise=getattr(args, "revise", None), model_id=model_id,
             )
         if args.command == "revert-polish":
             return revert_polish(context, args.reason, restore=not args.no_restore)
