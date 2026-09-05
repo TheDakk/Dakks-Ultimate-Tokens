@@ -60,11 +60,12 @@ version 2 from pass 1 become version 3.
    to the approved list; `import --revise` for versioned re-rolls; change-magnitude
    classifier and `CHANGELOG.md` generator; `prune-superseded` guarded by the backup
    manifest; aliases for the stand-ins.
-1. **Re-roll block (Codex).** 107 rows (33 anatomy, 31 weapon and proficiency, 12 spell,
-   5 gear, 26 style), fresh generation on corrected briefs through `import --revise`,
-   verify_gate after the block. PASS-2-REROLL.md.
-2. **Polish blocks (Codex).** The remaining 1,301 rows (Xorn and Sahuagin Baron included),
-   polish route, six blocks in job order with the gate after each. PASS-2-POLISH.md.
+1. **The pass (Codex).** One paste, PASS-2.md, all 1,408 rows in job order across as many
+   sessions as it takes: `prompt-json` reads `pass-manifest.json` and returns the route per
+   row (107 `revise` on corrected briefs, 1,301 `polish`) and whether the row is already
+   done; verify_gate every 200 rows, continue on GO, stop on STOP. The twelve rows polished
+   in pass 1 that are not re-rolled are already on the new model and are skipped.
+2. (merged into 1)
 3. **Review and release (Claude).** Every re-roll beside its predecessor on contact sheets;
    polish rows by metrics with eyes on every large change; CHANGELOG; backup v2; prune;
    `npm run art-upload`; build; GitHub release 2.0.0.

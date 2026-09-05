@@ -37,6 +37,17 @@ BUILTIN_MODEL_ID = "gpt-image-2 (Codex built-in)"
 POLISH_MODEL_ID = "unreported (Codex built-in)"
 POLISH_PREAMBLE_FILE = "POLISH-PREAMBLE.txt"
 VERSIONS_FILE = "versions.json"
+PASS_MANIFEST_FILE = "pass-manifest.json"
+
+
+def load_pass_manifest(root: Path) -> dict[str, Any] | None:
+    path = root / PASS_MANIFEST_FILE
+    if not path.is_file():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data.get("revise"), dict) or not isinstance(data.get("baseline_versions"), dict):
+        raise approved.GeneratorError(f"{PASS_MANIFEST_FILE} is malformed: needs 'revise' and 'baseline_versions'")
+    return data
 # The queue generator names every other directory a file serves in the row's notes.
 COPY_NOTE_RE = re.compile(
     r"also drop a copy at \S+?/art/([a-z][a-z-]*)/([A-Za-z0-9][A-Za-z0-9._-]*\.webp)"
@@ -358,6 +369,29 @@ def prompt_object(context: GateContext, *, polish: bool = False) -> dict[str, An
     prompt_hash = approved.sha256_bytes(row.prompt.encode("utf-8"))
     if prompt_hash != row.prompt_sha256:
         raise approved.SourceChangedError(f"{row.job_id} in-memory prompt changed before emission")
+    # A pass manifest decides the route for every row so the generator's agent never looks a
+    # row up in a table: revise:<reason> (fresh generation, corrected brief) or polish.
+    manifest = load_pass_manifest(context.root)
+    route: dict[str, Any] = {}
+    if manifest is not None:
+        if manifest.get("queue_sha256") and manifest["queue_sha256"] != context.queue_hash:
+            raise approved.GeneratorError(
+                f"{PASS_MANIFEST_FILE} was written for queue {manifest['queue_sha256'][:12]}, "
+                f"current queue is {context.queue_hash[:12]}; the reviewer must reissue the manifest"
+            )
+        current = load_versions(context.root).get(version_key(row), 1)
+        baseline = int(manifest["baseline_versions"].get(version_key(row), 1))
+        reason = manifest["revise"].get(row.job_id)
+        # done when revised since the pass began, or when a polish row already stood at
+        # version 2+ at pass start (pass 1 put it on the new model; no second polish)
+        route = {
+            "pass": manifest.get("pass", ""),
+            "route": "revise" if reason else "polish",
+            "revise_reason": reason or "",
+            "done_in_pass": current > baseline or (not reason and baseline >= 2),
+        }
+        if not reason:
+            polish = True
     payload: dict[str, Any] = {
         "job_id": row.job_id,
         "display_name": row.display_name,
@@ -372,6 +406,7 @@ def prompt_object(context: GateContext, *, polish: bool = False) -> dict[str, An
         "master_exists": row.master_path.exists(),
         "export_exists": row.export_path.exists(),
     }
+    payload.update(route)
     if polish:
         full, polish_hash, preamble_hash = polish_prompt(context.root, row)
         capture = capture_path_for(context.root, row)

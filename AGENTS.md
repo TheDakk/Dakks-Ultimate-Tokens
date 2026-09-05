@@ -114,10 +114,10 @@ technical defects; the reviewer catches the rest.
 
 You work on ONE collection per session. `universal` (the generic D&D / Forgotten Realms
 look) is complete (1408/1408) and released as 1.0.0. New rows are not authorised. Universal
-2.0 (PLAN-UNIVERSAL-2.0.md) revises every row: block 1 re-rolls 107 corrected briefs through
-`--revise` (PASS-2-REROLL.md); blocks 2 to 7 polish every other row (PASS-2-POLISH.md). Work
-only the block you were handed; each pass file carries the queue hash it was written for.
-Dark Sun
+2.0 (PLAN-UNIVERSAL-2.0.md) revises every row in one pass, PASS-2.md: `prompt-json` reads
+`pass-manifest.json` and tells you the route per row (`revise` with a reason for the 107
+corrected briefs, `polish` for the rest) and whether the row is already done, so any session
+can resume anywhere. verify_gate.py every 200 rows; continue on GO, stop on STOP. Dark Sun
 is a separate collection and remains blocked until all four prerequisites exist: an accepted
 `darksun-sheet` reference and its hash; its own contract; its own queue and queue hash; and
 its own handshake. Never attach one collection's reference to another collection's rows, and
