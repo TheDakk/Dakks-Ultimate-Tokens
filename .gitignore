@@ -15,3 +15,6 @@ temp-work/
 /masters/
 /_superseded/
 **/*superseded/
+
+# Polish-pass pilot sandbox: captures and keyed candidates for review, never library files.
+pilot-*/

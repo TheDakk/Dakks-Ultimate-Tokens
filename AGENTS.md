@@ -81,7 +81,11 @@ technical defects; the reviewer catches the rest.
 ## Collections
 
 You work on ONE collection per session. `universal` (the generic D&D / Forgotten Realms
-look) is complete (1408/1408), closed, and has no further generation authorization. Dark Sun
+look) is complete (1408/1408) and released as 1.0.0. On 2026-09-05 it was REOPENED for one
+versioned polish pass on the Astra GPT-6 model, all-or-nothing: the pass is in its PILOT
+stage, governed by PILOT-ASTRA-GPT6.md at the repo root. During the pilot nothing enters
+the library: no `import`, no file under art/, masters/, upload/ or the workbook changes;
+pilot outputs live only under pilot-astra/. Dark Sun
 is a separate collection and remains blocked until all four prerequisites exist: an accepted
 `darksun-sheet` reference and its hash; its own contract; its own queue and queue hash; and
 its own handshake. Never attach one collection's reference to another collection's rows, and
