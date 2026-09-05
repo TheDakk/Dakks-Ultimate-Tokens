@@ -1,7 +1,7 @@
 {
  "_format": "Universal 2.0 pass manifest, read by import_builtin_image.py prompt-json. 'revise' maps job_id -> reason tag for the rows generated fresh on corrected briefs (imported with --revise <reason>); every other row is polished (--polish). 'baseline_versions' is art/versions.json at pass start; a row whose current version is above its baseline (absent = 1) is already done in this pass and is skipped.",
  "pass": "2.0",
- "queue_sha256": "d04e9ac3224e86391819ef76095c61274b05026807aaf675d534f7affa8ccd8a",
+ "queue_sha256": "43eceb172a2b86937f4afe2fe0498348953bf2dfdf4aea070ff3ef76277d2b05",
  "started": "2026-09-05",
  "revise": {
   "JOB-0001": "style",

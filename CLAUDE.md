@@ -21,7 +21,7 @@ every revision (redesign / change / polish, by measured difference) into `CHANGE
 backup manifest. The 2.0 plan of record is `PLAN-UNIVERSAL-2.0.md`.
 `verify_gate.py` is the automated gate Codex runs after each block. `npm run art-check` (in
 `C:\Projects\FoundryVTT\DnD2E`) is the suite's intake gate. The handshake that proves a
-reader is on the real queue: `Black Dragon · black-dragon.webp · 1200 · bfe60d6a8251`
+reader is on the real queue: `Black Dragon · black-dragon.webp · 1200 · 4e161de44abf`
 (changes whenever JOB-0001's prompt changes; keep README-UPLOAD and generate_tokens.py in step
 with it).
 

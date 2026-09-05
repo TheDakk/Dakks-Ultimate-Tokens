@@ -38,7 +38,7 @@ MODERATION_FALLBACK_NOTE = (
 )
 REFERENCE_SHA256 = "2b0c44d077d651709fcacc8845c25417815d2df882af4aeeb2fda092cf3554b9"
 REFERENCE_DECLARATION = f"generic-sheet-01.png#{REFERENCE_SHA256}"
-HANDSHAKE = "Black Dragon · black-dragon.webp · 1200 · bfe60d6a8251"
+HANDSHAKE = "Black Dragon · black-dragon.webp · 1200 · 4e161de44abf"
 GATE_1_FIXED = ("JOB-0001", "JOB-0007", "JOB-0012", "JOB-0431")
 RESULT_FIELDS = (
     "job_id",
