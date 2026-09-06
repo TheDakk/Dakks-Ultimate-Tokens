@@ -1,7 +1,7 @@
 {
  "_format": "Universal 2.0 pass manifest, read by import_builtin_image.py prompt-json. 'revise' maps job_id -> reason tag for the rows generated fresh on corrected briefs (imported with --revise <reason>); every other row is polished (--polish). 'baseline_versions' is art/versions.json at pass start; a row whose current version is above its baseline (absent = 1) is already done in this pass and is skipped. 'redo' maps job_id -> version to replace: the row is not done while its version is at or below that number (a reviewer sending it round again).",
  "pass": "2.0",
- "queue_sha256": "ed84e370ad7b77024731f78fda2ee08d4b13e5e4c179560ab340d58c25aac31f",
+ "queue_sha256": "b18e8eef09afb136f3018208110860781e7e1cc2dec038ab1c6338f55c74164b",
  "started": "2026-09-05",
  "revise": {
   "JOB-0001": "style",
@@ -88,6 +88,7 @@
   "JOB-1199": "anatomy",
   "JOB-1209": "gear",
   "JOB-1212": "style",
+  "JOB-1213": "anatomy",
   "JOB-1224": "anatomy",
   "JOB-1225": "anatomy",
   "JOB-1228": "anatomy",
@@ -141,6 +142,7 @@
   "JOB-0847": 2,
   "JOB-0848": 2,
   "JOB-0849": 2,
-  "JOB-0463": 2
+  "JOB-0463": 2,
+  "JOB-1213": 2
  }
 }
