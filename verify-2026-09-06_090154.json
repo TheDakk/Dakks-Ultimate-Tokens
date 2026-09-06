@@ -1,0 +1,28 @@
+{
+  "stamp": "2026-09-06_090154",
+  "verdict": "STOP",
+  "reasons": [
+    "1 master(s) fail pixel checks"
+  ],
+  "cursor_start": 2845,
+  "ledger_total": 3045,
+  "attempted": 200,
+  "generated": 200,
+  "refused": [],
+  "errored": [],
+  "pixel_failures": [
+    "masters/spells/leprechauns-trap.png"
+  ],
+  "log": [
+    "ledger lines: 3045 total, 200 since cursor 2845",
+    "block: attempted=200 generated=200 refused=0 error=0",
+    "  art-check | > ad2e-foundry-suite@0.1.0 art-check",
+    "  art-check | > node tools/check-art.mjs",
+    "  art-check | universal: 1408 of 1408 rows have art (1414 image files scanned)",
+    "  art-check |   1408 pass every check",
+    "  art-check |   6 shared-file copies in place (one file serving a second pack)",
+    "  art-check | All clear. Safe to run npm run build (Foundry closed), then npm run art-upload-clean.",
+    "pixel checks: 200 masters, 1 failing",
+    "  FAIL masters/spells/leprechauns-trap.png: {'corners': [0, 0, 0, 0], 'clear': 0.728, 'hot_magenta': 0, 'green': 4715, 'rose_share': 0.0, 'visible': 107040, 'green_rim_share': 0.395, 'green_in_share': 0.104}"
+  ]
+}

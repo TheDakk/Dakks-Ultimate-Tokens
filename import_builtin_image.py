@@ -33,8 +33,10 @@ import generate_tokens as approved
 import chroma_key
 
 
-BUILTIN_MODEL_ID = "gpt-image-2 (Codex built-in)"
-POLISH_MODEL_ID = "unreported (Codex built-in)"
+# The built-in tool stopped reporting a model id after the first run (which recorded
+# "gpt-image-2 (Codex built-in)"); every record now says so unless --model is passed.
+BUILTIN_MODEL_ID = "unreported (Codex built-in)"
+POLISH_MODEL_ID = BUILTIN_MODEL_ID
 POLISH_PREAMBLE_FILE = "POLISH-PREAMBLE.txt"
 VERSIONS_FILE = "versions.json"
 PASS_MANIFEST_FILE = "pass-manifest.json"
@@ -382,13 +384,17 @@ def prompt_object(context: GateContext, *, polish: bool = False) -> dict[str, An
         current = load_versions(context.root).get(version_key(row), 1)
         baseline = int(manifest["baseline_versions"].get(version_key(row), 1))
         reason = manifest["revise"].get(row.job_id)
+        # a reviewer's redo: the row goes round again until its version passes the number given
+        redo = int((manifest.get("redo") or {}).get(row.job_id, 0))
+        if redo and current <= redo:
+            baseline = current
         # done when revised since the pass began, or when a polish row already stood at
         # version 2+ at pass start (pass 1 put it on the new model; no second polish)
         route = {
             "pass": manifest.get("pass", ""),
             "route": "revise" if reason else "polish",
             "revise_reason": reason or "",
-            "done_in_pass": current > baseline or (not reason and baseline >= 2),
+            "done_in_pass": (current > baseline or (not reason and baseline >= 2)) and not (redo and current <= redo),
         }
         if not reason:
             polish = True

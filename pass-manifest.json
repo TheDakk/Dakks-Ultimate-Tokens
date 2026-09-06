@@ -1,7 +1,7 @@
 {
- "_format": "Universal 2.0 pass manifest, read by import_builtin_image.py prompt-json. 'revise' maps job_id -> reason tag for the rows generated fresh on corrected briefs (imported with --revise <reason>); every other row is polished (--polish). 'baseline_versions' is art/versions.json at pass start; a row whose current version is above its baseline (absent = 1) is already done in this pass and is skipped.",
+ "_format": "Universal 2.0 pass manifest, read by import_builtin_image.py prompt-json. 'revise' maps job_id -> reason tag for the rows generated fresh on corrected briefs (imported with --revise <reason>); every other row is polished (--polish). 'baseline_versions' is art/versions.json at pass start; a row whose current version is above its baseline (absent = 1) is already done in this pass and is skipped. 'redo' maps job_id -> version to replace: the row is not done while its version is at or below that number (a reviewer sending it round again).",
  "pass": "2.0",
- "queue_sha256": "43eceb172a2b86937f4afe2fe0498348953bf2dfdf4aea070ff3ef76277d2b05",
+ "queue_sha256": "ed84e370ad7b77024731f78fda2ee08d4b13e5e4c179560ab340d58c25aac31f",
  "started": "2026-09-05",
  "revise": {
   "JOB-0001": "style",
@@ -58,6 +58,7 @@
   "JOB-0452": "weapon",
   "JOB-0454": "weapon",
   "JOB-0457": "weapon",
+  "JOB-0463": "weapon",
   "JOB-0488": "weapon",
   "JOB-0499": "weapon",
   "JOB-0500": "weapon",
@@ -133,5 +134,13 @@
   "creatures/stone-giant": 2,
   "creatures/titan": 2,
   "creatures/wyvern": 2
+ },
+ "redo": {
+  "JOB-0845": 2,
+  "JOB-0846": 2,
+  "JOB-0847": 2,
+  "JOB-0848": 2,
+  "JOB-0849": 2,
+  "JOB-0463": 2
  }
 }
