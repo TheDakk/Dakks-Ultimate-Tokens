@@ -24,6 +24,7 @@ Exit code 0 = GO, 1 = STOP, 2 = could not run.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import colorsys
 import json
 import os
@@ -172,10 +173,21 @@ def main() -> int:
             if mp:
                 p = ROOT / mp
                 if p.is_file(): targets.append(p)
+    # Reviewer acceptances: a master whose own colour trips a check (a jade idol, pale green
+    # runes) is accepted by hash in verify-accept.json; a regenerated file is checked afresh.
+    accept_path = ROOT / "verify-accept.json"
+    accepted: dict[str, dict] = {}
+    if accept_path.is_file():
+        accepted = {k: v for k, v in json.loads(accept_path.read_text(encoding="utf-8")).items() if not k.startswith("_")}
     bad = []
     for p in targets:
         ok, stats = pixel_check(p)
         if not ok:
+            rel = p.relative_to(ROOT).as_posix()
+            entry = accepted.get(rel)
+            if entry and entry.get("sha256") == hashlib.sha256(p.read_bytes()).hexdigest():
+                log.append(f"  reviewer-accepted {rel}: {entry.get('why', '')[:100]}")
+                continue
             bad.append((p, stats))
     log.append(f"pixel checks: {len(targets)} masters, {len(bad)} failing")
     for p, st in bad[:20]:

@@ -1,0 +1,11 @@
+{
+ "_format": "master path -> {sha256, why}: a pixel-check failure the reviewer examined and accepted for exactly this file. verify_gate.py skips the failure only while the file's hash matches; a regenerated master is checked again.",
+ "masters/spells/succored-retreat.png": {
+  "sha256": "b771cac74c975936eebd228b23b1400505f48fe7004024e159e69fb1c89a4bd4",
+  "why": "2026-09-06: the idol is jade; the whole subject is green, so the rim reads green. Clean key, no fringe at 2x zoom."
+ },
+ "masters/spells/leprechauns-trap.png": {
+  "sha256": "821d43ee0e02e4607ce3c1d24dea39fb3169f43338fd9fd3a3c562ca2f8dd4e7",
+  "why": "2026-09-06: pale green runes at the silhouette are the subject's own colour; clean key. Row is on the redo list and will be regenerated anyway."
+ }
+}

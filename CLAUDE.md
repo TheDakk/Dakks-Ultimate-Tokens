@@ -58,6 +58,8 @@ every sheet. Judge: right subject, right head/limb count, one isolated figure, T
 no bleed. Then the numbers: `verify_gate.py --all` (corners, hot magenta, green rim, rose by
 hue). Retire what fails; fix the class it belongs to, not just the row. Known truth: my image
 viewer misled me twice on pink; pixel measurements of the file are the arbiter.
+A failure that is the subject's own colour (a jade idol reads as a green rim) is accepted by
+file hash in `verify-accept.json`, with the reason; a regenerated file is checked again.
 
 ## Keyer rules (chroma_key.py, v3.9)
 

@@ -1,0 +1,30 @@
+{
+  "stamp": "2026-09-06_154609",
+  "verdict": "GO",
+  "reasons": [],
+  "cursor_start": 2845,
+  "ledger_total": 3245,
+  "attempted": 400,
+  "generated": 398,
+  "refused": [
+    "JOB-1102",
+    "JOB-1190"
+  ],
+  "errored": [],
+  "pixel_failures": [],
+  "log": [
+    "ledger lines: 3245 total, 400 since cursor 2845",
+    "block: attempted=400 generated=398 refused=2 error=0",
+    "  refused JOB-1102: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your requ",
+    "  refused JOB-1190: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your requ",
+    "  art-check | > ad2e-foundry-suite@0.1.0 art-check",
+    "  art-check | > node tools/check-art.mjs",
+    "  art-check | universal: 1408 of 1408 rows have art (1414 image files scanned)",
+    "  art-check |   1408 pass every check",
+    "  art-check |   6 shared-file copies in place (one file serving a second pack)",
+    "  art-check | All clear. Safe to run npm run build (Foundry closed), then npm run art-upload-clean.",
+    "  reviewer-accepted masters/spells/leprechauns-trap.png: 2026-09-06: pale green runes at the silhouette are the subject's own colour; clean key. Row is on th",
+    "  reviewer-accepted masters/spells/succored-retreat.png: 2026-09-06: the idol is jade; the whole subject is green, so the rim reads green. Clean key, no frin",
+    "pixel checks: 398 masters, 0 failing"
+  ]
+}
