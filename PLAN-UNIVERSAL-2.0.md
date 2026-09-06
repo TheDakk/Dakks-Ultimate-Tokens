@@ -48,7 +48,7 @@ record; HISTORY carries the events, `CHANGELOG.md` will carry the per-row outcom
 
 Decision overlay: `audit-dndbeyond-2026-09-05/full-sweep-ledger-decisions.csv` (107 reroll,
 2 cleared, 1,299 polish). Corrected queue SHA-256
-`b18e8eef09afb136f3018208110860781e7e1cc2dec038ab1c6338f55c74164b`; changed prompt set proven
+`b442d639aadcb5c6396ec5e14a864f5a999842f0e19c5c3a5dd16b882e729189`; changed prompt set proven
 equal to the 107 (106 new plus the Behir already in the prior queue). Handshake is now
 `Black Dragon · black-dragon.webp · 1200 · 4e161de44abf`. Eight re-roll rows already at
 version 2 from pass 1 become version 3.
