@@ -16,11 +16,13 @@ edition; `art/creatures/goblin.webp` serves them all.
 Updating in place is safe: filenames never change between versions, so worlds and suites
 that already point at an image simply get the new one.
 
-**Where the images appear.** This module adds no compendium packs, so nothing shows in
-the Compendium sidebar. The images are files: in any image picker, browse to
-`modules/dakks-ultimate-tokens/art/` and pick from the kind folders (creatures, spells,
-weapons and so on). A game suite built against this library, such as Dakk's AD&D 2e suite,
-wires them to its actors and items automatically.
+**Where the images appear.** Open the compendium **Dakk's Ultimate Tokens** (a journal
+compendium, so it works in any game system): one journal per kind, pages of thumbnails with
+each image's name and file path; click a thumbnail to see it full size. To put an image on
+an actor, token or item, use its image picker and browse to
+`modules/dakks-ultimate-tokens/art/` and the kind folder named under the thumbnail. A game
+suite built against this library, such as Dakk's AD&D 2e suite, wires the images to its
+actors and items automatically.
 
 ## What is inside
 
@@ -37,6 +39,7 @@ art/skills/         thief skills
 art/tables/         treasure and encounter table emblems
 art/journals/       journal art
 art/aliases.json    alternate names that resolve to the same image
+packs/gallery       the journal compendium that catalogues all of the above
 ```
 
 Every image is a square WebP with real transparency, exported at the size its token
