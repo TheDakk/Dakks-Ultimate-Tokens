@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 (2026-09-07)
+
+Compendium: creatures can now be browsed three ways. Besides the A-to-Z journal, "Creatures by type" groups them as beasts, humanoids, undead, dragons, fiends and the rest, and "Creatures by challenge" groups them by challenge rating band with each creature's CR shown. Pick the journal you want; its page list on the left is the navigation. Types and ratings come from the SRD 5.1 monster table where the name matches, and from the reviewer for the rest. No image changes.
+
 ## 2.1.0 (2026-09-07)
 
 New: a compendium. The module now carries one journal compendium, "Dakk's Ultimate Tokens", that catalogues every image by kind with a thumbnail, its name and its file path, so the library can be browsed inside Foundry in any game system. No image changes.
