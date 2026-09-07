@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.2 (2026-09-07)
+
+One file renamed: the documentation journal image for Dakk's D&D 2e Core is now journals/dakks-2e.webp, matching that module's new id. No other change.
+
 ## 2.2.1 (2026-09-07)
 
 Compendium navigation tidied: "Creatures by Challenge" has one page per challenge rating (CR 0, CR 1/8, CR 1/4, CR 1/2, CR 1, CR 2 and so on), "Creatures by Type" one page per type, no page split into parts, and journal names no longer carry counts. No image changes.
