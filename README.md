@@ -16,6 +16,12 @@ edition; `art/creatures/goblin.webp` serves them all.
 Updating in place is safe: filenames never change between versions, so worlds and suites
 that already point at an image simply get the new one.
 
+**Where the images appear.** This module adds no compendium packs, so nothing shows in
+the Compendium sidebar. The images are files: in any image picker, browse to
+`modules/dakks-ultimate-tokens/art/` and pick from the kind folders (creatures, spells,
+weapons and so on). A game suite built against this library, such as Dakk's AD&D 2e suite,
+wires them to its actors and items automatically.
+
 ## What is inside
 
 ```
