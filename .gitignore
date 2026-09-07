@@ -1,0 +1,3 @@
+# The public repository holds release files only; see the pipeline's publish_release.py.
+.DS_Store
+Thumbs.db

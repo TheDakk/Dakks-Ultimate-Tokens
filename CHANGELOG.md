@@ -1,0 +1,1432 @@
+# Changelog
+
+## 2.0.0 (2026-09-06)
+
+1408 of 1408 rows revised: 109 redesigned, 126 changed noticeably, 1173 polished. Filenames are unchanged; the version number lives in the workbook and art/versions.json.
+
+### Redesigned (109)
+
+Fresh paintings on corrected briefs: the previous image had the wrong body plan, identity or object.
+
+- Black Dragon (JOB-0001) v3 (style) diff 33.17, scale x0.99
+- Blue Dragon (JOB-0002) v2 (style) diff 35.68, scale x0.956
+- Brass Dragon (JOB-0003) v2 (style) diff 29.81, scale x0.947
+- Bronze Dragon (JOB-0004) v2 (style) diff 29.0, scale x1.013
+- Chimera (JOB-0006) v2 (anatomy) diff 28.69, scale x0.902
+- Cloud Giant (JOB-0007) v2 (style) diff 18.79, scale x1.011
+- Troll (JOB-0023) v2 (style) diff 26.31, scale x0.863
+- Basilisk (JOB-0032) v2 (anatomy) diff 21.23, scale x0.931
+- Behir (JOB-0033) v2 (anatomy) diff 28.12, scale x0.777
+- Black Pudding (JOB-0034) v2 (anatomy) diff 27.46, scale x0.968
+- Brownie (JOB-0036) v2 (anatomy) diff 19.24, scale x0.822
+- Cockatrice (JOB-0039) v2 (anatomy) diff 24.28, scale x0.942
+- Corpse Ravager (JOB-0040) v2 (anatomy) diff 24.63, scale x0.833
+- Couatl (JOB-0041) v2 (anatomy) diff 24.79, scale x0.942
+- Dretch (JOB-0043) v2 (anatomy) diff 17.24, scale x0.872
+- Efreeti (JOB-0046) v2 (anatomy) diff 22.92, scale x0.784
+- Gazer (JOB-0049) v2 (anatomy) diff 25.57, scale x1.0
+- Griffon (JOB-0053) v2 (style) diff 21.61, scale x0.962
+- Manticore (JOB-0060) v2 (anatomy) diff 25.67, scale x1.031
+- Medusa (JOB-0062) v2 (anatomy) diff 18.67, scale x0.907
+- Night Hag (JOB-0066) v2 (style) diff 19.05, scale x1.025
+- Nixie (JOB-0067) v2 (anatomy) diff 11.48, scale x0.881
+- Otyugh (JOB-0069) v2 (anatomy) diff 32.88, scale x0.905
+- Owlbear (JOB-0070) v2 (style) diff 24.98, scale x1.036
+- Rakshasa (JOB-0074) v2 (style) diff 18.93, scale x0.947
+- Remorhaz (JOB-0075) v2 (anatomy) diff 29.0, scale x0.932
+- Salamander (JOB-0076) v2 (anatomy) diff 29.35, scale x0.898
+- Sprite (JOB-0082) v2 (anatomy) diff 20.21, scale x0.988
+- Triton (JOB-0086) v2 (anatomy) diff 15.49, scale x0.914
+- Tunnel Lurk (JOB-0087) v2 (anatomy) diff 27.86, scale x0.929
+- Winter Wolf (JOB-0095) v2 (style) diff 24.33, scale x0.975
+- Yeti (JOB-0101) v2 (gear) diff 27.82, scale x0.971
+- Barding, Full Scale (JOB-0129) v2 (weapon) diff 30.52, scale x1.053
+- Barding, Half Scale (JOB-0132) v2 (weapon) diff 30.38, scale x1.064
+- Arquebus (JOB-0349) v2 (weapon) diff 5.57, scale x0.951
+- Arquebus Shot (JOB-0350) v2 (weapon) diff 18.9, scale x0.874
+- Awl Pike (JOB-0353) v2 (weapon) diff 3.51, scale x1.163
+- Bardiche (JOB-0354) v2 (weapon) diff 5.15, scale x0.975
+- Bec de Corbin (JOB-0358) v2 (weapon) diff 6.37, scale x0.912
+- Fauchard (JOB-0370) v2 (weapon) diff 3.8, scale x1.023
+- Guisarme (JOB-0377) v2 (weapon) diff 4.65, scale x1.054
+- Guisarme-Voulge (JOB-0378) v2 (weapon) diff 2.9, scale x1.011
+- Khopesh (JOB-0389) v2 (weapon) diff 7.0, scale x0.945
+- Jousting Lance (JOB-0392) v2 (weapon) diff 3.76, scale x1.011
+- Lucern Hammer (JOB-0398) v2 (weapon) diff 9.1, scale x0.833
+- Man Catcher (JOB-0399) v2 (weapon) diff 5.12, scale x1.08
+- Partisan (JOB-0402) v2 (weapon) diff 4.47, scale x1.141
+- Hand Quarrel (10) (JOB-0403) v2 (weapon) diff 17.05, scale x1.018
+- Light Quarrel (10) (JOB-0405) v2 (weapon) diff 14.21, scale x0.869
+- Spetum (JOB-0417) v2 (weapon) diff 2.74, scale x1.107
+- Arquebus (JOB-0449) v2 (weapon) diff 6.78, scale x1.12
+- Awl Pike (JOB-0452) v2 (weapon) diff 5.42, scale x1.069
+- Bardiche (JOB-0454) v2 (weapon) diff 5.45, scale x0.876
+- Bec de Corbin (JOB-0457) v2 (weapon) diff 9.76, scale x0.923
+- Bow (Weaponry Group) (JOB-0463) v3 (weapon) diff 21.94, scale x1.015
+- Fauchard (JOB-0488) v2 (weapon) diff 8.04, scale x1.154
+- Guisarme (JOB-0499) v2 (weapon) diff 6.57, scale x0.517
+- Guisarme-Voulge (JOB-0500) v2 (weapon) diff 7.74, scale x0.821
+- Khopesh (JOB-0522) v2 (weapon) diff 9.04, scale x1.099
+- Lucern Hammer (JOB-0540) v2 (weapon) diff 11.15, scale x0.905
+- Man Catcher (JOB-0541) v2 (weapon) diff 26.57, scale x0.919
+- Morning Star (JOB-0552) v2 (weapon) diff 18.62, scale x1.112
+- Partisan (JOB-0554) v2 (weapon) diff 6.73, scale x0.607
+- Spetum (JOB-0582) v2 (weapon) diff 13.56, scale x0.676
+- Animal Growth (JOB-0627) v2 (spell) diff 22.15, scale x0.9
+- Blink (JOB-0657) v2 (spell) diff 32.97, scale x1.157
+- Chill Touch (JOB-0672) v2 (spell) diff 20.19, scale x1.188
+- Glass Steel (JOB-0797) v2 (spell) diff 21.59, scale x0.841
+- Hold Person (JOB-0813) v2 (spell) diff 33.31, scale x1.067
+- Leprechaun’s Lamentable Belaborment (JOB-0845) v3 (spell) diff 21.62, scale x1.117
+- Leprechaun’s Secret Chest (JOB-0846) v3 (spell) diff 28.82, scale x0.958
+- Leprechaun’s Secure Shelter (JOB-0847) v3 (spell) diff 23.56, scale x0.944
+- Leprechaun’s Tiny Hut (JOB-0848) v3 (spell) diff 15.5, scale x1.0
+- Leprechaun’s Trap (JOB-0849) v3 (spell) diff 22.69, scale x1.161
+- Pass Without Trace (JOB-0908) v2 (spell) diff 29.51, scale x1.105
+- Rope Trick (JOB-0959) v2 (spell) diff 6.22, scale x1.881
+- Awakened Tree (JOB-1168) v3 (style) diff 26.71, scale x1.031
+- Balor (JOB-1173) v3 (style) diff 32.32, scale x0.958
+- Bearded Devil (JOB-1179) v2 (style) diff 19.82, scale x0.908
+- Bone Devil (JOB-1185) v2 (style) diff 26.76, scale x0.966
+- Constrictor Snake (JOB-1196) v2 (style) diff 22.25, scale x0.99
+- Crawling Claw (JOB-1199) v2 (anatomy) diff 17.86, scale x0.858
+- Dire Wolf (JOB-1209) v2 (gear) diff 22.96, scale x0.953
+- Dragon Turtle (JOB-1212) v3 (style) diff 28.04, scale x0.962
+- Drider (JOB-1213) v3 (anatomy) diff 20.74, scale x1.027
+- Erinyes (JOB-1224) v2 (anatomy) diff 28.15, scale x0.989
+- Ettercap (JOB-1225) v2 (anatomy) diff 25.84, scale x0.926
+- Flameskull (JOB-1228) v2 (anatomy) diff 17.11, scale x0.787
+- Giant Ape (JOB-1235) v3 (gear) diff 21.82, scale x0.966
+- Giant Constrictor Snake (JOB-1240) v3 (style) diff 19.55, scale x0.989
+- Giant Sea Horse (JOB-1255) v2 (anatomy) diff 19.08, scale x0.777
+- Glabrezu (JOB-1264) v2 (anatomy) diff 30.59, scale x1.105
+- Gold Dragon (JOB-1270) v2 (style) diff 25.74, scale x1.004
+- Green Dragon (JOB-1273) v2 (style) diff 29.01, scale x1.009
+- Grick (JOB-1275) v2 (anatomy) diff 17.46, scale x0.939
+- Grimlock (JOB-1276) v2 (style) diff 18.42, scale x0.984
+- Hell Hound (JOB-1282) v2 (gear) diff 18.87, scale x0.926
+- Hippogriff (JOB-1285) v2 (anatomy) diff 22.09, scale x0.989
+- Killer Whale (JOB-1298) v3 (style) diff 24.12, scale x0.928
+- Kraken (JOB-1300) v2 (style) diff 26.18, scale x1.013
+- Lemure (JOB-1305) v2 (anatomy) diff 23.14, scale x1.134
+- Merrow (JOB-1318) v2 (anatomy) diff 21.75, scale x1.016
+- Quasit (JOB-1346) v2 (anatomy) diff 17.55, scale x0.942
+- Rug of Smothering (JOB-1356) v2 (anatomy) diff 25.59, scale x0.933
+- Silver Dragon (JOB-1370) v2 (style) diff 30.45, scale x0.995
+- Stone Giant (JOB-1377) v3 (style) diff 26.06, scale x0.831
+- Vrock (JOB-1398) v2 (anatomy) diff 27.58, scale x0.981
+- Water Elemental (JOB-1402) v2 (gear) diff 19.73, scale x0.928
+- White Dragon (JOB-1407) v2 (style) diff 28.16, scale x0.939
+
+### Changed noticeably (126)
+
+Image-to-image revisions whose measured difference from the previous painting is large; reviewed by eye.
+
+- Lizard, Fire (JOB-0017) v2 diff 14.05, scale x1.011
+- Earth Elemental (JOB-0045) v2 diff 12.71, scale x0.999
+- Phase Spider (JOB-0071) v2 diff 18.22, scale x1.03
+- Tarrasque (JOB-0083) v2 diff 16.09, scale x1.024
+- Wereboar (JOB-0092) v2 diff 15.13, scale x1.055
+- Chain Mail (JOB-0106) v2 diff 12.71, scale x1.045
+- Field Plate (JOB-0107) v2 diff 11.97, scale x1.056
+- Barrel of Picked Fish (JOB-0135) v2 diff 13.73, scale x1.05
+- Plain Brooch (JOB-0151) v2 diff 13.8, scale x1.036
+- Canoe, War (JOB-0160) v2 diff 10.24, scale x1.086
+- Eggs or Fresh Vegetables (JOB-0198) v2 diff 18.25, scale x1.011
+- Firewood (per day) (JOB-0204) v2 diff 12.72, scale x1.042
+- Meals, Poor (per day) (JOB-0251) v2 diff 13.14, scale x1.056
+- Salt (per lb.) (JOB-0295) v2 diff 14.48, scale x1.08
+- Clerk (per letter) (JOB-0303) v2 diff 16.87, scale x1.023
+- Sheep (JOB-0313) v2 diff 12.49, scale x1.016
+- Blind-Fight (JOB-0460) v2 diff 10.65, scale x1.073
+- Endurance (JOB-0485) v2 diff 12.56, scale x1.025
+- Healing (JOB-0505) v2 diff 12.21, scale x1.017
+- Weapon Specialization: Heavy Crossbow (Levels 1-6) (JOB-0507) v2 diff 13.21, scale x1.004
+- Weapon Specialization: Heavy Crossbow (Levels 13+) (JOB-0508) v2 diff 14.13, scale x1.054
+- Instrument (JOB-0518) v2 diff 15.97, scale x1.075
+- Weapon Specialization: Light Crossbow (Levels 13+) (JOB-0534) v2 diff 13.05, scale x1.017
+- Mining (JOB-0547) v2 diff 12.56, scale x1.028
+- Missile-Weapon Method (JOB-0548) v2 diff 12.34, scale x1.038
+- Religion (JOB-0564) v2 diff 16.51, scale x1.04
+- Singing (JOB-0575) v2 diff 13.7, scale x1.027
+- Sling (JOB-0579) v2 diff 13.57, scale x1.071
+- Spellcraft (JOB-0581) v2 diff 16.01, scale x1.036
+- Stonemason (JOB-0584) v2 diff 17.63, scale x1.009
+- Weapon Specialization: Thrown Dart (Levels 13+) (JOB-0592) v2 diff 22.4, scale x1.128
+- Weapon Specialization: Thrown Dart (Levels 7-12) (JOB-0593) v2 diff 15.25, scale x1.018
+- Unarmed Combat Specialization (Fighter Only) (JOB-0599) v2 diff 13.08, scale x1.023
+- Move Silently (JOB-0614) v2 diff 12.59, scale x1.063
+- Aerial Servant (JOB-0619) v2 diff 10.41, scale x1.084
+- Airy Water (JOB-0623) v2 diff 12.5, scale x1.003
+- Animal Friendship (JOB-0626) v2 diff 12.25, scale x1.025
+- Armor (JOB-0638) v2 diff 14.07, scale x1.002
+- Call Lightning (JOB-0660) v2 diff 16.85, scale x1.008
+- Cantrip (JOB-0662) v2 diff 2.52, scale x1.076
+- Chariot of the Sun (JOB-0668) v2 diff 14.29, scale x1.025
+- Cloud Kill (JOB-0677) v2 diff 14.95, scale x0.996
+- Conjure Animals (JOB-0686) v2 diff 15.78, scale x1.072
+- Control Temperature, 10’ Radius (JOB-0694) v2 diff 13.26, scale x1.073
+- Creeping Doom (JOB-0700) v2 diff 16.86, scale x1.08
+- Cure Disease (JOB-0704) v2 diff 17.56, scale x1.031
+- Cure Light Wounds (JOB-0705) v2 diff 14.2, scale x1.054
+- Detect Invisibility (JOB-0720) v2 diff 15.43, scale x1.0
+- Dream (JOB-0736) v2 diff 12.73, scale x1.042
+- Dust Devil (JOB-0738) v2 diff 7.67, scale x1.054
+- Enthrall (JOB-0749) v2 diff 15.5, scale x1.043
+- Faerie Fire (JOB-0759) v2 diff 12.74, scale x1.038
+- Find the Path (JOB-0766) v2 diff 14.77, scale x1.017
+- Fire Charm (JOB-0769) v2 diff 14.34, scale x1.037
+- Flame Arrow (JOB-0775) v2 diff 5.67, scale x1.051
+- Floating Disc (JOB-0780) v2 diff 9.62, scale x1.089
+- Force Cage (JOB-0785) v2 diff 14.36, scale x1.031
+- Freezing Sphere (JOB-0789) v2 diff 21.8, scale x1.085
+- Globe of Invulnerability (JOB-0799) v2 diff 14.0, scale x1.023
+- Good Berry (JOB-0801) v2 diff 10.77, scale x1.058
+- Gust of Wind (JOB-0804) v2 diff 16.62, scale x1.012
+- Hallucinatory Forest (JOB-0805) v2 diff 14.03, scale x1.009
+- Hallucinatory Terrain (JOB-0806) v2 diff 15.63, scale x1.016
+- Hold Animal (JOB-0811) v2 diff 14.53, scale x1.014
+- Hold Monster (JOB-0812) v2 diff 12.44, scale x1.012
+- Imprisonment (JOB-0825) v2 diff 14.45, scale x1.061
+- Irritation (JOB-0839) v2 diff 14.07, scale x1.012
+- Legend Lore (JOB-0844) v2 diff 13.24, scale x1.013
+- Mage’s Lucubration (JOB-0860) v2 diff 13.59, scale x1.06
+- Mass Charm (JOB-0872) v2 diff 15.65, scale x1.024
+- Maze (JOB-0876) v2 diff 21.05, scale x1.02
+- Minor Creation (JOB-0883) v2 diff 13.12, scale x1.021
+- Minor Globe of Invulnerability (JOB-0884) v2 diff 12.1, scale x1.027
+- Monster Summoning V (JOB-0895) v2 diff 12.92, scale x1.024
+- Part Water (JOB-0905) v2 diff 12.76, scale x1.022
+- Permanency (JOB-0909) v2 diff 13.77, scale x1.071
+- Plant Door (JOB-0916) v2 diff 17.39, scale x1.033
+- Plant Growth (JOB-0917) v2 diff 17.98, scale x1.034
+- Power Word, Blind (JOB-0921) v2 diff 12.6, scale x1.056
+- Power Word, Kill (JOB-0922) v2 diff 13.3, scale x1.003
+- Power Word, Stun (JOB-0923) v2 diff 13.8, scale x1.013
+- Prayer (JOB-0924) v2 diff 12.66, scale x1.052
+- Protection From Evil, 10’ Radius (JOB-0934) v2 diff 23.74, scale x1.055
+- Purify Food & Drink (JOB-0938) v2 diff 13.44, scale x1.004
+- Rainbow Pattern (JOB-0942) v2 diff 18.52, scale x1.057
+- Sink (JOB-0981) v2 diff 15.21, scale x1.012
+- Solid Fog (JOB-0987) v2 diff 13.36, scale x1.044
+- Speak With Dead (JOB-0989) v2 diff 13.66, scale x1.027
+- Spell Turning (JOB-0996) v2 diff 17.05, scale x1.027
+- Stinking Cloud (JOB-1005) v2 diff 12.92, scale x1.02
+- Trap the Soul (JOB-1030) v2 diff 10.73, scale x1.06
+- Wall of Fire (JOB-1043) v2 diff 14.39, scale x1.046
+- Wall of Ice (JOB-1046) v2 diff 18.97, scale x1.012
+- Wall of Thorns (JOB-1049) v2 diff 14.67, scale x1.027
+- Whispering Wind (JOB-1056) v2 diff 12.2, scale x1.049
+- Wish (JOB-1059) v2 diff 13.46, scale x1.034
+- Wizard Lock (JOB-1062) v2 diff 13.73, scale x1.014
+- Objects of Art (JOB-1069) v2 diff 14.59, scale x1.087
+- Books and Tomes (JOB-1072) v2 diff 13.26, scale x1.056
+- Combined Hoard Table (JOB-1076) v2 diff 14.32, scale x1.021
+- Random Gemstones (JOB-1082) v2 diff 14.71, scale x1.065
+- Jewels & Jewelry — Sub-Table B (JOB-1090) v2 diff 12.7, scale x1.021
+- Rings (JOB-1106) v2 diff 14.3, scale x1.048
+- Treasure Type D (JOB-1126) v2 diff 17.78, scale x1.042
+- Treasure Type H (JOB-1130) v2 diff 13.76, scale x1.036
+- Treasure Hiding (JOB-1131) v2 diff 14.61, scale x1.035
+- Treasure Type M (JOB-1136) v2 diff 10.84, scale x1.099
+- Treasure Type O (JOB-1138) v2 diff 14.59, scale x1.055
+- Treasure Type R (JOB-1141) v2 diff 13.24, scale x1.056
+- Treasure Type Z (JOB-1150) v2 diff 14.93, scale x1.045
+- Awakened Shrub (JOB-1167) v2 diff 15.85, scale x1.037
+- Badger (JOB-1172) v2 diff 14.65, scale x1.073
+- Boar (JOB-1184) v2 diff 13.48, scale x1.021
+- Gelatinous Cube (JOB-1233) v2 diff 14.36, scale x1.019
+- Giant Crocodile (JOB-1242) v2 diff 15.51, scale x1.017
+- Giant Vulture (JOB-1259) v2 diff 13.51, scale x1.01
+- Hawk (JOB-1281) v2 diff 12.11, scale x1.015
+- Mimic (JOB-1319) v2 diff 12.53, scale x1.02
+- Panther (JOB-1334) v2 diff 11.76, scale x1.056
+- Rat (JOB-1348) v2 diff 13.72, scale x1.079
+- Rust Monster (JOB-1357) v2 diff 12.46, scale x1.023
+- Sea Horse (JOB-1366) v2 diff 8.3, scale x1.066
+- Stone Golem (JOB-1378) v2 diff 13.27, scale x0.996
+- Swarm of Centipedes (JOB-1383) v2 diff 14.76, scale x1.01
+- Swarm of Quippers (JOB-1386) v2 diff 15.1, scale x1.025
+- Violet Fungus (JOB-1397) v2 diff 12.63, scale x1.013
+
+### Polished (1173)
+
+Image-to-image revisions with the same design: sharper detail, cleaner edges, richer material.
+
+- Bugbear (JOB-0005) v2 diff 4.25, scale x1.0
+- Cryohydra (JOB-0008) v2 diff 10.85, scale x1.007
+- Fire Giant (JOB-0009) v2 diff 2.73, scale x1.0
+- Frost Giant (JOB-0010) v2 diff 5.08, scale x1.006
+- Gnoll (JOB-0011) v2 diff 7.75, scale x1.003
+- Goblin (JOB-0012) v2 diff 6.57, scale x1.01
+- Half-Ogre (JOB-0013) v2 diff 2.87, scale x1.0
+- Half-Orc (JOB-0014) v2 diff 3.59, scale x1.004
+- Hobgoblin (JOB-0015) v2 diff 6.87, scale x1.018
+- Hydra (JOB-0016) v2 diff 5.16, scale x0.999
+- Lizard, Minotaur (JOB-0018) v2 diff 10.42, scale x1.016
+- Lizardman (JOB-0019) v2 diff 7.63, scale x1.018
+- Minotaur (JOB-0020) v2 diff 5.63, scale x1.006
+- Ogre (JOB-0021) v2 diff 2.87, scale x1.001
+- Orc (JOB-0022) v2 diff 2.01, scale x1.0
+- Dwarf (JOB-0024) v2 diff 8.27, scale x0.998
+- Elf (JOB-0025) v2 diff 3.04, scale x1.006
+- Gnome (JOB-0026) v2 diff 3.14, scale x1.002
+- Half-Elf (JOB-0027) v2 diff 1.39, scale x1.0
+- Halfling (JOB-0028) v2 diff 6.34, scale x1.005
+- Human (JOB-0029) v2 diff 1.93, scale x1.003
+- Aerial Servant (JOB-0030) v2 diff 5.98, scale x1.003
+- Air Elemental (JOB-0031) v2 diff 6.2, scale x1.001
+- Brown Pudding (JOB-0035) v2 diff 5.13, scale x1.005
+- Centaur (JOB-0037) v2 diff 1.02, scale x1.0
+- Clay Golem (JOB-0038) v2 diff 4.01, scale x1.005
+- Djinni (JOB-0042) v2 diff 2.41, scale x0.998
+- Dryad (JOB-0044) v2 diff 2.97, scale x1.0
+- Ettin (JOB-0047) v2 diff 3.89, scale x1.002
+- Flesh Golem (JOB-0048) v2 diff 5.83, scale x1.003
+- Ghast (JOB-0050) v2 diff 1.07, scale x1.0
+- Ghoul (JOB-0051) v2 diff 1.47, scale x1.0
+- Gorgimera (JOB-0052) v2 diff 2.55, scale x1.0
+- Harpy (JOB-0054) v2 diff 2.75, scale x1.0
+- Invisible Stalker (JOB-0055) v2 diff 3.97, scale x1.003
+- Juju Zombie (JOB-0056) v2 diff 4.12, scale x1.001
+- Kobold (JOB-0057) v2 diff 8.7, scale x1.003
+- Leprechaun (JOB-0058) v2 diff 1.67, scale x1.0
+- Lich (JOB-0059) v2 diff 2.52, scale x1.0
+- Marilith (JOB-0061) v2 diff 1.76, scale x0.999
+- Mongrelman (JOB-0063) v2 diff 4.92, scale x1.006
+- Mudman (JOB-0064) v2 diff 4.12, scale x0.983
+- Mummy (JOB-0065) v2 diff 3.33, scale x1.0
+- Nymph (JOB-0068) v2 diff 3.89, scale x1.002
+- Pit Fiend (JOB-0072) v2 diff 4.42, scale x1.0
+- Pixie (JOB-0073) v2 diff 2.31, scale x1.002
+- Satyr (JOB-0077) v2 diff 7.69, scale x1.027
+- Shadow (JOB-0078) v2 diff 2.1, scale x1.001
+- Skeleton (JOB-0079) v2 diff 3.93, scale x1.001
+- Specter (JOB-0080) v2 diff 4.3, scale x1.0
+- Spigazu (JOB-0081) v2 diff 5.92, scale x1.007
+- Titan (JOB-0084) v2 diff 3.14, scale x1.0
+- Treant (JOB-0085) v2 diff 10.51, scale x1.013
+- Unicorn (JOB-0088) v2 diff 6.31, scale x1.011
+- Vampire (JOB-0089) v2 diff 2.85, scale x1.0
+- Water Serpent (JOB-0090) v2 diff 1.19, scale x1.0
+- Werebear (JOB-0091) v2 diff 2.39, scale x1.001
+- Wight (JOB-0093) v2 diff 6.97, scale x1.025
+- Will O’ Wisp (JOB-0094) v2 diff 2.43, scale x1.016
+- Wolfwere (JOB-0096) v2 diff 4.04, scale x1.001
+- Worg (JOB-0097) v2 diff 9.2, scale x1.025
+- Wraith (JOB-0098) v2 diff 2.93, scale x1.001
+- Wyvern (JOB-0099) v2 diff 3.55, scale x1.0
+- Xorn (JOB-0100) v2 diff 1.79, scale x1.0
+- Zombie (JOB-0102) v2 diff 2.57, scale x1.0
+- Banded Mail (JOB-0103) v2 diff 6.42, scale x1.004
+- Brigandine (JOB-0104) v2 diff 3.03, scale x1.001
+- Bronze Plate Mail (JOB-0105) v2 diff 1.44, scale x1.0
+- Full Plate (JOB-0108) v2 diff 1.79, scale x1.001
+- Basinet (JOB-0109) v2 diff 3.11, scale x1.002
+- Cap (JOB-0110) v2 diff 2.33, scale x1.0
+- Coif (JOB-0111) v2 diff 4.56, scale x1.001
+- Great Helm (JOB-0112) v2 diff 5.13, scale x1.014
+- Open-Face Helm (JOB-0113) v2 diff 6.55, scale x1.006
+- Leather Armor (JOB-0114) v2 diff 3.49, scale x1.003
+- Padded Armor (JOB-0115) v2 diff 5.47, scale x1.001
+- Plate Mail (JOB-0116) v2 diff 1.78, scale x1.003
+- Scale Mail (JOB-0117) v2 diff 2.48, scale x1.0
+- Body Shield (JOB-0118) v2 diff 3.12, scale x1.005
+- Buckler (JOB-0119) v2 diff 7.41, scale x1.016
+- Medium Shield (JOB-0120) v2 diff 1.91, scale x1.0
+- Small Shield (JOB-0121) v2 diff 7.23, scale x1.019
+- Splint Mail (JOB-0122) v2 diff 3.08, scale x1.001
+- Studded Leather (JOB-0123) v2 diff 4.48, scale x1.006
+- Ale (per gallon) (JOB-0124) v2 diff 3.45, scale x1.0
+- Backpack (JOB-0125) v2 diff 1.6, scale x1.001
+- Banquet (per person) (JOB-0126) v2 diff 5.82, scale x1.001
+- Barding, Chain (JOB-0127) v2 diff 8.27, scale x1.013
+- Barding, Full Plate (JOB-0128) v2 diff 11.2, scale x1.048
+- Barding, Half Brigandine (JOB-0130) v2 diff 3.02, scale x1.002
+- Barding, Half Padded (JOB-0131) v2 diff 1.21, scale x1.001
+- Barding, Leather or Padded (JOB-0133) v2 diff 2.1, scale x1.002
+- Barge (JOB-0134) v2 diff 5.22, scale x1.03
+- Barrel, Small (JOB-0136) v2 diff 2.58, scale x1.006
+- Basket, Large (JOB-0137) v2 diff 6.04, scale x1.007
+- Basket, Small (JOB-0138) v2 diff 2.17, scale x1.0
+- Bell (JOB-0139) v2 diff 1.67, scale x1.002
+- Belt (JOB-0140) v2 diff 1.36, scale x1.0
+- Belt Pouch, Large (JOB-0141) v2 diff 2.69, scale x0.999
+- Belt Pouch, Small (JOB-0142) v2 diff 3.09, scale x1.002
+- Bit and Bridle (JOB-0143) v2 diff 1.37, scale x1.0
+- Block and Tackle (JOB-0144) v2 diff 1.15, scale x1.0
+- Boar (JOB-0145) v2 diff 3.14, scale x1.002
+- Bolt Case (JOB-0146) v2 diff 5.58, scale x1.018
+- Riding Boots (JOB-0147) v2 diff 0.87, scale x1.0
+- Soft Boots (JOB-0148) v2 diff 5.15, scale x1.019
+- Bread (JOB-0149) v2 diff 7.29, scale x1.013
+- Breeches (JOB-0150) v2 diff 2.08, scale x1.0
+- Bucket (JOB-0152) v2 diff 0.85, scale x1.0
+- Bull (JOB-0153) v2 diff 5.88, scale x1.011
+- Butter (per lb.) (JOB-0154) v2 diff 8.98, scale x1.008
+- Calf (JOB-0155) v2 diff 2.48, scale x1.0
+- Camel (JOB-0156) v2 diff 5.58, scale x1.007
+- Candle, Tallow (JOB-0157) v2 diff 7.74, scale x1.033
+- Candle, Wax (JOB-0158) v2 diff 0.57, scale x1.001
+- Canoe, Small (JOB-0159) v2 diff 0.94, scale x1.004
+- Canvas (per square yard) (JOB-0161) v2 diff 5.55, scale x1.031
+- Cap or Hat (JOB-0162) v2 diff 0.9, scale x1.0
+- Capon (JOB-0163) v2 diff 2.49, scale x0.999
+- Caravel (JOB-0164) v2 diff 4.87, scale x1.004
+- Carriage, Common (JOB-0165) v2 diff 1.92, scale x1.0
+- Cart Harness (JOB-0166) v2 diff 1.09, scale x1.002
+- Cat (JOB-0167) v2 diff 3.29, scale x1.002
+- Chain, Heavy (per foot) (JOB-0168) v2 diff 4.7, scale x1.014
+- Chain, Light (per foot) (JOB-0169) v2 diff 3.92, scale x1.037
+- Chalk (JOB-0170) v2 diff 1.65, scale x1.002
+- Chariot, Riding (JOB-0171) v2 diff 0.81, scale x1.001
+- Chariot, War (JOB-0172) v2 diff 6.86, scale x1.027
+- Cheese (JOB-0173) v2 diff 10.06, scale x1.033
+- Chest, Large (JOB-0174) v2 diff 2.66, scale x1.002
+- Chest, Small (JOB-0175) v2 diff 4.08, scale x1.007
+- Chicken (JOB-0176) v2 diff 1.21, scale x0.999
+- City Rooms, Common (per month) (JOB-0177) v2 diff 2.02, scale x0.999
+- City Rooms, Poor (per month) (JOB-0178) v2 diff 3.69, scale x1.003
+- Cloak, Common Fur (JOB-0179) v2 diff 10.25, scale x1.042
+- Cloak, Good Cloth (JOB-0180) v2 diff 1.91, scale x1.0
+- Cloth, Common (per 10 square yards) (JOB-0181) v2 diff 5.29, scale x1.013
+- Cloth, Fine (per 10 square yards) (JOB-0182) v2 diff 2.88, scale x1.004
+- Cloth, Rich (per 10 square yards) (JOB-0183) v2 diff 4.08, scale x0.999
+- Coach, Ornamented (JOB-0184) v2 diff 1.62, scale x1.0
+- Coarse Sugar (per lb.) (JOB-0185) v2 diff 7.63, scale x1.026
+- Coaster (JOB-0186) v2 diff 3.73, scale x1.002
+- Cog (JOB-0187) v2 diff 7.31, scale x1.016
+- Common Wine (pitcher) (JOB-0188) v2 diff 0.94, scale x1.001
+- Cow (JOB-0189) v2 diff 1.32, scale x1.0
+- Crampons (JOB-0190) v2 diff 1.92, scale x1.006
+- Curragh (JOB-0191) v2 diff 6.61, scale x1.032
+- Dog, Guard (JOB-0192) v2 diff 2.15, scale x1.0
+- Dog, Hunting (JOB-0193) v2 diff 7.99, scale x1.012
+- Dog, War (JOB-0194) v2 diff 4.99, scale x1.006
+- Donkey, Mule, Ass (JOB-0195) v2 diff 2.28, scale x1.001
+- Drakkar (JOB-0196) v2 diff 2.71, scale x1.0
+- Dromond (JOB-0197) v2 diff 8.37, scale x1.038
+- Eggs (per 100) (JOB-0199) v2 diff 9.55, scale x1.011
+- Elephant, Labor (JOB-0200) v2 diff 8.84, scale x1.003
+- Elephant, War (JOB-0201) v2 diff 2.46, scale x1.0
+- Falcon (trained) (JOB-0202) v2 diff 7.82, scale x1.016
+- Figs (per lb.) (JOB-0203) v2 diff 8.03, scale x1.039
+- Fishhook (JOB-0205) v2 diff 0.58, scale x1.0
+- Fishing Net, 10 Feet Square (JOB-0206) v2 diff 6.78, scale x1.027
+- Flint and Steel (JOB-0207) v2 diff 1.03, scale x1.0
+- Galleon (JOB-0208) v2 diff 8.99, scale x1.019
+- Girdle (JOB-0209) v2 diff 9.74, scale x1.038
+- Glass Bottle (JOB-0210) v2 diff 5.02, scale x1.016
+- Gloves (JOB-0211) v2 diff 1.91, scale x1.002
+- Goat (JOB-0212) v2 diff 5.17, scale x1.009
+- Goose (JOB-0213) v2 diff 1.28, scale x1.001
+- Gown, Common (JOB-0214) v2 diff 2.52, scale x1.0
+- Grappling Hook (JOB-0215) v2 diff 6.72, scale x1.022
+- Great Galley (JOB-0216) v2 diff 2.18, scale x0.999
+- Guinea Hen (JOB-0217) v2 diff 1.34, scale x1.0
+- Halter (JOB-0218) v2 diff 1.41, scale x1.001
+- Herbs (per day) (JOB-0219) v2 diff 11.6, scale x1.044
+- Holy Item (JOB-0220) v2 diff 5.18, scale x1.011
+- Honey (JOB-0221) v2 diff 2.04, scale x1.003
+- Horse, Draft (JOB-0222) v2 diff 3.11, scale x1.0
+- Horse, Heavy War (JOB-0223) v2 diff 2.06, scale x1.001
+- Horse, Light War (JOB-0224) v2 diff 1.01, scale x1.0
+- Horse, Medium War (JOB-0225) v2 diff 9.59, scale x1.003
+- Horse, Riding (JOB-0226) v2 diff 5.04, scale x1.013
+- Horseshoes and Shoeing (JOB-0227) v2 diff 1.01, scale x1.0
+- Hose (JOB-0228) v2 diff 1.21, scale x1.0
+- Hourglass (JOB-0229) v2 diff 7.37, scale x1.027
+- Hunting Cat (jaguar, panther, etc.) (JOB-0230) v2 diff 2.81, scale x1.006
+- Inn Lodging, Common (per day/week) (JOB-0231) v2 diff 5.52, scale x1.01
+- Inn Lodging, Common (per day/week) - second listing (JOB-0232) v2 diff 8.81, scale x1.019
+- Iron Pot (JOB-0233) v2 diff 4.63, scale x1.009
+- Knarr (JOB-0234) v2 diff 8.08, scale x1.02
+- Knife Sheath (JOB-0235) v2 diff 0.8, scale x1.0
+- Ladder, 10 Feet (JOB-0236) v2 diff 0.54, scale x1.003
+- Lantern, Beacon (JOB-0237) v2 diff 1.65, scale x1.002
+- Lantern, Bull's-Eye (JOB-0238) v2 diff 8.35, scale x1.034
+- Lantern, Hooded (JOB-0239) v2 diff 5.03, scale x1.017
+- Lifestyle, Middle-Class (per month) (JOB-0240) v2 diff 2.7, scale x1.001
+- Lifestyle, Poor (per month) (JOB-0241) v2 diff 3.32, scale x1.002
+- Lifestyle, Squalid (per month) (JOB-0242) v2 diff 3.32, scale x1.007
+- Lifestyle, Wealthy (per month) (JOB-0243) v2 diff 5.29, scale x1.003
+- Lock, Good (JOB-0244) v2 diff 9.11, scale x1.029
+- Lock, Poor (JOB-0245) v2 diff 6.79, scale x1.027
+- Longship (JOB-0246) v2 diff 9.45, scale x1.015
+- Magnifying Glass (JOB-0247) v2 diff 1.92, scale x1.0
+- Map or Scroll Case (JOB-0248) v2 diff 3.72, scale x1.002
+- Meals, Common (per day) (JOB-0249) v2 diff 7.66, scale x1.005
+- Meals, Good (per day) (JOB-0250) v2 diff 2.6, scale x1.0
+- Meat (one meal) (JOB-0252) v2 diff 3.51, scale x1.002
+- Merchant's Scale (JOB-0253) v2 diff 1.47, scale x1.006
+- Mirror, Small Metal (JOB-0254) v2 diff 3.52, scale x1.02
+- Mittens (JOB-0255) v2 diff 3.07, scale x1.0
+- Musical Instrument (JOB-0256) v2 diff 0.58, scale x1.001
+- Nuts (per lb.) (JOB-0257) v2 diff 3.48, scale x1.0
+- Oar, Common (JOB-0258) v2 diff 0.97, scale x1.001
+- Oar, Galley (JOB-0259) v2 diff 0.62, scale x1.0
+- Oil, Greek Fire (per flask) (JOB-0260) v2 diff 7.76, scale x1.016
+- Oil, Lamp (per flask) (JOB-0261) v2 diff 1.99, scale x1.0
+- Ox (JOB-0262) v2 diff 7.04, scale x1.015
+- Paper (per sheet) (JOB-0263) v2 diff 2.56, scale x1.002
+- Papyrus (per sheet) (JOB-0264) v2 diff 1.3, scale x1.001
+- Parchment (per sheet) (JOB-0265) v2 diff 5.84, scale x1.029
+- Partridge (JOB-0266) v2 diff 2.36, scale x1.0
+- Peacock (JOB-0267) v2 diff 2.28, scale x1.001
+- Perfume (per vial) (JOB-0268) v2 diff 6.57, scale x1.013
+- Pig (JOB-0269) v2 diff 4.25, scale x1.003
+- Pigeon (JOB-0270) v2 diff 1.59, scale x1.001
+- Pigeon, Messenger (JOB-0271) v2 diff 0.89, scale x1.0
+- Pin (JOB-0272) v2 diff 0.49, scale x1.001
+- Piton (JOB-0273) v2 diff 0.83, scale x1.0
+- Pony (JOB-0274) v2 diff 1.22, scale x1.001
+- Quiver (JOB-0275) v2 diff 0.83, scale x1.001
+- Raft or Small Keelboat (JOB-0276) v2 diff 3.01, scale x1.001
+- Raisins (per lb.) (JOB-0277) v2 diff 2.74, scale x1.0
+- Ram (JOB-0278) v2 diff 3.33, scale x1.0
+- Dry Rations (per week) (JOB-0279) v2 diff 6.59, scale x1.021
+- Rice (per lb.) (JOB-0280) v2 diff 5.54, scale x1.003
+- Robe, Common (JOB-0281) v2 diff 3.04, scale x1.0
+- Robe, Embroidered (JOB-0282) v2 diff 3.81, scale x1.005
+- Rope, Hemp (per 50 feet) (JOB-0283) v2 diff 1.4, scale x1.001
+- Rope, Silk (per 50 feet) (JOB-0284) v2 diff 2.49, scale x1.002
+- Sack, Extra-Large (JOB-0285) v2 diff 1.69, scale x1.0
+- Sack, Large (JOB-0286) v2 diff 1.76, scale x1.001
+- Sack, Small (JOB-0287) v2 diff 4.39, scale x1.011
+- Sack, Tiny (JOB-0288) v2 diff 3.97, scale x1.011
+- Saddle Bags, Large (JOB-0289) v2 diff 4.99, scale x0.995
+- Saddle Bags, Small (JOB-0290) v2 diff 1.6, scale x1.002
+- Saddle Blanket (JOB-0291) v2 diff 11.39, scale x1.009
+- Saddle, Pack (JOB-0292) v2 diff 1.39, scale x1.004
+- Saddle, Riding (JOB-0293) v2 diff 1.22, scale x1.001
+- Sail (JOB-0294) v2 diff 2.74, scale x1.0
+- Salted Herring (per 100) (JOB-0296) v2 diff 9.99, scale x1.023
+- Sandals (JOB-0297) v2 diff 8.45, scale x1.023
+- Sash (JOB-0298) v2 diff 1.98, scale x1.0
+- Sealing/Candle Wax (per lb.) (JOB-0299) v2 diff 1.05, scale x1.001
+- Sedan Chair (JOB-0300) v2 diff 1.71, scale x1.002
+- Separate Latrine for Rooms (per month) (JOB-0301) v2 diff 2.28, scale x1.001
+- Bath (JOB-0302) v2 diff 1.16, scale x1.001
+- Doctor, Leech, or Bleeding (JOB-0304) v2 diff 11.38, scale x1.024
+- Guide, City (per day) (JOB-0305) v2 diff 3.09, scale x1.0
+- Lantern or Torchbearer (per night) (JOB-0306) v2 diff 1.05, scale x1.001
+- Laundry (by load) (JOB-0307) v2 diff 4.97, scale x1.003
+- Messenger, City (per message) (JOB-0308) v2 diff 2.63, scale x1.001
+- Minstrel (per performance) (JOB-0309) v2 diff 2.87, scale x1.001
+- Mourner (per funeral) (JOB-0310) v2 diff 4.25, scale x1.002
+- Teamster with Wagon (per mile) (JOB-0311) v2 diff 7.01, scale x1.019
+- Sewing Needle (JOB-0312) v2 diff 0.41, scale x1.001
+- Shoes (JOB-0314) v2 diff 7.63, scale x1.017
+- Signal Whistle (JOB-0315) v2 diff 2.53, scale x1.008
+- Signet Ring or Personal Seal (JOB-0316) v2 diff 1.92, scale x1.001
+- Silk Jacket (JOB-0317) v2 diff 1.76, scale x1.0
+- Small Beer (per gallon) (JOB-0318) v2 diff 5.34, scale x1.014
+- Soap (per lb.) (JOB-0319) v2 diff 1.77, scale x1.001
+- Songbird (JOB-0320) v2 diff 3.4, scale x1.008
+- Soup (JOB-0321) v2 diff 1.24, scale x1.001
+- Spice, Exotic (per lb.) (JOB-0322) v2 diff 8.35, scale x1.037
+- Spice, Rare (per lb.) (JOB-0323) v2 diff 6.47, scale x1.024
+- Spice, Uncommon (per lb.) (JOB-0324) v2 diff 1.88, scale x1.001
+- Spyglass (JOB-0325) v2 diff 1.87, scale x1.003
+- Stabling for Horse (daily) (JOB-0326) v2 diff 7.2, scale x1.007
+- Surcoat (JOB-0327) v2 diff 4.03, scale x1.016
+- Swan (JOB-0328) v2 diff 3.74, scale x1.005
+- Sword Scabbard, Hanger, Baldric (JOB-0329) v2 diff 2.85, scale x1.016
+- Tabard (JOB-0330) v2 diff 2.06, scale x1.0
+- Tent, Large (JOB-0331) v2 diff 1.62, scale x1.001
+- Tent, Pavilion (JOB-0332) v2 diff 4.58, scale x1.0
+- Tent, Small (JOB-0333) v2 diff 2.58, scale x1.001
+- Thieves' Picks (JOB-0334) v2 diff 1.55, scale x1.001
+- Toga, Coarse (JOB-0335) v2 diff 9.8, scale x1.002
+- Torch (JOB-0336) v2 diff 0.88, scale x1.002
+- Tun of Cider (250 gal.) (JOB-0337) v2 diff 3.08, scale x1.001
+- Tun of Good Wine (250 gal.) (JOB-0338) v2 diff 2.61, scale x1.0
+- Tunic (JOB-0339) v2 diff 1.19, scale x1.0
+- Vest (JOB-0340) v2 diff 7.06, scale x1.023
+- Wagon or Cart Wheel (JOB-0341) v2 diff 1.41, scale x1.0
+- Water Clock (JOB-0342) v2 diff 2.06, scale x1.0
+- Whetstone (JOB-0343) v2 diff 6.05, scale x1.015
+- Wineskin (JOB-0344) v2 diff 0.92, scale x1.001
+- Winter Blanket (JOB-0345) v2 diff 7.0, scale x1.011
+- Writing Ink (per vial) (JOB-0346) v2 diff 1.74, scale x1.002
+- Yoke, Horse (JOB-0347) v2 diff 4.91, scale x1.001
+- Yoke, Ox (JOB-0348) v2 diff 1.55, scale x1.001
+- Flight Arrow (12) (JOB-0351) v2 diff 0.24, scale x1.0
+- Sheaf Arrow (6) (JOB-0352) v2 diff 4.31, scale x1.015
+- Bastard Sword (One-Handed) (JOB-0355) v2 diff 2.41, scale x1.008
+- Bastard Sword (Two-Handed) (JOB-0356) v2 diff 0.65, scale x1.002
+- Battle Axe (JOB-0357) v2 diff 0.6, scale x1.0
+- Bill-Guisarme (JOB-0359) v2 diff 0.35, scale x1.001
+- Blowgun (JOB-0360) v2 diff 0.82, scale x1.001
+- Barbed Blowgun Dart (10) (JOB-0361) v2 diff 1.43, scale x1.0
+- Needle Blowgun Dart (10) (JOB-0362) v2 diff 0.5, scale x1.0
+- Broad Sword (JOB-0363) v2 diff 0.68, scale x1.0
+- Club (JOB-0364) v2 diff 0.94, scale x1.001
+- Composite Long Bow (JOB-0365) v2 diff 0.36, scale x1.0
+- Composite Short Bow (JOB-0366) v2 diff 0.67, scale x1.0
+- Cutlass (JOB-0367) v2 diff 0.97, scale x1.001
+- Dagger / Dirk (JOB-0368) v2 diff 0.32, scale x1.001
+- Dart (JOB-0369) v2 diff 0.54, scale x1.0
+- Fauchard-Fork (JOB-0371) v2 diff 0.25, scale x1.0
+- Footman's Flail (JOB-0372) v2 diff 0.58, scale x1.0
+- Footman's Mace (JOB-0373) v2 diff 1.36, scale x1.005
+- Footman's Pick (JOB-0374) v2 diff 1.73, scale x1.009
+- Glaive (JOB-0375) v2 diff 0.49, scale x1.001
+- Glaive-Guisarme (JOB-0376) v2 diff 0.55, scale x1.0
+- Halberd (JOB-0379) v2 diff 0.92, scale x1.003
+- Hand Axe (Throwing Axe) (JOB-0380) v2 diff 1.05, scale x1.002
+- Hand Crossbow (JOB-0381) v2 diff 4.59, scale x1.032
+- Harpoon (JOB-0382) v2 diff 1.48, scale x1.014
+- Heavy Crossbow (JOB-0383) v2 diff 4.55, scale x1.02
+- Hook Fauchard (JOB-0384) v2 diff 0.34, scale x1.0
+- Horseman's Flail (JOB-0385) v2 diff 0.33, scale x1.0
+- Horseman's Mace (JOB-0386) v2 diff 2.4, scale x1.02
+- Horseman's Pick (JOB-0387) v2 diff 0.27, scale x1.001
+- Javelin (JOB-0388) v2 diff 0.26, scale x1.0
+- Knife (JOB-0390) v2 diff 0.94, scale x1.002
+- Heavy Lance (JOB-0391) v2 diff 0.28, scale x1.001
+- Light Lance (JOB-0393) v2 diff 0.27, scale x0.999
+- Medium Lance (JOB-0394) v2 diff 0.39, scale x1.0
+- Light Crossbow (JOB-0395) v2 diff 1.85, scale x0.999
+- Long Bow (JOB-0396) v2 diff 0.4, scale x1.001
+- Long Sword (JOB-0397) v2 diff 0.83, scale x1.0
+- Military Fork (JOB-0400) v2 diff 0.93, scale x1.0
+- Morning Star (JOB-0401) v2 diff 0.41, scale x1.0
+- Heavy Quarrel (10) (JOB-0404) v2 diff 0.79, scale x1.0
+- Quarterstaff (JOB-0406) v2 diff 0.38, scale x1.001
+- Ranseur (JOB-0407) v2 diff 0.24, scale x1.001
+- Scimitar (JOB-0408) v2 diff 0.5, scale x1.0
+- Scourge (JOB-0409) v2 diff 0.51, scale x1.001
+- Short Bow (JOB-0410) v2 diff 0.62, scale x1.0
+- Short Sword (JOB-0411) v2 diff 0.54, scale x1.001
+- Sickle (JOB-0412) v2 diff 0.53, scale x1.0
+- Sling (JOB-0413) v2 diff 0.65, scale x1.002
+- Sling Bullet (10) (JOB-0414) v2 diff 0.71, scale x1.002
+- Sling Stone (JOB-0415) v2 diff 5.91, scale x1.012
+- Spear (JOB-0416) v2 diff 1.91, scale x0.998
+- Staff Sling (JOB-0418) v2 diff 0.91, scale x1.001
+- Trident (JOB-0419) v2 diff 0.33, scale x1.0
+- Two-Handed Sword (JOB-0420) v2 diff 0.59, scale x1.0
+- Voulge (JOB-0421) v2 diff 0.36, scale x1.0
+- War Hammer (JOB-0422) v2 diff 2.1, scale x1.004
+- Whip (JOB-0423) v2 diff 7.53, scale x1.012
+- Abjurer (JOB-0424) v2 diff 1.97, scale x1.0
+- Bard (JOB-0425) v2 diff 3.25, scale x0.999
+- Cleric (JOB-0426) v2 diff 8.24, scale x1.018
+- Conjurer (JOB-0427) v2 diff 5.27, scale x1.001
+- Diviner (JOB-0428) v2 diff 2.87, scale x1.002
+- Druid (JOB-0429) v2 diff 1.12, scale x1.0
+- Enchanter (JOB-0430) v2 diff 3.85, scale x1.002
+- Fighter (JOB-0431) v2 diff 1.92, scale x1.002
+- Illusionist (JOB-0432) v2 diff 2.33, scale x1.0
+- Invoker (JOB-0433) v2 diff 1.91, scale x1.005
+- Mage (JOB-0434) v2 diff 3.51, scale x1.008
+- Necromancer (JOB-0435) v2 diff 7.96, scale x1.027
+- Paladin (JOB-0436) v2 diff 2.47, scale x1.0
+- Ranger (JOB-0437) v2 diff 3.39, scale x1.008
+- Thief (JOB-0438) v2 diff 0.89, scale x1.001
+- Transmuter (JOB-0439) v2 diff 1.41, scale x1.0
+- AD&D 2e Core — Documentation (JOB-0440) v2 diff 6.02, scale x1.001
+- Acrobatics (JOB-0441) v2 diff 2.88, scale x1.001
+- Agriculture (JOB-0442) v2 diff 4.43, scale x1.008
+- Ambidexterity (JOB-0443) v2 diff 4.99, scale x1.015
+- Ancient History (JOB-0444) v2 diff 9.88, scale x1.018
+- Animal Handling (JOB-0445) v2 diff 4.34, scale x1.002
+- Animal Lore (JOB-0446) v2 diff 9.74, scale x1.029
+- Appraise (JOB-0447) v2 diff 5.1, scale x1.004
+- Armorer (JOB-0448) v2 diff 2.71, scale x1.002
+- Artist (JOB-0450) v2 diff 5.71, scale x1.006
+- Astrology (JOB-0451) v2 diff 10.7, scale x1.023
+- Axe (Weaponry Group) (JOB-0453) v2 diff 2.37, scale x0.999
+- Bastard Sword (JOB-0455) v2 diff 0.59, scale x1.001
+- Battle Axe (JOB-0456) v2 diff 0.92, scale x1.0
+- Bill-Guisarme (JOB-0458) v2 diff 1.33, scale x0.999
+- Blacksmith (JOB-0459) v2 diff 10.46, scale x1.004
+- Blowgun (JOB-0461) v2 diff 1.44, scale x1.0
+- Bludgeoning Weaponry (Type) (JOB-0462) v2 diff 7.82, scale x1.025
+- Bowyer/Fletcher (JOB-0464) v2 diff 6.27, scale x1.022
+- Brawling-Attack Method (JOB-0465) v2 diff 3.27, scale x1.0
+- Brewing (JOB-0466) v2 diff 2.25, scale x1.002
+- Broad Sword (JOB-0467) v2 diff 1.24, scale x1.002
+- Carpentry (JOB-0468) v2 diff 6.29, scale x1.004
+- Cavalry (Weaponry Group) (JOB-0469) v2 diff 2.45, scale x1.0
+- Charioteer (JOB-0470) v2 diff 6.85, scale x1.012
+- Climbing (JOB-0471) v2 diff 2.91, scale x1.001
+- Club (Weaponry Group) (JOB-0472) v2 diff 3.09, scale x1.005
+- Cobbler (JOB-0473) v2 diff 6.36, scale x1.012
+- Composite Long Bow (JOB-0474) v2 diff 1.3, scale x1.004
+- Composite Short Bow (JOB-0475) v2 diff 0.39, scale x1.001
+- Cooking (JOB-0476) v2 diff 2.23, scale x0.999
+- Cross-Country Running (JOB-0477) v2 diff 1.52, scale x1.003
+- Crossbow (Weaponry Group) (JOB-0478) v2 diff 1.41, scale x1.001
+- Cutlass (JOB-0479) v2 diff 1.15, scale x1.002
+- Dagger / Dirk (JOB-0480) v2 diff 0.68, scale x1.0
+- Dance (JOB-0481) v2 diff 3.58, scale x1.001
+- Dart (JOB-0482) v2 diff 1.74, scale x1.022
+- Disguise (JOB-0483) v2 diff 3.83, scale x0.999
+- Dual-Weapon Method (JOB-0484) v2 diff 0.64, scale x1.001
+- Engineering (JOB-0486) v2 diff 9.29, scale x1.004
+- Etiquette (JOB-0487) v2 diff 3.39, scale x0.999
+- Fauchard-Fork (JOB-0489) v2 diff 3.96, scale x1.026
+- Fishing (JOB-0490) v2 diff 8.85, scale x1.011
+- Footman's Flail (JOB-0491) v2 diff 0.79, scale x1.001
+- Footman's Mace (JOB-0492) v2 diff 0.56, scale x1.0
+- Footman's Pick (JOB-0493) v2 diff 0.91, scale x1.002
+- Forgery (JOB-0494) v2 diff 3.76, scale x1.001
+- Gaming (JOB-0495) v2 diff 8.22, scale x1.016
+- Gem Cutting (JOB-0496) v2 diff 11.53, scale x1.031
+- Glaive (JOB-0497) v2 diff 1.19, scale x1.011
+- Glaive-Guisarme (JOB-0498) v2 diff 0.35, scale x1.0
+- Halberd (JOB-0501) v2 diff 0.39, scale x1.0
+- Hand Axe (Throwing Axe) (JOB-0502) v2 diff 5.36, scale x1.018
+- Hand Crossbow (JOB-0503) v2 diff 1.06, scale x1.001
+- Harpoon (JOB-0504) v2 diff 0.5, scale x1.001
+- Heavy Crossbow (JOB-0506) v2 diff 2.42, scale x1.003
+- Weapon Specialization: Heavy Crossbow (Levels 7-12) (JOB-0509) v2 diff 9.55, scale x1.022
+- Herbalism (JOB-0510) v2 diff 1.28, scale x1.001
+- Hook Fauchard (JOB-0511) v2 diff 0.72, scale x1.002
+- Horseman's Flail (JOB-0512) v2 diff 1.33, scale x1.005
+- Horseman's Mace (JOB-0513) v2 diff 2.25, scale x1.002
+- Horseman's Pick (JOB-0514) v2 diff 1.23, scale x1.001
+- Hunting (JOB-0515) v2 diff 6.95, scale x1.004
+- Hurled-Weapon Method (JOB-0516) v2 diff 1.57, scale x1.001
+- Infantry (Weaponry Group) (JOB-0517) v2 diff 5.0, scale x1.024
+- Javelin (JOB-0519) v2 diff 0.34, scale x1.0
+- Juggling (JOB-0520) v2 diff 1.14, scale x1.001
+- Jumping (JOB-0521) v2 diff 3.54, scale x1.021
+- Knife (JOB-0523) v2 diff 0.99, scale x1.001
+- Knowledge (JOB-0524) v2 diff 7.98, scale x1.018
+- Lance (Weaponry Group) (JOB-0525) v2 diff 4.61, scale x1.02
+- Heavy Lance (JOB-0526) v2 diff 0.47, scale x0.999
+- Jousting Lance (JOB-0527) v2 diff 1.72, scale x1.018
+- Light Lance (JOB-0528) v2 diff 1.21, scale x0.999
+- Medium Lance (JOB-0529) v2 diff 0.5, scale x1.0
+- Languages, Ancient (JOB-0530) v2 diff 2.11, scale x0.992
+- Languages, Modern (JOB-0531) v2 diff 7.73, scale x1.007
+- Light Crossbow (JOB-0532) v2 diff 2.75, scale x1.004
+- Weapon Specialization: Light Crossbow (Levels 1-6) (JOB-0533) v2 diff 2.01, scale x1.001
+- Weapon Specialization: Light Crossbow (Levels 7-12) (JOB-0535) v2 diff 6.11, scale x1.01
+- Local History (JOB-0536) v2 diff 6.62, scale x1.005
+- Long Blade (Weaponry Group) (JOB-0537) v2 diff 0.65, scale x1.001
+- Long Bow (JOB-0538) v2 diff 0.16, scale x0.998
+- Long Sword (JOB-0539) v2 diff 0.78, scale x1.001
+- Medium Blade (Weaponry Group) (JOB-0542) v2 diff 4.96, scale x1.021
+- Weapon Specialization: Melee Weapon (Levels 1-6) (JOB-0543) v2 diff 2.77, scale x1.0
+- Weapon Specialization: Melee Weapon (Levels 13+) (JOB-0544) v2 diff 2.17, scale x1.004
+- Weapon Specialization: Melee Weapon (Levels 7-12) (JOB-0545) v2 diff 9.1, scale x1.032
+- Military Fork (JOB-0546) v2 diff 3.45, scale x1.018
+- Weapon Specialization: Missile Weapons (Levels 1-6) (JOB-0549) v2 diff 1.41, scale x1.0
+- Weapon Specialization: Missile Weapons (Levels 13+) (JOB-0550) v2 diff 4.93, scale x1.019
+- Weapon Specialization: Missile Weapons (Levels 7-12) (JOB-0551) v2 diff 5.41, scale x1.016
+- Navigation (JOB-0553) v2 diff 7.15, scale x1.006
+- Perform (JOB-0555) v2 diff 6.0, scale x1.0
+- Piercing Weaponry (Type) (JOB-0556) v2 diff 2.92, scale x1.01
+- Pole Arm (Weaponry Group) (JOB-0557) v2 diff 2.33, scale x1.002
+- Pottery (JOB-0558) v2 diff 1.35, scale x1.001
+- Quarterstaff (JOB-0559) v2 diff 1.24, scale x1.001
+- Ranseur (JOB-0560) v2 diff 0.61, scale x1.0
+- Read Lips (JOB-0561) v2 diff 1.15, scale x1.002
+- Read/Write Language (JOB-0562) v2 diff 5.58, scale x1.01
+- Release Action (Weaponry Group) (JOB-0563) v2 diff 2.14, scale x1.006
+- Riding (JOB-0565) v2 diff 2.47, scale x1.001
+- Scimitar (JOB-0566) v2 diff 3.62, scale x1.029
+- Scourge (JOB-0567) v2 diff 5.54, scale x1.013
+- Seamanship (JOB-0568) v2 diff 2.53, scale x1.001
+- Seamstress/Tailor (JOB-0569) v2 diff 2.2, scale x1.0
+- Set Snares and Traps (JOB-0570) v2 diff 1.07, scale x1.002
+- Short Blade (Weaponry Group) (JOB-0571) v2 diff 3.45, scale x1.018
+- Short Bow (JOB-0572) v2 diff 0.85, scale x1.001
+- Short Sword (JOB-0573) v2 diff 1.06, scale x1.0
+- Sickle (JOB-0574) v2 diff 1.29, scale x1.0
+- Single-Weapon Method (JOB-0576) v2 diff 0.7, scale x1.002
+- Single-Weapon Method Specialization (JOB-0577) v2 diff 3.42, scale x1.004
+- Slashing Weaponry (Type) (JOB-0578) v2 diff 11.02, scale x1.022
+- Spear (Weaponry Group) (JOB-0580) v2 diff 1.49, scale x1.004
+- Staff Sling (JOB-0583) v2 diff 1.85, scale x1.003
+- Survival (JOB-0585) v2 diff 1.72, scale x1.0
+- Swimming (JOB-0586) v2 diff 2.91, scale x1.002
+- Tanner (JOB-0587) v2 diff 2.84, scale x1.004
+- Weapon Specialization: Thrown Dagger (Levels 1-6) (JOB-0588) v2 diff 1.69, scale x1.003
+- Weapon Specialization: Thrown Dagger (Levels 13+) (JOB-0589) v2 diff 6.97, scale x1.019
+- Weapon Specialization: Thrown Dagger (Levels 7-12) (JOB-0590) v2 diff 7.89, scale x1.018
+- Weapon Specialization: Thrown Dart (Levels 1-6) (JOB-0591) v2 diff 1.26, scale x1.002
+- Tracking (JOB-0594) v2 diff 10.13, scale x1.015
+- Trade (JOB-0595) v2 diff 0.79, scale x1.0
+- Trident (JOB-0596) v2 diff 0.58, scale x1.003
+- Two-Handed Method (JOB-0597) v2 diff 1.11, scale x1.0
+- Two-Handed Sword (JOB-0598) v2 diff 0.69, scale x1.0
+- Use Rope (JOB-0600) v2 diff 6.55, scale x1.004
+- Voulge (JOB-0601) v2 diff 1.02, scale x1.0
+- War Hammer (JOB-0602) v2 diff 5.34, scale x1.014
+- Weapon-Shield Method (JOB-0603) v2 diff 3.38, scale x1.011
+- Weapon-Shield Method Specialization (JOB-0604) v2 diff 1.51, scale x1.0
+- Weaponsmith (JOB-0605) v2 diff 2.46, scale x1.0
+- Weaving (JOB-0606) v2 diff 5.17, scale x1.0
+- Whip (JOB-0607) v2 diff 8.92, scale x1.03
+- Wrestling-Attack Method (JOB-0608) v2 diff 2.24, scale x1.001
+- Backstab (JOB-0609) v2 diff 0.5, scale x1.001
+- Climb Walls (Bard) (JOB-0610) v2 diff 9.29, scale x1.015
+- Detect Noise (Bard) (JOB-0611) v2 diff 2.39, scale x1.003
+- Find/Remove Traps (JOB-0612) v2 diff 0.92, scale x1.0
+- Hide in Shadows (JOB-0613) v2 diff 1.92, scale x1.002
+- Open Locks (JOB-0615) v2 diff 6.95, scale x1.014
+- Pick Pockets (Bard) (JOB-0616) v2 diff 9.62, scale x1.02
+- Read Languages (Bard) (JOB-0617) v2 diff 5.38, scale x1.004
+- Advanced Illusion (JOB-0618) v2 diff 3.85, scale x1.004
+- Affect Normal Fires (JOB-0620) v2 diff 0.42, scale x1.003
+- Aid (JOB-0621) v2 diff 1.22, scale x1.001
+- Air Walk (JOB-0622) v2 diff 7.78, scale x1.004
+- Alarm (JOB-0624) v2 diff 0.86, scale x1.001
+- Alter Self (JOB-0625) v2 diff 3.86, scale x1.001
+- Animal Summoning I (JOB-0628) v2 diff 4.87, scale x1.016
+- Animal Summoning II (JOB-0629) v2 diff 3.29, scale x1.001
+- Animal Summoning III (JOB-0630) v2 diff 0.91, scale x1.0
+- Animate Dead (JOB-0631) v2 diff 1.14, scale x1.005
+- Animate Object (JOB-0632) v2 diff 6.36, scale x1.013
+- Animate Rock (JOB-0633) v2 diff 10.78, scale x1.008
+- Anti-Animal Shell (JOB-0634) v2 diff 3.39, scale x1.0
+- Anti-Magic Shell (JOB-0635) v2 diff 5.11, scale x1.001
+- Anti-Plant Shell (JOB-0636) v2 diff 9.66, scale x1.019
+- Antipathy-Sympathy (JOB-0637) v2 diff 6.87, scale x1.013
+- Astral Spell (JOB-0639) v2 diff 7.58, scale x1.01
+- Atonement (JOB-0640) v2 diff 3.84, scale x1.0
+- Audible Glamer (JOB-0641) v2 diff 6.33, scale x1.007
+- Augury (JOB-0642) v2 diff 9.88, scale x1.037
+- Avoidance (JOB-0643) v2 diff 1.01, scale x1.002
+- Banishment (JOB-0644) v2 diff 2.86, scale x1.007
+- Bark Skin (JOB-0645) v2 diff 8.78, scale x1.017
+- Big Clenched Fist (JOB-0646) v2 diff 5.96, scale x1.011
+- Big Crushing Hand (JOB-0647) v2 diff 5.5, scale x1.008
+- Big Forceful Hand (JOB-0648) v2 diff 10.27, scale x1.014
+- Big Grasping Hand (JOB-0649) v2 diff 9.47, scale x1.01
+- Big Interposing Hand (JOB-0650) v2 diff 1.75, scale x1.001
+- Bind (JOB-0651) v2 diff 1.52, scale x1.001
+- Binding (JOB-0652) v2 diff 2.16, scale x1.001
+- Black Tentacles (JOB-0653) v2 diff 10.11, scale x1.028
+- Blade Barrier (JOB-0654) v2 diff 3.99, scale x1.002
+- Bless (JOB-0655) v2 diff 1.05, scale x1.0
+- Blindness (JOB-0656) v2 diff 2.93, scale x1.0
+- Blur (JOB-0658) v2 diff 1.28, scale x1.0
+- Burning Hands (JOB-0659) v2 diff 10.48, scale x1.017
+- Call Woodland Beings (JOB-0661) v2 diff 6.65, scale x1.022
+- Chain Lightning (JOB-0663) v2 diff 7.99, scale x1.002
+- Change Self (JOB-0664) v2 diff 0.85, scale x1.001
+- Change Staff (JOB-0665) v2 diff 1.11, scale x1.003
+- Chant (JOB-0666) v2 diff 4.25, scale x1.0
+- Chaos (JOB-0667) v2 diff 3.11, scale x1.0
+- Charm (JOB-0669) v2 diff 3.03, scale x1.0
+- Charm Monster (JOB-0670) v2 diff 4.0, scale x0.997
+- Charm Plants (JOB-0671) v2 diff 3.24, scale x1.005
+- Clairaudience (JOB-0673) v2 diff 10.28, scale x1.018
+- Clairvoyance (JOB-0674) v2 diff 1.32, scale x1.0
+- Cloak of Bravery (JOB-0675) v2 diff 5.23, scale x1.006
+- Clone (JOB-0676) v2 diff 7.02, scale x1.007
+- Color Spray (JOB-0678) v2 diff 2.72, scale x1.003
+- Combine (JOB-0679) v2 diff 1.14, scale x1.004
+- Command (JOB-0680) v2 diff 2.11, scale x1.001
+- Commune (JOB-0681) v2 diff 0.73, scale x1.0
+- Commune With Nature (JOB-0682) v2 diff 1.01, scale x1.004
+- Comprehend Languages (JOB-0683) v2 diff 2.36, scale x1.001
+- Cone of Cold (JOB-0684) v2 diff 5.7, scale x1.0
+- Confusion (JOB-0685) v2 diff 1.81, scale x1.001
+- Conjure Earth Elemental (JOB-0687) v2 diff 3.35, scale x1.0
+- Conjure Elemental (JOB-0688) v2 diff 3.09, scale x0.998
+- Conjure Fire Elemental (JOB-0689) v2 diff 8.39, scale x1.012
+- Contact Other Plane (JOB-0690) v2 diff 5.3, scale x1.012
+- Contagion (JOB-0691) v2 diff 6.64, scale x1.027
+- Contingency (JOB-0692) v2 diff 1.48, scale x1.003
+- Continual Light (JOB-0693) v2 diff 7.73, scale x1.034
+- Control Undead (JOB-0695) v2 diff 4.94, scale x1.002
+- Control Weather (JOB-0696) v2 diff 4.89, scale x1.012
+- Control Winds (JOB-0697) v2 diff 9.94, scale x1.016
+- Create Food & Water (JOB-0698) v2 diff 3.22, scale x1.005
+- Create Water (JOB-0699) v2 diff 1.71, scale x1.001
+- Crystal Brittle (JOB-0701) v2 diff 6.5, scale x1.017
+- Cure Blindness or Deafness (JOB-0702) v2 diff 9.24, scale x1.006
+- Cure Critical Wounds (JOB-0703) v2 diff 2.42, scale x1.001
+- Cure Serious Wounds (JOB-0706) v2 diff 8.84, scale x1.028
+- Dancing Lights (JOB-0707) v2 diff 5.5, scale x1.017
+- Darkness, 15’ Radius (JOB-0708) v2 diff 1.61, scale x1.0
+- Deafness (JOB-0709) v2 diff 1.16, scale x1.001
+- Death Fog (JOB-0710) v2 diff 10.24, scale x1.024
+- Death Spell (JOB-0711) v2 diff 2.57, scale x1.002
+- Deep Pockets (JOB-0712) v2 diff 2.3, scale x1.001
+- Delayed Blast Fireball (JOB-0713) v2 diff 5.88, scale x1.019
+- Delude (JOB-0714) v2 diff 8.53, scale x1.013
+- Demand (JOB-0715) v2 diff 2.08, scale x1.001
+- Demi-Shadow Magic (JOB-0716) v2 diff 11.41, scale x1.018
+- Demi-Shadow Monsters (JOB-0717) v2 diff 2.26, scale x1.001
+- Detect Charm (JOB-0718) v2 diff 1.47, scale x1.001
+- Detect Evil (JOB-0719) v2 diff 1.3, scale x1.0
+- Detect Lie (JOB-0721) v2 diff 7.7, scale x1.018
+- Detect Magic (JOB-0722) v2 diff 8.38, scale x1.021
+- Detect Poison (JOB-0723) v2 diff 3.34, scale x1.001
+- Detect Scrying (JOB-0724) v2 diff 1.53, scale x1.0
+- Detect Snares & Pits (JOB-0725) v2 diff 11.78, scale x1.028
+- Detect Undead (JOB-0726) v2 diff 2.37, scale x1.012
+- Dig (JOB-0727) v2 diff 2.01, scale x1.002
+- Dimension Door (JOB-0728) v2 diff 2.24, scale x1.006
+- Disintegrate (JOB-0729) v2 diff 9.35, scale x1.028
+- Dismissal (JOB-0730) v2 diff 1.17, scale x1.0
+- Dispel Evil (JOB-0731) v2 diff 1.32, scale x1.003
+- Dispel Magic (JOB-0732) v2 diff 4.18, scale x1.001
+- Distance Distortion (JOB-0733) v2 diff 2.43, scale x1.001
+- Divination (JOB-0734) v2 diff 6.26, scale x1.002
+- Domination (JOB-0735) v2 diff 2.55, scale x1.004
+- Duo-Dimension (JOB-0737) v2 diff 3.07, scale x1.002
+- Earthquake (JOB-0739) v2 diff 5.92, scale x1.01
+- Emotion (JOB-0740) v2 diff 10.04, scale x1.011
+- Enchant an Item (JOB-0741) v2 diff 1.5, scale x1.002
+- Enchanted Weapon (JOB-0742) v2 diff 2.69, scale x1.007
+- Endure Heat/Endure Cold (JOB-0743) v2 diff 6.35, scale x1.013
+- Energy Drain (JOB-0744) v2 diff 0.93, scale x1.016
+- Enervation (JOB-0745) v2 diff 3.28, scale x1.013
+- Enlarge (JOB-0746) v2 diff 4.19, scale x1.004
+- Ensnarement (JOB-0747) v2 diff 7.05, scale x1.001
+- Entangle (JOB-0748) v2 diff 5.72, scale x1.007
+- Erase (JOB-0750) v2 diff 2.15, scale x1.0
+- ESP (JOB-0751) v2 diff 6.95, scale x1.028
+- Exaction (JOB-0752) v2 diff 4.07, scale x1.0
+- Explosive Runes (JOB-0753) v2 diff 10.59, scale x1.027
+- Extension I (JOB-0754) v2 diff 3.68, scale x1.001
+- Extension II (JOB-0755) v2 diff 1.29, scale x1.001
+- Extension III (JOB-0756) v2 diff 1.58, scale x1.0
+- Eye Bite (JOB-0757) v2 diff 4.07, scale x1.02
+- Fabricate (JOB-0758) v2 diff 1.36, scale x1.001
+- False Vision (JOB-0760) v2 diff 4.42, scale x1.002
+- Fear (JOB-0761) v2 diff 6.76, scale x1.018
+- Feather Fall (JOB-0762) v2 diff 1.49, scale x1.003
+- Feeble Mind (JOB-0763) v2 diff 5.41, scale x1.014
+- Feign Death (JOB-0764) v2 diff 1.13, scale x1.0
+- Find Familiar (JOB-0765) v2 diff 1.43, scale x1.001
+- Find Traps (JOB-0767) v2 diff 8.77, scale x1.037
+- Finger of Death (JOB-0768) v2 diff 5.65, scale x1.031
+- Fire Seeds (JOB-0770) v2 diff 3.55, scale x1.001
+- Fire Shield (JOB-0771) v2 diff 6.45, scale x1.002
+- Fire Storm (JOB-0772) v2 diff 2.95, scale x0.999
+- Fire Trap (JOB-0773) v2 diff 1.28, scale x1.0
+- Fireball (JOB-0774) v2 diff 10.8, scale x1.023
+- Flame Blade (JOB-0776) v2 diff 2.46, scale x1.005
+- Flame Strike (JOB-0777) v2 diff 4.75, scale x1.005
+- Flame Walk (JOB-0778) v2 diff 2.1, scale x1.004
+- Flaming Sphere (JOB-0779) v2 diff 6.58, scale x1.025
+- Fly (JOB-0781) v2 diff 1.48, scale x1.001
+- Fog Cloud (JOB-0782) v2 diff 9.44, scale x1.018
+- Fool’s Gold (JOB-0783) v2 diff 10.58, scale x1.01
+- Forbiddance (JOB-0784) v2 diff 1.82, scale x1.001
+- Foresight (JOB-0786) v2 diff 1.31, scale x0.999
+- Forget (JOB-0787) v2 diff 7.48, scale x1.023
+- Free Action (JOB-0788) v2 diff 0.94, scale x1.002
+- Friends (JOB-0790) v2 diff 8.56, scale x1.016
+- Fumble (JOB-0791) v2 diff 8.08, scale x1.011
+- Gate (JOB-0792) v2 diff 3.54, scale x0.999
+- Gaze Reflection (JOB-0793) v2 diff 2.84, scale x1.0
+- Geas (JOB-0794) v2 diff 4.87, scale x1.001
+- Giant Insect (JOB-0795) v2 diff 4.56, scale x1.005
+- Glass See (JOB-0796) v2 diff 4.33, scale x1.002
+- Glitter Dust (JOB-0798) v2 diff 8.33, scale x1.01
+- Glyph of Warding (JOB-0800) v2 diff 7.5, scale x1.003
+- Grease (JOB-0802) v2 diff 3.18, scale x0.999
+- Guards and Wards (JOB-0803) v2 diff 10.02, scale x1.032
+- Haste (JOB-0807) v2 diff 8.19, scale x1.029
+- Heal (JOB-0808) v2 diff 10.44, scale x1.011
+- Heat Metal (JOB-0809) v2 diff 3.51, scale x1.014
+- Heroes’ Feast (JOB-0810) v2 diff 1.68, scale x1.0
+- Hold Plant (JOB-0814) v2 diff 3.01, scale x1.0
+- Hold Portal (JOB-0815) v2 diff 2.85, scale x1.003
+- Hold Undead (JOB-0816) v2 diff 10.24, scale x1.046
+- Holy Word (JOB-0817) v2 diff 8.51, scale x0.999
+- Hypnotic Pattern (JOB-0818) v2 diff 7.69, scale x1.019
+- Hypnotism (JOB-0819) v2 diff 2.72, scale x1.003
+- Ice Storm (JOB-0820) v2 diff 5.79, scale x1.002
+- Identify (JOB-0821) v2 diff 2.34, scale x1.006
+- Illusory Script (JOB-0822) v2 diff 6.42, scale x1.004
+- Illusory Wall (JOB-0823) v2 diff 1.42, scale x1.0
+- Imbue With Spell Ability (JOB-0824) v2 diff 3.61, scale x1.009
+- Improved Invisibility (JOB-0826) v2 diff 1.93, scale x1.0
+- Improved Phantasmal Force (JOB-0827) v2 diff 7.67, scale x1.0
+- Incendiary Cloud (JOB-0828) v2 diff 9.37, scale x1.016
+- Infravision (JOB-0829) v2 diff 2.04, scale x1.001
+- Insect Plague (JOB-0830) v2 diff 3.19, scale x1.003
+- Instant Summons (JOB-0831) v2 diff 4.31, scale x1.03
+- Intense Transformation (JOB-0832) v2 diff 2.87, scale x1.007
+- Invisibility (JOB-0833) v2 diff 3.3, scale x1.001
+- Invisibility, 10’ Radius (JOB-0834) v2 diff 4.17, scale x1.009
+- Invisibility to Animals (JOB-0835) v2 diff 1.55, scale x1.0
+- Invisibility to Undead (JOB-0836) v2 diff 5.19, scale x1.001
+- Invisible Stalker (JOB-0837) v2 diff 8.07, scale x1.014
+- Irresistible Dance (JOB-0838) v2 diff 3.17, scale x1.005
+- Item (JOB-0840) v2 diff 1.25, scale x0.999
+- Jump (JOB-0841) v2 diff 10.44, scale x1.043
+- Knock (JOB-0842) v2 diff 2.37, scale x1.002
+- Know Alignment (JOB-0843) v2 diff 6.72, scale x1.018
+- Levitate (JOB-0850) v2 diff 8.25, scale x1.041
+- Light (JOB-0851) v2 diff 3.24, scale x1.004
+- Lightning Bolt (JOB-0852) v2 diff 1.34, scale x1.001
+- Limited Wish (JOB-0853) v2 diff 5.83, scale x1.009
+- Live Oak (JOB-0854) v2 diff 4.1, scale x1.001
+- Locate Animals or Plants (JOB-0855) v2 diff 2.94, scale x1.014
+- Locate Object (JOB-0856) v2 diff 3.06, scale x1.0
+- Lower Water (JOB-0857) v2 diff 2.07, scale x1.001
+- Mage’s Disjunction (JOB-0858) v2 diff 3.17, scale x1.011
+- Mage’s Faithful Hound (JOB-0859) v2 diff 8.04, scale x1.0
+- Mage’s Magnificent Mansion (JOB-0861) v2 diff 10.55, scale x1.015
+- Mage’s Sword (JOB-0862) v2 diff 2.41, scale x1.01
+- Magic Font (JOB-0863) v2 diff 10.36, scale x1.028
+- Magic Jar (JOB-0864) v2 diff 3.06, scale x1.008
+- Magic Mirror (JOB-0865) v2 diff 2.0, scale x1.0
+- Magic Missile (JOB-0866) v2 diff 2.13, scale x1.006
+- Magic Mouth (JOB-0867) v2 diff 4.22, scale x1.001
+- Magical Aura (JOB-0868) v2 diff 3.06, scale x1.012
+- Magical Stone (JOB-0869) v2 diff 9.67, scale x1.043
+- Magical Vestment (JOB-0870) v2 diff 4.57, scale x1.005
+- Major Creation (JOB-0871) v2 diff 1.86, scale x1.004
+- Mass Invisibility (JOB-0873) v2 diff 2.54, scale x1.0
+- Mass Morph (JOB-0874) v2 diff 2.68, scale x1.004
+- Mass Suggestion (JOB-0875) v2 diff 8.2, scale x1.016
+- Meld Into Stone (JOB-0877) v2 diff 2.47, scale x1.004
+- Mending (JOB-0878) v2 diff 7.03, scale x1.025
+- Message (JOB-0879) v2 diff 1.09, scale x1.0
+- Messenger (JOB-0880) v2 diff 7.19, scale x1.02
+- Meteor Swarm (JOB-0881) v2 diff 2.39, scale x1.0
+- Mind Blank (JOB-0882) v2 diff 1.87, scale x1.0
+- Minute Meteors (JOB-0885) v2 diff 3.42, scale x1.016
+- Mirage Arcana (JOB-0886) v2 diff 9.5, scale x1.018
+- Mirror Image (JOB-0887) v2 diff 2.81, scale x1.003
+- Misdirection (JOB-0888) v2 diff 6.31, scale x1.019
+- Mislead (JOB-0889) v2 diff 5.66, scale x1.002
+- Mnemonic Enhancer (JOB-0890) v2 diff 3.05, scale x1.0
+- Monster Summoning I (JOB-0891) v2 diff 1.67, scale x1.002
+- Monster Summoning II (JOB-0892) v2 diff 3.8, scale x1.001
+- Monster Summoning III (JOB-0893) v2 diff 3.01, scale x1.001
+- Monster Summoning IV (JOB-0894) v2 diff 10.01, scale x1.024
+- Monster Summoning VI (JOB-0896) v2 diff 9.34, scale x1.016
+- Monster Summoning VII (JOB-0897) v2 diff 4.24, scale x1.002
+- Moonbeam (JOB-0898) v2 diff 2.97, scale x1.007
+- Mount (JOB-0899) v2 diff 9.18, scale x1.015
+- Move Earth (JOB-0900) v2 diff 4.96, scale x1.002
+- Negative Plane Protection (JOB-0901) v2 diff 1.56, scale x1.001
+- Neutralize Poison (JOB-0902) v2 diff 1.26, scale x1.0
+- Non-detection (JOB-0903) v2 diff 4.27, scale x1.0
+- Obscurement (JOB-0904) v2 diff 11.0, scale x1.025
+- Pass Plant (JOB-0906) v2 diff 1.91, scale x1.001
+- Pass Wall (JOB-0907) v2 diff 9.93, scale x1.012
+- Permanent Illusion (JOB-0910) v2 diff 2.96, scale x1.005
+- Phantasmal Force (JOB-0911) v2 diff 5.94, scale x1.001
+- Phantasmal Killer (JOB-0912) v2 diff 9.3, scale x1.038
+- Phantom Steed (JOB-0913) v2 diff 8.62, scale x1.002
+- Phase Door (JOB-0914) v2 diff 5.39, scale x1.001
+- Plane Shift (JOB-0915) v2 diff 5.38, scale x1.015
+- Polymorph Any Object (JOB-0918) v2 diff 4.48, scale x1.004
+- Polymorph Other (JOB-0919) v2 diff 10.86, scale x1.032
+- Polymorph Self (JOB-0920) v2 diff 4.52, scale x0.999
+- Prismatic Sphere (JOB-0925) v2 diff 7.41, scale x1.017
+- Prismatic Spray (JOB-0926) v2 diff 6.36, scale x1.029
+- Prismatic Wall (JOB-0927) v2 diff 5.94, scale x1.009
+- Produce Fire (JOB-0928) v2 diff 11.55, scale x1.012
+- Produce Flame (JOB-0929) v2 diff 5.53, scale x1.01
+- Programmed Illusion (JOB-0930) v2 diff 8.34, scale x1.027
+- Project Image (JOB-0931) v2 diff 2.52, scale x1.001
+- Protection From Cantrips (JOB-0932) v2 diff 1.01, scale x1.0
+- Protection From Evil (JOB-0933) v2 diff 11.35, scale x1.012
+- Protection From Fire (JOB-0935) v2 diff 9.28, scale x1.016
+- Protection From Lightning (JOB-0936) v2 diff 1.45, scale x1.001
+- Protection From Missiles (JOB-0937) v2 diff 5.93, scale x1.005
+- Pyrotechnics (JOB-0939) v2 diff 5.54, scale x1.015
+- Quest (JOB-0940) v2 diff 6.63, scale x1.03
+- Rainbow (JOB-0941) v2 diff 2.12, scale x1.006
+- Raise Dead (JOB-0943) v2 diff 2.8, scale x1.0
+- Ray of Enfeeblement (JOB-0944) v2 diff 0.76, scale x1.0
+- Read Magic (JOB-0945) v2 diff 2.21, scale x1.0
+- Reflecting Pool (JOB-0946) v2 diff 3.47, scale x1.003
+- Regenerate (JOB-0947) v2 diff 3.21, scale x1.003
+- Reincarnate (JOB-0948) v2 diff 3.45, scale x1.009
+- Remove Curse (JOB-0949) v2 diff 1.79, scale x1.0
+- Remove Fear (JOB-0950) v2 diff 10.32, scale x1.016
+- Remove Paralysis (JOB-0951) v2 diff 1.35, scale x1.002
+- Repel Insects (JOB-0952) v2 diff 5.85, scale x1.007
+- Repulsion (JOB-0953) v2 diff 10.57, scale x1.029
+- Resilient Sphere (JOB-0954) v2 diff 1.64, scale x1.001
+- Resist Fire/Resist Cold (JOB-0955) v2 diff 1.65, scale x1.001
+- Restoration (JOB-0956) v2 diff 1.32, scale x1.001
+- Resurrection (JOB-0957) v2 diff 7.7, scale x1.017
+- Reverse Gravity (JOB-0958) v2 diff 4.08, scale x1.014
+- Sanctuary (JOB-0960) v2 diff 6.3, scale x1.003
+- Scare (JOB-0961) v2 diff 3.61, scale x1.001
+- Screen (JOB-0962) v2 diff 4.28, scale x1.001
+- Secret Page (JOB-0963) v2 diff 2.49, scale x1.0
+- Seeming (JOB-0964) v2 diff 4.81, scale x1.008
+- Sending (JOB-0965) v2 diff 1.68, scale x1.005
+- Sepia Snake Sigil (JOB-0966) v2 diff 2.74, scale x1.005
+- Sequester (JOB-0967) v2 diff 4.86, scale x1.0
+- Shades (JOB-0968) v2 diff 8.09, scale x1.02
+- Shadow Door (JOB-0969) v2 diff 2.15, scale x1.0
+- Shadow Magic (JOB-0970) v2 diff 1.18, scale x1.001
+- Shadow Monsters (JOB-0971) v2 diff 1.84, scale x1.001
+- Shadow Walk (JOB-0972) v2 diff 6.06, scale x1.012
+- Shape Change (JOB-0973) v2 diff 11.55, scale x1.025
+- Shatter (JOB-0974) v2 diff 10.55, scale x1.003
+- Shield (JOB-0975) v2 diff 8.06, scale x1.015
+- Shillelagh (JOB-0976) v2 diff 2.66, scale x1.012
+- Shocking Grasp (JOB-0977) v2 diff 7.15, scale x1.04
+- Shout (JOB-0978) v2 diff 10.11, scale x1.016
+- Silence, 15’ Radius (JOB-0979) v2 diff 3.77, scale x1.0
+- Simulacrum (JOB-0980) v2 diff 7.91, scale x1.006
+- Sleep (JOB-0982) v2 diff 0.91, scale x1.006
+- Slow (JOB-0983) v2 diff 5.99, scale x1.0
+- Slow Poison (JOB-0984) v2 diff 1.44, scale x1.004
+- Snake Charm (JOB-0985) v2 diff 3.3, scale x1.006
+- Snare (JOB-0986) v2 diff 7.64, scale x1.011
+- Speak With Animals (JOB-0988) v2 diff 3.06, scale x1.0
+- Speak With Monsters (JOB-0990) v2 diff 8.47, scale x1.01
+- Speak With Plants (JOB-0991) v2 diff 10.41, scale x1.022
+- Spectral Force (JOB-0992) v2 diff 10.39, scale x1.029
+- Spectral Hand (JOB-0993) v2 diff 4.96, scale x1.0
+- Spell Immunity—Arcane (JOB-0994) v2 diff 1.57, scale x1.002
+- Spell Immunity—Divine (JOB-0995) v2 diff 3.49, scale x1.002
+- Spider Climb (JOB-0997) v2 diff 7.5, scale x1.047
+- Spike Growth (JOB-0998) v2 diff 3.7, scale x1.0
+- Spike Stones (JOB-0999) v2 diff 2.52, scale x1.0
+- Spiritual Hammer (JOB-1000) v2 diff 3.16, scale x1.008
+- Spook (JOB-1001) v2 diff 8.32, scale x1.027
+- Star Shine (JOB-1002) v2 diff 5.78, scale x1.044
+- Statue (JOB-1003) v2 diff 6.48, scale x1.012
+- Sticks to Snakes (JOB-1004) v2 diff 7.63, scale x1.006
+- Stone Shape (JOB-1006) v2 diff 8.68, scale x1.017
+- Stone Skin (JOB-1007) v2 diff 3.81, scale x1.01
+- Stone Tell (JOB-1008) v2 diff 1.08, scale x1.0
+- Stone to Flesh (JOB-1009) v2 diff 3.05, scale x1.002
+- Strength (JOB-1010) v2 diff 1.33, scale x1.0
+- Succored Retreat (JOB-1011) v2 diff 4.2, scale x0.993
+- Suggestion (JOB-1012) v2 diff 3.79, scale x0.998
+- Summon Insects (JOB-1013) v2 diff 4.86, scale x1.006
+- Summon Shadow (JOB-1014) v2 diff 1.23, scale x0.999
+- Summon Swarm (JOB-1015) v2 diff 1.49, scale x1.001
+- Sunray (JOB-1016) v2 diff 8.54, scale x1.015
+- Symbol (JOB-1017) v2 diff 9.89, scale x1.0
+- Taunt (JOB-1018) v2 diff 0.94, scale x1.001
+- Telekinesis (JOB-1019) v2 diff 6.92, scale x1.022
+- Telekinetic Sphere (JOB-1020) v2 diff 4.53, scale x1.001
+- Teleport (JOB-1021) v2 diff 4.46, scale x1.001
+- Teleport Without Error (JOB-1022) v2 diff 0.89, scale x1.001
+- Temporal Stasis (JOB-1023) v2 diff 8.84, scale x1.016
+- Time Stop (JOB-1024) v2 diff 5.37, scale x1.001
+- Tongues (JOB-1025) v2 diff 1.31, scale x1.005
+- Transmute Metal to Wood (JOB-1026) v2 diff 9.76, scale x1.016
+- Transmute Rock to Mud (JOB-1027) v2 diff 6.04, scale x1.005
+- Transmute Water to Dust (JOB-1028) v2 diff 1.12, scale x1.001
+- Transport Via Plants (JOB-1029) v2 diff 4.59, scale x1.001
+- Tree (JOB-1031) v2 diff 8.46, scale x1.02
+- Trip (JOB-1032) v2 diff 2.87, scale x1.014
+- True Seeing (JOB-1033) v2 diff 8.04, scale x1.016
+- Turn Wood (JOB-1034) v2 diff 3.26, scale x1.013
+- Uncontrollable Hideous Laughter (JOB-1035) v2 diff 4.38, scale x1.005
+- Unseen Servant (JOB-1036) v2 diff 1.04, scale x1.001
+- Vacancy (JOB-1037) v2 diff 9.74, scale x0.997
+- Vampiric Touch (JOB-1038) v2 diff 2.75, scale x1.0
+- Vanish (JOB-1039) v2 diff 5.16, scale x1.014
+- Veil (JOB-1040) v2 diff 4.35, scale x1.002
+- Ventriloquism (JOB-1041) v2 diff 3.48, scale x1.004
+- Vision (JOB-1042) v2 diff 2.99, scale x1.01
+- Wall of Fog (JOB-1044) v2 diff 4.59, scale x1.003
+- Wall of Force (JOB-1045) v2 diff 6.9, scale x1.001
+- Wall of Iron (JOB-1047) v2 diff 3.18, scale x1.0
+- Wall of Stone (JOB-1048) v2 diff 7.08, scale x1.007
+- Warp Wood (JOB-1050) v2 diff 6.29, scale x1.007
+- Water Breathing (JOB-1051) v2 diff 4.41, scale x1.003
+- Water Walk (JOB-1052) v2 diff 9.58, scale x1.023
+- Weather Summoning (JOB-1053) v2 diff 7.03, scale x1.0
+- Web (JOB-1054) v2 diff 4.71, scale x1.004
+- Weird (JOB-1055) v2 diff 3.59, scale x1.002
+- Wind Walk (JOB-1057) v2 diff 3.13, scale x1.001
+- Wind Wall (JOB-1058) v2 diff 8.37, scale x1.041
+- Withdraw (JOB-1060) v2 diff 3.55, scale x1.003
+- Wizard Eye (JOB-1061) v2 diff 10.87, scale x1.045
+- Wizard Mark (JOB-1063) v2 diff 3.71, scale x1.004
+- Word of Recall (JOB-1064) v2 diff 1.43, scale x1.0
+- Wraith Form (JOB-1065) v2 diff 2.78, scale x1.002
+- Wyvern Watch (JOB-1066) v2 diff 1.17, scale x1.001
+- Magical Armor Enchantment Modifier (JOB-1067) v2 diff 10.31, scale x1.006
+- Magical Armor Type (JOB-1068) v2 diff 2.07, scale x1.003
+- Objects of Art Value Variation (JOB-1070) v2 diff 0.95, scale x1.001
+- Bags and Bottles (JOB-1071) v2 diff 2.85, scale x1.001
+- Boots and Gloves (JOB-1073) v2 diff 1.41, scale x1.0
+- Candles, Dusts, and Stones (JOB-1074) v2 diff 7.89, scale x1.027
+- Cloaks and Robes (JOB-1075) v2 diff 1.0, scale x1.001
+- 2-20 Encounter Table (JOB-1077) v2 diff 2.4, scale x1.001
+- Encounter Distance (JOB-1078) v2 diff 0.77, scale x1.0
+- Encounter Frequency (JOB-1079) v2 diff 7.66, scale x1.01
+- Encounter Reaction — Party Friendly (JOB-1080) v2 diff 8.14, scale x1.027
+- Gem Value Variation (JOB-1081) v2 diff 1.95, scale x1.0
+- Girdles and Helms (JOB-1083) v2 diff 3.55, scale x1.002
+- Encounter Reaction — Party Hostile (JOB-1084) v2 diff 2.71, scale x1.001
+- Household Items and Tools (JOB-1085) v2 diff 8.2, scale x1.032
+- Encounter Reaction — Party Indifferent (JOB-1086) v2 diff 5.01, scale x1.002
+- Jewelry and Trinkets (JOB-1087) v2 diff 1.48, scale x1.0
+- Jewels & Jewelry (magical) (JOB-1088) v2 diff 1.24, scale x1.0
+- Jewels & Jewelry — Sub-Table A (JOB-1089) v2 diff 11.25, scale x1.016
+- Magic Hoard Table (JOB-1091) v2 diff 1.31, scale x0.999
+- Magical Items (JOB-1092) v2 diff 4.24, scale x1.011
+- Map Table (JOB-1093) v2 diff 10.74, scale x1.015
+- Map Distance Table (JOB-1094) v2 diff 4.13, scale x1.003
+- Map Location Table (JOB-1095) v2 diff 8.48, scale x1.016
+- Monetary Hoard Table (JOB-1096) v2 diff 2.39, scale x1.001
+- Musical Instruments (JOB-1097) v2 diff 1.89, scale x1.0
+- Odd Curios (JOB-1098) v2 diff 2.02, scale x1.0
+- Odd Curios — Sub-Table A (JOB-1099) v2 diff 1.31, scale x1.001
+- Odd Curios — second sub-table (JOB-1100) v2 diff 2.16, scale x1.001
+- Potion Incompatibility (JOB-1101) v2 diff 1.79, scale x1.001
+- Potions (JOB-1102) v2 diff 9.35, scale x0.998
+- Potions — Sub-Table A (JOB-1103) v2 diff 0.93, scale x1.001
+- Potions — Sub-Table B (JOB-1104) v2 diff 0.86, scale x1.0
+- Potions — Sub-Table C (JOB-1105) v2 diff 8.69, scale x1.016
+- Rings — Sub-Table A (JOB-1107) v2 diff 4.77, scale x1.011
+- Rings — Sub-Table B (JOB-1108) v2 diff 4.82, scale x1.015
+- Rods (JOB-1109) v2 diff 0.51, scale x1.0
+- Scrolls (JOB-1110) v2 diff 5.8, scale x1.013
+- Scrolls — Sub-Table A (Protection) (JOB-1111) v2 diff 4.9, scale x1.003
+- Scrolls — Sub-Table B (Spell Scrolls) (JOB-1112) v2 diff 1.98, scale x1.0
+- Special Armors (JOB-1113) v2 diff 4.84, scale x1.003
+- Special Weapons (JOB-1114) v2 diff 2.23, scale x1.0
+- Special Weapons — Sub-Table A (JOB-1115) v2 diff 0.91, scale x1.0
+- Special Weapons — Sub-Table B (JOB-1116) v2 diff 1.89, scale x0.999
+- Special Weapons — Sub-Table C (JOB-1117) v2 diff 1.04, scale x1.0
+- Special Weapons — Sub-Table D (JOB-1118) v2 diff 6.75, scale x1.036
+- Spell Scroll Failure (JOB-1119) v2 diff 1.47, scale x1.0
+- Staves (JOB-1120) v2 diff 1.19, scale x0.998
+- Encounter Reaction — Party Threatening (JOB-1121) v2 diff 3.05, scale x1.0
+- Treasure Type A (JOB-1122) v2 diff 5.83, scale x1.011
+- Treasure Type B (JOB-1123) v2 diff 4.22, scale x1.007
+- Treasure Type C (JOB-1124) v2 diff 8.27, scale x1.023
+- Treasure Container (JOB-1125) v2 diff 9.17, scale x1.039
+- Treasure Type E (JOB-1127) v2 diff 6.18, scale x1.005
+- Treasure Type F (JOB-1128) v2 diff 8.2, scale x1.015
+- Treasure Type G (JOB-1129) v2 diff 1.33, scale x1.001
+- Treasure Type I (JOB-1132) v2 diff 2.51, scale x1.001
+- Treasure Type J (JOB-1133) v2 diff 8.22, scale x1.027
+- Treasure Type K (JOB-1134) v2 diff 4.19, scale x1.007
+- Treasure Type L (JOB-1135) v2 diff 5.05, scale x1.005
+- Treasure Type N (JOB-1137) v2 diff 2.98, scale x0.999
+- Treasure Type P (JOB-1139) v2 diff 1.46, scale x1.0
+- Treasure Type Q (JOB-1140) v2 diff 7.18, scale x1.037
+- Treasure Type S (JOB-1142) v2 diff 7.19, scale x1.032
+- Treasure Type T (JOB-1143) v2 diff 0.73, scale x1.001
+- Treasure Traps (JOB-1144) v2 diff 7.42, scale x1.012
+- Treasure Type U (JOB-1145) v2 diff 5.35, scale x1.025
+- Treasure Type V (JOB-1146) v2 diff 0.73, scale x1.002
+- Treasure Type W (JOB-1147) v2 diff 3.49, scale x1.002
+- Treasure Type X (JOB-1148) v2 diff 5.86, scale x1.015
+- Treasure Type Y (JOB-1149) v2 diff 8.53, scale x1.027
+- Wands (JOB-1151) v2 diff 9.24, scale x1.023
+- Magical Weapon Enchantment Modifier (JOB-1152) v2 diff 1.67, scale x1.015
+- Magical Weapon Type (JOB-1153) v2 diff 1.31, scale x1.004
+- Magical Weapon Type — Sub-Table A (JOB-1154) v2 diff 9.51, scale x1.011
+- Magical Weapon Type — Sub-Table B (JOB-1155) v2 diff 3.81, scale x1.01
+- Aboleth (JOB-1156) v2 diff 8.65, scale x1.011
+- Abominable Yeti (JOB-1157) v2 diff 2.22, scale x1.0
+- Acolyte (JOB-1158) v2 diff 5.59, scale x1.032
+- Allosaurus (JOB-1159) v2 diff 2.53, scale x1.0
+- Androsphinx (JOB-1160) v2 diff 3.99, scale x1.003
+- Animated Armor (JOB-1161) v2 diff 11.04, scale x0.983
+- Ankheg (JOB-1162) v2 diff 9.08, scale x1.023
+- Ankylosaurus (JOB-1163) v2 diff 3.2, scale x1.002
+- Ape (JOB-1164) v2 diff 3.44, scale x0.999
+- Archmage (JOB-1165) v2 diff 5.57, scale x1.023
+- Assassin (JOB-1166) v2 diff 4.34, scale x1.013
+- Axe Beak (JOB-1169) v2 diff 1.73, scale x1.002
+- Azer (JOB-1170) v2 diff 3.38, scale x1.001
+- Baboon (JOB-1171) v2 diff 1.38, scale x1.0
+- Bandit (JOB-1174) v2 diff 0.83, scale x1.0
+- Bandit Captain (JOB-1175) v2 diff 2.9, scale x1.007
+- Banshee (JOB-1176) v2 diff 3.68, scale x1.001
+- Barbed Devil (JOB-1177) v2 diff 1.32, scale x0.999
+- Bat (JOB-1178) v2 diff 1.25, scale x1.0
+- Berserker (JOB-1180) v2 diff 4.16, scale x1.008
+- Black Bear (JOB-1181) v2 diff 3.4, scale x1.003
+- Blink Dog (JOB-1182) v2 diff 1.4, scale x1.004
+- Blood Hawk (JOB-1183) v2 diff 3.61, scale x1.002
+- Brown Bear (JOB-1186) v2 diff 2.52, scale x1.004
+- Bugbear Chief (JOB-1187) v2 diff 9.54, scale x1.011
+- Bulette (JOB-1188) v2 diff 10.28, scale x1.001
+- Camel (JOB-1189) v2 diff 3.34, scale x1.001
+- Cat (JOB-1190) v2 diff 7.89, scale x1.022
+- Cave Bear (JOB-1191) v2 diff 10.68, scale x1.019
+- Chain Devil (JOB-1192) v2 diff 9.07, scale x1.005
+- Chuul (JOB-1193) v2 diff 10.61, scale x1.02
+- Cloaker (JOB-1194) v2 diff 3.54, scale x0.999
+- Commoner (JOB-1195) v2 diff 5.78, scale x1.011
+- Copper Dragon (JOB-1197) v2 diff 7.63, scale x1.001
+- Crab (JOB-1198) v2 diff 4.97, scale x1.025
+- Crocodile (JOB-1200) v2 diff 7.15, scale x1.016
+- Cult Fanatic (JOB-1201) v2 diff 7.96, scale x1.009
+- Cultist (JOB-1202) v2 diff 0.97, scale x1.001
+- Cyclops (JOB-1203) v2 diff 8.96, scale x1.002
+- Darkmantle (JOB-1204) v2 diff 4.88, scale x1.011
+- Death Dog (JOB-1205) v2 diff 3.09, scale x1.004
+- Deep Gnome (Svirfneblin) (JOB-1206) v2 diff 5.26, scale x1.013
+- Deer (JOB-1207) v2 diff 0.78, scale x1.0
+- Deva (JOB-1208) v2 diff 5.89, scale x1.004
+- Doppelganger (JOB-1210) v2 diff 0.85, scale x1.001
+- Draft Horse (JOB-1211) v2 diff 2.82, scale x1.0
+- Drow (JOB-1214) v2 diff 3.44, scale x1.002
+- Drow Elite Warrior (JOB-1215) v2 diff 1.04, scale x1.0
+- Drow Mage (JOB-1216) v2 diff 1.11, scale x1.0
+- Drow Priestess of Lolth (JOB-1217) v2 diff 1.24, scale x1.0
+- Druid (JOB-1218) v2 diff 5.47, scale x1.005
+- Duergar (JOB-1219) v2 diff 7.06, scale x1.007
+- Dust Mephit (JOB-1220) v2 diff 2.53, scale x1.001
+- Eagle (JOB-1221) v2 diff 1.04, scale x1.0
+- Elephant (JOB-1222) v2 diff 4.68, scale x0.999
+- Elk (JOB-1223) v2 diff 5.06, scale x1.004
+- Fire Elemental (JOB-1226) v2 diff 6.03, scale x1.006
+- Fire Snake (JOB-1227) v2 diff 2.75, scale x1.005
+- Flying Snake (JOB-1229) v2 diff 3.18, scale x1.005
+- Flying Sword (JOB-1230) v2 diff 0.79, scale x1.0
+- Frog (JOB-1231) v2 diff 1.47, scale x1.0
+- Gargoyle (JOB-1232) v2 diff 2.69, scale x1.005
+- Ghost (JOB-1234) v2 diff 3.61, scale x0.997
+- Giant Badger (JOB-1236) v2 diff 8.86, scale x1.028
+- Giant Bat (JOB-1237) v2 diff 2.6, scale x1.0
+- Giant Boar (JOB-1238) v2 diff 9.1, scale x1.007
+- Giant Centipede (JOB-1239) v2 diff 1.2, scale x1.001
+- Giant Crab (JOB-1241) v2 diff 1.56, scale x1.0
+- Giant Eagle (JOB-1243) v2 diff 4.18, scale x1.0
+- Giant Elk (JOB-1244) v2 diff 2.01, scale x1.0
+- Giant Fire Beetle (JOB-1245) v2 diff 2.01, scale x1.0
+- Giant Frog (JOB-1246) v2 diff 1.92, scale x1.0
+- Giant Goat (JOB-1247) v2 diff 6.7, scale x1.008
+- Giant Hyena (JOB-1248) v2 diff 11.78, scale x1.031
+- Giant Lizard (JOB-1249) v2 diff 3.54, scale x1.001
+- Giant Octopus (JOB-1250) v2 diff 9.3, scale x1.021
+- Giant Owl (JOB-1251) v2 diff 4.51, scale x1.0
+- Giant Poisonous Snake (JOB-1252) v2 diff 3.57, scale x1.002
+- Giant Rat (JOB-1253) v2 diff 9.4, scale x1.042
+- Giant Scorpion (JOB-1254) v2 diff 7.35, scale x1.012
+- Giant Shark (JOB-1256) v2 diff 3.0, scale x1.009
+- Giant Spider (JOB-1257) v2 diff 7.22, scale x1.016
+- Giant Toad (JOB-1258) v2 diff 11.57, scale x1.024
+- Giant Wasp (JOB-1260) v2 diff 2.28, scale x1.0
+- Giant Weasel (JOB-1261) v2 diff 8.87, scale x1.029
+- Giant Wolf Spider (JOB-1262) v2 diff 4.28, scale x1.011
+- Gibbering Mouther (JOB-1263) v2 diff 4.3, scale x1.0
+- Gladiator (JOB-1265) v2 diff 2.22, scale x1.002
+- Gnoll Fang of Yeenoghu (JOB-1266) v2 diff 10.44, scale x1.016
+- Gnoll Pack Lord (JOB-1267) v2 diff 10.25, scale x1.031
+- Goat (JOB-1268) v2 diff 7.04, scale x1.005
+- Goblin Boss (JOB-1269) v2 diff 7.3, scale x1.016
+- Gorgon (JOB-1271) v2 diff 11.32, scale x1.0
+- Gray Ooze (JOB-1272) v2 diff 6.33, scale x1.045
+- Green Hag (JOB-1274) v2 diff 1.83, scale x1.001
+- Guard (JOB-1277) v2 diff 1.4, scale x1.003
+- Guardian Naga (JOB-1278) v2 diff 1.53, scale x1.0
+- Gynosphinx (JOB-1279) v2 diff 5.32, scale x1.0
+- Half-Red Dragon Veteran (JOB-1280) v2 diff 1.86, scale x1.0
+- Hezrou (JOB-1283) v2 diff 1.8, scale x1.0
+- Hill Giant (JOB-1284) v2 diff 3.45, scale x0.994
+- Hobgoblin Captain (JOB-1286) v2 diff 3.8, scale x1.001
+- Hobgoblin Warlord (JOB-1287) v2 diff 2.22, scale x1.0
+- Homunculus (JOB-1288) v2 diff 6.64, scale x1.022
+- Horned Devil (JOB-1289) v2 diff 4.19, scale x1.003
+- Hunter Shark (JOB-1290) v2 diff 2.84, scale x1.01
+- Hyena (JOB-1291) v2 diff 1.82, scale x1.0
+- Ice Devil (JOB-1292) v2 diff 6.74, scale x1.009
+- Ice Mephit (JOB-1293) v2 diff 1.82, scale x1.001
+- Imp (JOB-1294) v2 diff 5.93, scale x1.027
+- Incubus (JOB-1295) v2 diff 1.16, scale x1.0
+- Iron Golem (JOB-1296) v2 diff 6.11, scale x1.007
+- Jackal (JOB-1297) v2 diff 3.21, scale x1.004
+- Knight (JOB-1299) v2 diff 8.94, scale x1.022
+- Kuo-toa Archpriest (JOB-1301) v2 diff 1.75, scale x1.0
+- Kuo-toa Monitor (JOB-1302) v2 diff 1.04, scale x1.0
+- Kuo-toa Whip (JOB-1303) v2 diff 9.47, scale x0.997
+- Lamia (JOB-1304) v2 diff 3.29, scale x0.999
+- Lion (JOB-1306) v2 diff 4.11, scale x1.0
+- Lizard (JOB-1307) v2 diff 0.84, scale x1.003
+- Lizard King (JOB-1308) v2 diff 6.76, scale x1.01
+- Lizard Queen (JOB-1309) v2 diff 1.34, scale x1.001
+- Lizardfolk (JOB-1310) v2 diff 1.43, scale x1.0
+- Lizardfolk Shaman (JOB-1311) v2 diff 1.82, scale x1.0
+- Mage (JOB-1312) v2 diff 1.47, scale x1.0
+- Magma Mephit (JOB-1313) v2 diff 11.26, scale x1.012
+- Magmin (JOB-1314) v2 diff 1.35, scale x1.001
+- Mammoth (JOB-1315) v2 diff 4.43, scale x1.0
+- Mastiff (JOB-1316) v2 diff 5.88, scale x1.012
+- Merfolk (JOB-1317) v2 diff 7.97, scale x1.031
+- Mindflayer Arcanist (JOB-1320) v2 diff 1.55, scale x1.0
+- Minotaur Skeleton (JOB-1321) v2 diff 8.66, scale x1.022
+- Mule (JOB-1322) v2 diff 1.36, scale x1.0
+- Mummy Lord (JOB-1323) v2 diff 8.77, scale x1.001
+- Nalfeshnee (JOB-1324) v2 diff 8.84, scale x1.016
+- Nightmare (JOB-1325) v2 diff 7.01, scale x1.017
+- Noble (JOB-1326) v2 diff 5.93, scale x1.02
+- Ochre Jelly (JOB-1327) v2 diff 8.69, scale x1.005
+- Octopus (JOB-1328) v2 diff 7.66, scale x1.022
+- Ogre Zombie (JOB-1329) v2 diff 1.69, scale x1.0
+- Oni (JOB-1330) v2 diff 1.19, scale x1.0
+- Orc Eye of Gruumsh (JOB-1331) v2 diff 7.88, scale x1.01
+- Orc War Chief (JOB-1332) v2 diff 1.96, scale x1.0
+- Owl (JOB-1333) v2 diff 3.19, scale x1.011
+- Pegasus (JOB-1335) v2 diff 10.09, scale x1.006
+- Planetar (JOB-1336) v2 diff 6.17, scale x1.0
+- Plesiosaurus (JOB-1337) v2 diff 2.13, scale x1.0
+- Poisonous Snake (JOB-1338) v2 diff 8.4, scale x1.031
+- Polar Bear (JOB-1339) v2 diff 4.79, scale x1.021
+- Pony (JOB-1340) v2 diff 8.84, scale x1.017
+- Priest (JOB-1341) v2 diff 2.17, scale x1.001
+- Pseudodragon (JOB-1342) v2 diff 5.64, scale x1.006
+- Pteranodon (JOB-1343) v2 diff 5.23, scale x1.007
+- Purple Worm (JOB-1344) v2 diff 6.68, scale x1.008
+- Quaggoth Thonot (JOB-1345) v2 diff 2.84, scale x1.001
+- Quipper (JOB-1347) v2 diff 9.91, scale x1.032
+- Raven (JOB-1349) v2 diff 9.75, scale x1.047
+- Red Dragon (JOB-1350) v2 diff 3.33, scale x1.0
+- Reef Shark (JOB-1351) v2 diff 1.42, scale x1.001
+- Rhinoceros (JOB-1352) v2 diff 9.29, scale x1.007
+- Riding Horse (JOB-1353) v2 diff 2.93, scale x0.999
+- Roc (JOB-1354) v2 diff 8.37, scale x1.002
+- Roper (JOB-1355) v2 diff 1.13, scale x1.0
+- Saber-Toothed Tiger (JOB-1358) v2 diff 4.26, scale x1.009
+- Sahuagin (JOB-1359) v2 diff 1.23, scale x1.0
+- Sahuagin Baron (JOB-1360) v2 diff 10.22, scale x1.002
+- Sahuagin Priestess (JOB-1361) v2 diff 1.66, scale x0.999
+- Scarecrow (JOB-1362) v2 diff 1.91, scale x0.999
+- Scorpion (JOB-1363) v2 diff 1.29, scale x1.001
+- Scout (JOB-1364) v2 diff 1.06, scale x1.0
+- Sea Hag (JOB-1365) v2 diff 5.16, scale x1.007
+- Shambling Mound (JOB-1367) v2 diff 8.94, scale x1.011
+- Shield Guardian (JOB-1368) v2 diff 8.8, scale x1.015
+- Shrieker (JOB-1369) v2 diff 1.73, scale x1.001
+- Solar (JOB-1371) v2 diff 7.12, scale x0.996
+- Spider (JOB-1372) v2 diff 9.11, scale x1.021
+- Spirit Naga (JOB-1373) v2 diff 4.59, scale x1.001
+- Spy (JOB-1374) v2 diff 1.29, scale x1.0
+- Steam Mephit (JOB-1375) v2 diff 3.69, scale x0.999
+- Stirge (JOB-1376) v2 diff 1.26, scale x1.001
+- Storm Giant (JOB-1379) v2 diff 1.62, scale x1.0
+- Succubus (JOB-1380) v2 diff 0.87, scale x1.0
+- Swarm of Bats (JOB-1381) v2 diff 2.19, scale x1.0
+- Swarm of Beetles (JOB-1382) v2 diff 7.5, scale x1.01
+- Swarm of Insects (JOB-1384) v2 diff 2.03, scale x1.001
+- Swarm of Poisonous Snakes (JOB-1385) v2 diff 7.42, scale x1.011
+- Swarm of Rats (JOB-1387) v2 diff 10.27, scale x1.033
+- Swarm of Ravens (JOB-1388) v2 diff 3.85, scale x1.001
+- Swarm of Spiders (JOB-1389) v2 diff 6.6, scale x1.007
+- Swarm of Wasps (JOB-1390) v2 diff 8.37, scale x1.009
+- Tiger (JOB-1391) v2 diff 4.06, scale x1.007
+- Tribal Warrior (JOB-1392) v2 diff 7.34, scale x1.017
+- Triceratops (JOB-1393) v2 diff 1.51, scale x1.001
+- Tyrannosaurus Rex (JOB-1394) v2 diff 1.43, scale x1.0
+- Vampire Spawn (JOB-1395) v2 diff 3.95, scale x1.006
+- Veteran (JOB-1396) v2 diff 1.12, scale x1.0
+- Vulture (JOB-1399) v2 diff 4.3, scale x1.006
+- Warhorse (JOB-1400) v2 diff 1.27, scale x1.0
+- Warhorse Skeleton (JOB-1401) v2 diff 1.23, scale x1.0
+- Weasel (JOB-1403) v2 diff 1.3, scale x1.001
+- Wererat (JOB-1404) v2 diff 6.96, scale x1.014
+- Weretiger (JOB-1405) v2 diff 1.87, scale x1.002
+- Werewolf (JOB-1406) v2 diff 1.05, scale x1.0
+- Wolf (JOB-1408) v2 diff 9.28, scale x1.017
+
+## 1.0.0 (2026-09-05)
+
+Universal collection complete: 1,408 images for classes, skills, races, proficiencies, spells, equipment, weapons, armor, creatures and tables. First public release.
