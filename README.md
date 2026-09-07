@@ -1,5 +1,7 @@
 # Dakk's Ultimate Tokens for Dungeons & Dragons
 
+![Dakk's Ultimate Tokens](https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp)
+
 An edition-agnostic art library for Foundry VTT, packaged as an art-only module: no packs,
 no scripts, one image per subject. 1,408 images in a single classic TSR oil-painting look
 (the Brom, Parkinson and Easley tradition), each a transparent WebP named by its subject's
