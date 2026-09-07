@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 (2026-09-07)
+
+New: a compendium. The module now carries one journal compendium, "Dakk's Ultimate Tokens", that catalogues every image by kind with a thumbnail, its name and its file path, so the library can be browsed inside Foundry in any game system. No image changes.
+
 ## 2.0.1 (2026-09-07)
 
 Manifest fix only, no image changes: the module now declares Foundry VTT 11 as its minimum (it was wrongly set to 14). The library is art only, so it runs on any version from 11 up; verified on 14.
