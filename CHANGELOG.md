@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 (2026-09-07)
+
+Compendium navigation tidied: "Creatures by Challenge" has one page per challenge rating (CR 0, CR 1/8, CR 1/4, CR 1/2, CR 1, CR 2 and so on), "Creatures by Type" one page per type, no page split into parts, and journal names no longer carry counts. No image changes.
+
 ## 2.2.0 (2026-09-07)
 
 Compendium: creatures can now be browsed three ways. Besides the A-to-Z journal, "Creatures by type" groups them as beasts, humanoids, undead, dragons, fiends and the rest, and "Creatures by challenge" groups them by challenge rating band with each creature's CR shown. Pick the journal you want; its page list on the left is the navigation. Types and ratings come from the SRD 5.1 monster table where the name matches, and from the reviewer for the rest. No image changes.
