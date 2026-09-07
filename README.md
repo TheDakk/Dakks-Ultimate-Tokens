@@ -17,7 +17,8 @@ Updating in place is safe: filenames never change between versions, so worlds an
 that already point at an image simply get the new one.
 
 **Where the images appear.** Open the compendium **Dakk's Ultimate Tokens** (a journal
-compendium, so it works in any game system): one journal per kind, pages of thumbnails with
+compendium, so it works in any game system): one journal per kind, and creatures browsed two
+ways, **Creatures by Type** and **Creatures by Challenge**; pages of thumbnails with
 each image's name and file path; click a thumbnail to see it full size. To put an image on
 an actor, token or item, use its image picker and browse to
 `modules/dakks-ultimate-tokens/art/` and the kind folder named under the thumbnail. A game
