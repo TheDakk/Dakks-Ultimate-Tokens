@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.3 (2026-09-07)
+
+Presentation art, painted in the library's own hand: eleven compendium banners (art/banners/) shared by every Dakk module so the sidebar strips match across the 2e and 5e cores, a module cover and icon for Foundry's setup and install screens, and a banner on the Art Library catalogue. No token or icon changes.
+
 ## 2.3.2 (2026-09-07)
 
 Five spell emblems redrawn after a read of every spell emblem against its description: Control Temperature no longer shows a thermometer, Hypnotism and Time Stop no longer show pocket watches (a spiral pendant and a frozen hourglass instead), Hold Monster shows a held beast rather than a weapon, and Grease is a slick puddle rather than a block. The rest of the library's races, classes, weapons, armour, gear and spell emblems were reviewed against the 2014 sources and stand. No other changes.
