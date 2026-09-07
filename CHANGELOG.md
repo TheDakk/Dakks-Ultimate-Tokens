@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1 (2026-09-07)
+
+Manifest fix only, no image changes: the module now declares Foundry VTT 11 as its minimum (it was wrongly set to 14). The library is art only, so it runs on any version from 11 up; verified on 14.
+
 ## 2.0.0 (2026-09-06)
 
 Every image re-rendered with a new image model: 109 redesigned, 126 changed noticeably, 1173 polished. Filenames are unchanged, so existing worlds pick up the new art on update.
