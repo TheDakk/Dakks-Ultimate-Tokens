@@ -1,5 +1,82 @@
 # Changelog
 
+## 2.3.0 (2026-09-07)
+
+Creature art aligned with the Monster Manual (2014). Every creature in the library was compared, picture beside picture, with that book's art on D&D Beyond and its page text, and the ones that did not match were painted again. Three kinds of correction: creatures drawn with armour they never wear (angels, devils, lycanthropes, giants, goblinoids, the lich, the minotaur, the orc) now show bare hide, skin or robes; creatures whose colour or body was wrong (the bronze dragon as a green-bronze sea dragon with its frill, the eight-legged basilisk, the cobalt behir, the blue-white phase spider, the leafy treant, the nagas with snake heads, the ogre as the pale hairless giant it is rather than an orc) now follow the book; and the dryad, kraken, deep gnome, pixie and others were redrawn outright. Faces, too: the first redraws came back with the right bodies and blank faces, so every creature description now names its expression, taken from the book's picture or its text where it gives one (the ogre roars with a jaw of jagged teeth, the ghoul is twisted by hunger, the lich sneers with cold contempt, the solar is serenely terrible) and from the creature's nature otherwise. That rule now applies to every creature painted from here on. Every replaced image is listed by name below with the reason. Filenames are unchanged, so existing worlds pick up the new art on update. Also in this release: the compendium's plain "Creatures" journal and the one-image "Journals" journal (a game suite's own document cover) are gone; creatures are browsed as "Creatures by Type" and "Creatures by Challenge".
+
+### Redesigned
+
+New paintings where the previous image had the wrong body plan, identity or object.
+
+- Brass Dragon: redrawn to the Monster Manual (2014) depiction
+- Bronze Dragon: redrawn to the Monster Manual (2014) depiction
+- Bugbear: the armour it never wore removed
+- Cloud Giant: redrawn to the Monster Manual (2014) depiction
+- Goblin: the armour it never wore removed
+- Minotaur: the armour it never wore removed
+- Ogre: given the temper the book describes, on its face
+- Orc: the armour it never wore removed
+- Basilisk: redrawn to the Monster Manual (2014) depiction
+- Behir: recoloured to match the Monster Manual (2014)
+- Centaur: the armour it never wore removed
+- Couatl: redrawn to the Monster Manual (2014) depiction
+- Dryad: redrawn to the Monster Manual (2014) depiction
+- Ettin: given the temper the book describes, on its face
+- Ghast: redrawn to the Monster Manual (2014) depiction
+- Ghoul: redrawn to the Monster Manual (2014) depiction
+- Kobold: the armour it never wore removed
+- Lich: the armour it never wore removed
+- Marilith: the armour it never wore removed
+- Night Hag: redrawn to the Monster Manual (2014) depiction
+- Owlbear: recoloured to match the Monster Manual (2014)
+- Phase Spider: recoloured to match the Monster Manual (2014)
+- Pit Fiend: the armour it never wore removed
+- Pixie: redrawn to the Monster Manual (2014) depiction
+- Tarrasque: recoloured to match the Monster Manual (2014)
+- Treant: redrawn to the Monster Manual (2014) depiction
+- Vampire: the armour it never wore removed
+- Werebear: the armour it never wore removed
+- Wereboar: the armour it never wore removed
+- Wight: redrawn to the Monster Manual (2014) depiction
+- Worg: recoloured to match the Monster Manual (2014)
+- Ankheg: redrawn to the Monster Manual (2014) depiction
+- Balor: the armour it never wore removed
+- Barbed Devil: the armour it never wore removed
+- Bearded Devil: redrawn to the Monster Manual (2014) depiction
+- Blink Dog: redrawn to the Monster Manual (2014) depiction
+- Bulette: recoloured to match the Monster Manual (2014)
+- Deep Gnome (Svirfneblin): redrawn to the Monster Manual (2014) depiction
+- Deva: the armour it never wore removed
+- Doppelganger: recoloured to match the Monster Manual (2014)
+- Ettercap: redrawn to the Monster Manual (2014) depiction
+- Flying Snake: redrawn to the Monster Manual (2014) depiction
+- Giant Spider: recoloured to match the Monster Manual (2014)
+- Gibbering Mouther: redrawn to the Monster Manual (2014) depiction
+- Glabrezu: redrawn to the Monster Manual (2014) depiction
+- Guardian Naga: redrawn to the Monster Manual (2014) depiction
+- Hezrou: recoloured to match the Monster Manual (2014)
+- Hippogriff: recoloured to match the Monster Manual (2014)
+- Homunculus: redrawn to the Monster Manual (2014) depiction
+- Horned Devil: the armour it never wore removed
+- Incubus: redrawn to the Monster Manual (2014) depiction
+- Kraken: redrawn to the Monster Manual (2014) depiction
+- Kuo-toa Archpriest: redrawn to the Monster Manual (2014) depiction
+- Kuo-toa Whip: redrawn to the Monster Manual (2014) depiction
+- Lemure: recoloured to match the Monster Manual (2014)
+- Merfolk: redrawn to the Monster Manual (2014) depiction
+- Merrow: recoloured to match the Monster Manual (2014)
+- Minotaur Skeleton: the armour it never wore removed
+- Nalfeshnee: redrawn to the Monster Manual (2014) depiction
+- Ogre Zombie: redrawn to the Monster Manual (2014) depiction
+- Oni: redrawn to the Monster Manual (2014) depiction
+- Planetar: the armour it never wore removed
+- Sahuagin: the armour it never wore removed
+- Sahuagin Baron: the armour it never wore removed
+- Sea Hag: redrawn to the Monster Manual (2014) depiction
+- Solar: the armour it never wore removed
+- Spirit Naga: redrawn to the Monster Manual (2014) depiction
+- Vampire Spawn: redrawn to the Monster Manual (2014) depiction
+
 ## 2.2.2 (2026-09-07)
 
 One file renamed: the documentation journal image for Dakk's D&D 2e Core is now journals/dakks-2e.webp, matching that module's new id. No other change.
