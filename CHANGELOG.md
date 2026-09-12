@@ -1,5 +1,49 @@
 # Changelog
 
+## 2.3.4 (2026-09-12)
+
+Every image re-rendered with a new image model: 35 redesigned, 0 changed noticeably, 0 polished. Filenames are unchanged, so existing worlds pick up the new art on update.
+
+### Redesigned
+
+New paintings where the previous image had the wrong body plan, identity or object.
+
+- Cryohydra: corrected body plan
+- Fire Giant: recoloured to match the Monster Manual (2014)
+- Hydra: corrected body plan
+- Ogre: given the temper the book describes, on its face
+- Black Pudding: redrawn to the Monster Manual (2014) depiction
+- Ettin: given the temper the book describes, on its face
+- Gorgimera: corrected body plan
+- Otyugh: redrawn to the Monster Manual (2014) depiction
+- Rakshasa: corrected body plan
+- Salamander: redrawn to the Monster Manual (2014) depiction
+- Xorn: corrected body plan
+- Yeti: redrawn to the Monster Manual (2014) depiction
+- Androsphinx: redrawn to the Monster Manual (2014) depiction
+- Balor: redrawn to the Monster Manual (2014) depiction
+- Bearded Devil: corrected body plan
+- Bone Devil: redrawn to the Monster Manual (2014) depiction
+- Chain Devil: redrawn to the Monster Manual (2014) depiction
+- Copper Dragon: corrected body plan
+- Crab: corrected body plan
+- Dust Mephit: redrawn to the Monster Manual (2014) depiction
+- Elk: redrawn to the Monster Manual (2014) depiction
+- Flying Snake: redrawn to the Monster Manual (2014) depiction
+- Gargoyle: the armour it never wore removed
+- Giant Crab: corrected body plan
+- Glabrezu: corrected body plan
+- Grick: redrawn to the Monster Manual (2014) depiction
+- Gynosphinx: redrawn to the Monster Manual (2014) depiction
+- Ice Devil: corrected body plan
+- Ice Mephit: redrawn to the Monster Manual (2014) depiction
+- Jackal: redrawn to the Monster Manual (2014) depiction
+- Magma Mephit: redrawn to the Monster Manual (2014) depiction
+- Ogre Zombie: given the temper the book describes, on its face
+- Pteranodon: corrected body plan
+- Sahuagin: corrected body plan
+- Steam Mephit: redrawn to the Monster Manual (2014) depiction
+
 ## 2.3.3 (2026-09-07)
 
 Presentation art, painted in the library's own hand: eleven compendium banners (art/banners/) shared by every Dakk module so the sidebar strips match across the 2e and 5e cores, a module cover and icon for Foundry's setup and install screens, and a banner on the Art Library catalogue. No token or icon changes.
