@@ -2,7 +2,7 @@
 
 ## 2.3.4 (2026-09-12)
 
-Every image re-rendered with a new image model: 35 redesigned, 0 changed noticeably, 0 polished. Filenames are unchanged, so existing worlds pick up the new art on update.
+The fidelity pass: 35 creatures repainted against the Monster Manual (2014) plates. Three ogre-kin get bestial faces (ogre, ettin, ogre zombie); four bodies are put back together (hydra, cryohydra, copper dragon, gorgimera); the sphinxes, bone devil, otyugh and 24 more take their head, body plan, colour or gear from the plate (balor, bearded devil, black pudding, chain devil, crab, dust mephit, elk, fire giant, flying snake, gargoyle, giant crab, glabrezu, grick, ice devil, ice mephit, jackal, magma mephit, pteranodon, rakshasa, sahuagin, salamander, steam mephit, xorn, yeti). Filenames are unchanged, so existing worlds pick up the new art on update.
 
 ### Redesigned
 
