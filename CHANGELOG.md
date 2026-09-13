@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.5 (2026-09-13)
+
+Female variants for every race and class: 22 new paintings beside the existing male ones, each a woman of the same race or class in the same kind of gear, in the same hand. Races: dwarf, elf, gnome, half-elf, halfling, human. Classes: abjurer, bard, cleric, conjurer, diviner, druid, enchanter, fighter, illusionist, invoker, mage, necromancer, paladin, ranger, thief, transmuter. Each is its own file named <slug>-female.webp in the same folder as the male one (art/races/dwarf-female.webp), catalogued beside it in the Art Library compendium, and named so a Foundry wildcard token path such as dwarf*.webp picks either. No existing image changed; the race and class items keep the image they have.
+
 ## 2.3.4 (2026-09-12)
 
 The fidelity pass: 35 creatures repainted against the Monster Manual (2014) plates. Three ogre-kin get bestial faces (ogre, ettin, ogre zombie); four bodies are put back together (hydra, cryohydra, copper dragon, gorgimera); the sphinxes, bone devil, otyugh and 24 more take their head, body plan, colour or gear from the plate (balor, bearded devil, black pudding, chain devil, crab, dust mephit, elk, fire giant, flying snake, gargoyle, giant crab, glabrezu, grick, ice devil, ice mephit, jackal, magma mephit, pteranodon, rakshasa, sahuagin, salamander, steam mephit, xorn, yeti). Filenames are unchanged, so existing worlds pick up the new art on update.
