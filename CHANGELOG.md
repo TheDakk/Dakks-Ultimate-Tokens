@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.6 (2026-09-14)
+
+Female variants for 63 creatures and NPC types, and a male vampire spawn beside the female one: 64 new paintings, each the same species or role as the existing one in the same kind of gear, in the same hand. Humanoids (bugbear, gnoll, goblin, half-ogre, half-orc, hobgoblin, kobold, lizardman, ogre, orc, troll), giants (cloud, fire, frost, hill, stone, storm, cyclops, titan), fey, sea folk and genies (centaur, brownie, pixie, sprite, triton, merfolk, djinni, efreeti), the Underdark peoples (drow, drow elite warrior, drow mage, deep gnome, duergar, grimlock), the lycanthropes in hybrid form (werebear, wereboar, wererat, weretiger, werewolf, wolfwere), vampire and rakshasa, the people of the Monster Manual appendix (acolyte, archmage, assassin, bandit, bandit captain, berserker, commoner, cult fanatic, cultist, gladiator, guard, knight, noble, priest, scout, spy, tribal warrior, veteran), and a lioness, a doe, a cow elk and a giant elk hind. Each is its own file named <slug>-female.webp (vampire-spawn-male.webp) in the same folder as the existing one, catalogued beside it, and named so a wildcard token path such as orc*.webp picks either. No existing image changed.
+
 ## 2.3.5 (2026-09-13)
 
 Female variants for every race and class: 22 new paintings beside the existing male ones, each a woman of the same race or class in the same kind of gear, in the same hand. Races: dwarf, elf, gnome, half-elf, halfling, human. Classes: abjurer, bard, cleric, conjurer, diviner, druid, enchanter, fighter, illusionist, invoker, mage, necromancer, paladin, ranger, thief, transmuter. Each is its own file named <slug>-female.webp in the same folder as the male one (art/races/dwarf-female.webp), catalogued beside it in the Art Library compendium, and named so a Foundry wildcard token path such as dwarf*.webp picks either. No existing image changed; the race and class items keep the image they have.
