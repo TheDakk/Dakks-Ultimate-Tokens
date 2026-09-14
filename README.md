@@ -3,7 +3,7 @@
 ![Dakk's Ultimate Tokens](https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp)
 
 An edition-agnostic art library for Foundry VTT, packaged as an art-only module: one journal
-compendium that catalogues the images, no scripts, one image per subject. 1,430 images in a single classic TSR oil-painting look
+compendium that catalogues the images, no scripts, one image per subject. 1,494 images in a single classic TSR oil-painting look
 (the Brom, Parkinson and Easley tradition), each a transparent WebP named by its subject's
 slug, so any D&D campaign suite can pick them up by filename. A goblin is a goblin in any
 edition; `art/creatures/goblin.webp` serves them all.
@@ -44,6 +44,9 @@ art/journals/       journal art
 art/aliases.json    alternate names that resolve to the same image
 packs/gallery       the journal compendium that catalogues all of the above
 ```
+
+Race, class and people entries come in both sexes: `dwarf.webp` and `dwarf-female.webp` side by
+side, so a wildcard token path such as `dwarf*.webp` picks either.
 
 Every image is a square WebP with real transparency, exported at the size its token
 footprint needs (400 px for a 1×1 subject, 800 px for 2×2, 1200 px for 3×3). See
