@@ -2,11 +2,18 @@
 
 ![Dakk's Ultimate Tokens](https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp)
 
-An edition-agnostic art library for Foundry VTT, packaged as an art-only module: one journal
-compendium that catalogues the images, no scripts, one image per subject. 1,494 images in a single classic TSR oil-painting look
-(the Brom, Parkinson and Easley tradition), each a transparent WebP named by its subject's
-slug, so any D&D campaign suite can pick them up by filename. A goblin is a goblin in any
-edition; `art/creatures/goblin.webp` serves them all.
+An edition-agnostic art library for Foundry VTT, packaged as an art-only module: journal
+compendiums that catalogue the images, no scripts, one image per subject. 1,494 images in a
+single classic TSR oil-painting look (the Brom, Parkinson and Easley tradition), each a
+transparent WebP named by its subject's slug, so any D&D campaign suite can pick them up by
+filename. A goblin is a goblin in any edition; `art/creatures/goblin.webp` serves them all.
+
+Since 3.0.0 the library also carries a **Dark Sun (Athas)** collection: 426 images of the
+creatures, peoples, classes, psionic abilities, weapons and gear of Athas, painted in the same
+hand but in a second reference look for a hotter, harsher world (sun-weathered skin, bone,
+hide and obsidian, no steel), under `art/settings/darksun/` with its own catalogue compendium.
+A suite running a Dark Sun campaign resolves that folder first and falls back to the generic
+image.
 
 ## Install
 
@@ -18,10 +25,12 @@ edition; `art/creatures/goblin.webp` serves them all.
 Updating in place is safe: filenames never change between versions, so worlds and suites
 that already point at an image simply get the new one.
 
-**Where the images appear.** Open the compendium **Dakk's Ultimate Tokens** (a journal
-compendium, so it works in any game system): one journal per kind, and creatures browsed two
-ways, **Creatures by Type** and **Creatures by Challenge**; pages of thumbnails with
-each image's name and file path; click a thumbnail to see it full size. To put an image on
+**Where the images appear.** Open the compendium **Art Library (all systems)** under the
+sidebar folder **Dakk's Ultimate Tokens** (a journal compendium, so it works in any game
+system): one journal per kind, and creatures browsed two ways, **Creatures by Type** and
+**Creatures by Challenge**; pages of thumbnails with each image's name and file path; click a
+thumbnail to see it full size. The Athas images are catalogued the same way in the
+**Dark Sun (Athas)** compendium beside it. To put an image on
 an actor, token or item, use its image picker and browse to
 `modules/dakks-ultimate-tokens/art/` and the kind folder named under the thumbnail. A game
 suite built against this library, such as Dakk's AD&D 2e suite, wires the images to its
@@ -42,7 +51,10 @@ art/skills/         thief skills
 art/tables/         treasure and encounter table emblems
 art/journals/       journal art
 art/aliases.json    alternate names that resolve to the same image
-packs/gallery       the journal compendium that catalogues all of the above
+art/settings/darksun/   the Dark Sun (Athas) collection: creatures, npcs, races, classes,
+                        abilities, weapons, equipment, tables, journals
+packs/gallery           the journal compendium that catalogues the generic library
+packs/gallery-darksun   the journal compendium that catalogues the Athas collection
 ```
 
 Race, class and people entries come in both sexes: `dwarf.webp` and `dwarf-female.webp` side by
