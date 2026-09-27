@@ -1,310 +1,222 @@
 # Changelog
 
-## 3.0.0 (2026-09-20)
+## 3.0.0 — Dark Sun (2026-09-20)
 
-Dark Sun joins the library. The Dark Sun collection is 426 new images under art/settings/darksun/: the creatures and NPC types of Athas (thri-kreen and tohr-kreen, mul, half-giant, tarek, gith, b'rohg, the four silt horrors, braxat, cilops, the sorcerer-kings' templars and the arena's gladiators among 212 creatures and 63 NPC types), the Athasian races and classes with a woman beside every man, psionic abilities, fifteen Athasian weapons in bone, obsidian and chitin, gear and tables. Every figure was painted against the sources of the setting: a body that records its station (a starved slave, a corpulent templar, a gaunt defiler, a gladiator built by the arena), sun-scarred faces, hide and sinew fastenings and no steel; the monsters were checked one by one against the original plates for head, limb and body plan. All of it is in a second reference look for a hotter, harsher world and catalogued in its own compendium, Dark Sun (Athas). Suites built against the library resolve the Athas folder first for a Dark Sun campaign and fall back to the generic image. No universal image changed.
+The Dark Sun (Athas) collection: 426 new images in their own harsher, sun-scorched look, with their own compendium.
 
-## 2.3.6 (2026-09-14)
+**Added**
 
-Female variants for 63 creatures and NPC types, and a male vampire spawn beside the female one: 64 new paintings, each the same species or role as the existing one in the same kind of gear, in the same hand. Humanoids (bugbear, gnoll, goblin, half-ogre, half-orc, hobgoblin, kobold, lizardman, ogre, orc, troll), giants (cloud, fire, frost, hill, stone, storm, cyclops, titan), fey, sea folk and genies (centaur, brownie, pixie, sprite, triton, merfolk, djinni, efreeti), the Underdark peoples (drow, drow elite warrior, drow mage, deep gnome, duergar, grimlock), the lycanthropes in hybrid form (werebear, wereboar, wererat, weretiger, werewolf, wolfwere), vampire and rakshasa, the people of the Monster Manual appendix (acolyte, archmage, assassin, bandit, bandit captain, berserker, commoner, cult fanatic, cultist, gladiator, guard, knight, noble, priest, scout, spy, tribal warrior, veteran), and a lioness, a doe, a cow elk and a giant elk hind. Each is its own file named <slug>-female.webp (vampire-spawn-male.webp) in the same folder as the existing one, catalogued beside it, and named so a wildcard token path such as orc*.webp picks either. No existing image changed.
+- 212 creatures and 63 NPC types of Athas: thri-kreen and tohr-kreen, mul, half-giant, tarek, gith, b'rohg, braxat, cilops, the four silt horrors, templars and gladiators
+- The Athasian races and classes, each with a woman beside the man
+- Psionic abilities, gear and tables
+- Fifteen Athasian weapons in bone, obsidian and chitin
+- A compendium of its own, Dark Sun (Athas), under the Dakk's Ultimate Tokens folder
 
-## 2.3.5 (2026-09-13)
+**Changed**
 
-Female variants for every race and class: 22 new paintings beside the existing male ones, each a woman of the same race or class in the same kind of gear, in the same hand. Races: dwarf, elf, gnome, half-elf, halfling, human. Classes: abjurer, bard, cleric, conjurer, diviner, druid, enchanter, fighter, illusionist, invoker, mage, necromancer, paladin, ranger, thief, transmuter. Each is its own file named <slug>-female.webp in the same folder as the male one (art/races/dwarf-female.webp), catalogued beside it in the Art Library compendium, and named so a Foundry wildcard token path such as dwarf*.webp picks either. No existing image changed; the race and class items keep the image they have.
+- Every Athasian figure is painted to its station: starved slaves, corpulent templars, gaunt defilers, arena-built gladiators; hide and sinew fastenings, no steel
+- Monsters checked one by one against the original plates for head, limbs and body plan
+- Game suites resolve `art/settings/darksun/` first for a Dark Sun campaign and fall back to the generic image
 
-## 2.3.4 (2026-09-12)
+No existing universal image changed.
 
-The fidelity pass: 35 creatures repainted against the Monster Manual (2014) plates. Three ogre-kin get bestial faces (ogre, ettin, ogre zombie); four bodies are put back together (hydra, cryohydra, copper dragon, gorgimera); the sphinxes, bone devil, otyugh and 24 more take their head, body plan, colour or gear from the plate (balor, bearded devil, black pudding, chain devil, crab, dust mephit, elk, fire giant, flying snake, gargoyle, giant crab, glabrezu, grick, ice devil, ice mephit, jackal, magma mephit, pteranodon, rakshasa, sahuagin, salamander, steam mephit, xorn, yeti). Filenames are unchanged, so existing worlds pick up the new art on update.
+## 2.3.6 — Women among the creatures (2026-09-14)
 
-### Redesigned
+64 new paintings: a female variant for 63 creatures and NPC types, and a male vampire spawn beside the female one.
 
-New paintings where the previous image had the wrong body plan, identity or object.
+**Added**
 
-- Cryohydra: corrected body plan
-- Fire Giant: recoloured to match the Monster Manual (2014)
-- Hydra: corrected body plan
-- Ogre: given the temper the book describes, on its face
-- Black Pudding: redrawn to the Monster Manual (2014) depiction
-- Ettin: given the temper the book describes, on its face
-- Gorgimera: corrected body plan
-- Otyugh: redrawn to the Monster Manual (2014) depiction
-- Rakshasa: corrected body plan
-- Salamander: redrawn to the Monster Manual (2014) depiction
-- Xorn: corrected body plan
-- Yeti: redrawn to the Monster Manual (2014) depiction
-- Androsphinx: redrawn to the Monster Manual (2014) depiction
-- Balor: redrawn to the Monster Manual (2014) depiction
-- Bearded Devil: corrected body plan
-- Bone Devil: redrawn to the Monster Manual (2014) depiction
-- Chain Devil: redrawn to the Monster Manual (2014) depiction
-- Copper Dragon: corrected body plan
-- Crab: corrected body plan
-- Dust Mephit: redrawn to the Monster Manual (2014) depiction
-- Elk: redrawn to the Monster Manual (2014) depiction
-- Flying Snake: redrawn to the Monster Manual (2014) depiction
-- Gargoyle: the armour it never wore removed
-- Giant Crab: corrected body plan
-- Glabrezu: corrected body plan
-- Grick: redrawn to the Monster Manual (2014) depiction
-- Gynosphinx: redrawn to the Monster Manual (2014) depiction
-- Ice Devil: corrected body plan
-- Ice Mephit: redrawn to the Monster Manual (2014) depiction
-- Jackal: redrawn to the Monster Manual (2014) depiction
-- Magma Mephit: redrawn to the Monster Manual (2014) depiction
-- Ogre Zombie: given the temper the book describes, on its face
-- Pteranodon: corrected body plan
-- Sahuagin: corrected body plan
-- Steam Mephit: redrawn to the Monster Manual (2014) depiction
+- Humanoids: bugbear, gnoll, goblin, half-ogre, half-orc, hobgoblin, kobold, lizardman, ogre, orc, troll
+- Giants: cloud, fire, frost, hill, stone, storm, cyclops, titan
+- Fey, sea folk and genies: centaur, brownie, pixie, sprite, triton, merfolk, djinni, efreeti
+- Underdark peoples: drow, drow elite warrior, drow mage, deep gnome, duergar, grimlock
+- Lycanthropes in hybrid form: werebear, wereboar, wererat, weretiger, werewolf, wolfwere
+- Vampire, rakshasa, and the Monster Manual appendix people (acolyte to veteran)
+- A lioness, a doe, a cow elk and a giant elk hind
 
-## 2.3.3 (2026-09-07)
+**Changed**
 
-Presentation art, painted in the library's own hand: eleven compendium banners (art/banners/) shared by every Dakk module so the sidebar strips match across the 2e and 5e cores, a module cover and icon for Foundry's setup and install screens, and a banner on the Art Library catalogue. No token or icon changes.
+- Each variant is its own file, `<slug>-female.webp` (`vampire-spawn-male.webp`), beside the original, so a wildcard token path such as `orc*.webp` picks either
 
-## 2.3.2 (2026-09-07)
+No existing image changed.
 
-Five spell emblems redrawn after a read of every spell emblem against its description: Control Temperature no longer shows a thermometer, Hypnotism and Time Stop no longer show pocket watches (a spiral pendant and a frozen hourglass instead), Hold Monster shows a held beast rather than a weapon, and Grease is a slick puddle rather than a block. The rest of the library's races, classes, weapons, armour, gear and spell emblems were reviewed against the 2014 sources and stand. No other changes.
+## 2.3.5 — Women for every race and class (2026-09-13)
 
-### Redesigned
+22 new paintings: a woman beside the man for every race and class.
 
-New paintings where the previous image had the wrong body plan, identity or object.
+**Added**
 
-- Control Temperature, 10’ Radius: redrawn to the Monster Manual (2014) depiction
-- Grease: redrawn to the Monster Manual (2014) depiction
-- Hold Monster: redrawn to the Monster Manual (2014) depiction
-- Hypnotism: redrawn to the Monster Manual (2014) depiction
-- Time Stop: redrawn to the Monster Manual (2014) depiction
+- Races: dwarf, elf, gnome, half-elf, halfling, human
+- Classes: abjurer, bard, cleric, conjurer, diviner, druid, enchanter, fighter, illusionist, invoker, mage, necromancer, paladin, ranger, thief, transmuter
 
-## 2.3.1 (2026-09-07)
+**Changed**
 
-Compendium sidebar: everything of Dakk's now sits under one folder, "Dakk's Ultimate Tokens". This module's catalogue appears there as "Art Library (all systems)", and Dakk's D&D 5e Core and D&D 2e Core add their own subfolders ("D&D 5e (2014)", "D&D 2e") to the same tree when installed, so the sidebar stacks instead of listing every pack. No image changes.
+- Each is its own file, `<slug>-female.webp`, beside the original and catalogued with it; a wildcard path such as `dwarf*.webp` picks either
 
-## 2.3.0 (2026-09-07)
+No existing image changed; race and class items keep their image.
 
-Creature art aligned with the Monster Manual (2014). Every creature in the library was compared, picture beside picture, with that book's art on D&D Beyond and its page text, and the ones that did not match were painted again. Three kinds of correction: creatures drawn with armour they never wear (angels, devils, lycanthropes, giants, goblinoids, the lich, the minotaur, the orc) now show bare hide, skin or robes; creatures whose colour or body was wrong (the bronze dragon as a green-bronze sea dragon with its frill, the eight-legged basilisk, the cobalt behir, the blue-white phase spider, the leafy treant, the nagas with snake heads, the ogre as the pale hairless giant it is rather than an orc) now follow the book; and the dryad, kraken, deep gnome, pixie and others were redrawn outright. Faces, too: the first redraws came back with the right bodies and blank faces, so every creature description now names its expression, taken from the book's picture or its text where it gives one (the ogre roars with a jaw of jagged teeth, the ghoul is twisted by hunger, the lich sneers with cold contempt, the solar is serenely terrible) and from the creature's nature otherwise. That rule now applies to every creature painted from here on. Every replaced image is listed by name below with the reason. Filenames are unchanged, so existing worlds pick up the new art on update. Also in this release: the compendium's plain "Creatures" journal and the one-image "Journals" journal (a game suite's own document cover) are gone; creatures are browsed as "Creatures by Type" and "Creatures by Challenge".
+## 2.3.4 — The fidelity pass (2026-09-12)
 
-### Redesigned
+35 creatures repainted to match their Monster Manual (2014) pictures.
 
-New paintings where the previous image had the wrong body plan, identity or object.
+**Fixed**
 
-- Brass Dragon: redrawn to the Monster Manual (2014) depiction
-- Bronze Dragon: redrawn to the Monster Manual (2014) depiction
-- Bugbear: the armour it never wore removed
-- Cloud Giant: redrawn to the Monster Manual (2014) depiction
-- Goblin: the armour it never wore removed
-- Minotaur: the armour it never wore removed
-- Ogre: given the temper the book describes, on its face
-- Orc: the armour it never wore removed
-- Basilisk: redrawn to the Monster Manual (2014) depiction
-- Behir: recoloured to match the Monster Manual (2014)
-- Centaur: the armour it never wore removed
-- Couatl: redrawn to the Monster Manual (2014) depiction
-- Dryad: redrawn to the Monster Manual (2014) depiction
-- Ettin: given the temper the book describes, on its face
-- Ghast: redrawn to the Monster Manual (2014) depiction
-- Ghoul: redrawn to the Monster Manual (2014) depiction
-- Kobold: the armour it never wore removed
-- Lich: the armour it never wore removed
-- Marilith: the armour it never wore removed
-- Night Hag: redrawn to the Monster Manual (2014) depiction
-- Owlbear: recoloured to match the Monster Manual (2014)
-- Phase Spider: recoloured to match the Monster Manual (2014)
-- Pit Fiend: the armour it never wore removed
-- Pixie: redrawn to the Monster Manual (2014) depiction
-- Tarrasque: recoloured to match the Monster Manual (2014)
-- Treant: redrawn to the Monster Manual (2014) depiction
-- Vampire: the armour it never wore removed
-- Werebear: the armour it never wore removed
-- Wereboar: the armour it never wore removed
-- Wight: redrawn to the Monster Manual (2014) depiction
-- Worg: recoloured to match the Monster Manual (2014)
-- Ankheg: redrawn to the Monster Manual (2014) depiction
-- Balor: the armour it never wore removed
-- Barbed Devil: the armour it never wore removed
-- Bearded Devil: redrawn to the Monster Manual (2014) depiction
-- Blink Dog: redrawn to the Monster Manual (2014) depiction
-- Bulette: recoloured to match the Monster Manual (2014)
-- Deep Gnome (Svirfneblin): redrawn to the Monster Manual (2014) depiction
-- Deva: the armour it never wore removed
-- Doppelganger: recoloured to match the Monster Manual (2014)
-- Ettercap: redrawn to the Monster Manual (2014) depiction
-- Flying Snake: redrawn to the Monster Manual (2014) depiction
-- Giant Spider: recoloured to match the Monster Manual (2014)
-- Gibbering Mouther: redrawn to the Monster Manual (2014) depiction
-- Glabrezu: redrawn to the Monster Manual (2014) depiction
-- Guardian Naga: redrawn to the Monster Manual (2014) depiction
-- Hezrou: recoloured to match the Monster Manual (2014)
-- Hippogriff: recoloured to match the Monster Manual (2014)
-- Homunculus: redrawn to the Monster Manual (2014) depiction
-- Horned Devil: the armour it never wore removed
-- Incubus: redrawn to the Monster Manual (2014) depiction
-- Kraken: redrawn to the Monster Manual (2014) depiction
-- Kuo-toa Archpriest: redrawn to the Monster Manual (2014) depiction
-- Kuo-toa Whip: redrawn to the Monster Manual (2014) depiction
-- Lemure: recoloured to match the Monster Manual (2014)
-- Merfolk: redrawn to the Monster Manual (2014) depiction
-- Merrow: recoloured to match the Monster Manual (2014)
-- Minotaur Skeleton: the armour it never wore removed
-- Nalfeshnee: redrawn to the Monster Manual (2014) depiction
-- Ogre Zombie: redrawn to the Monster Manual (2014) depiction
-- Oni: redrawn to the Monster Manual (2014) depiction
-- Planetar: the armour it never wore removed
-- Sahuagin: the armour it never wore removed
-- Sahuagin Baron: the armour it never wore removed
-- Sea Hag: redrawn to the Monster Manual (2014) depiction
-- Solar: the armour it never wore removed
-- Spirit Naga: redrawn to the Monster Manual (2014) depiction
-- Vampire Spawn: redrawn to the Monster Manual (2014) depiction
+- Ogre, ettin and ogre zombie: bestial faces with the temper the book gives them
+- Hydra, cryohydra, copper dragon and gorgimera: bodies put back together, every neck and limb joined
+- The sphinxes, bone devil, otyugh and 24 more: head, body plan, colour or gear taken from the book
 
-## 2.2.2 (2026-09-07)
+Filenames are unchanged, so existing worlds pick up the new art on update.
 
-One file renamed: the documentation journal image for Dakk's D&D 2e Core is now journals/dakks-2e.webp, matching that module's new id. No other change.
+<details><summary>All 35 repainted creatures</summary>
 
-## 2.2.1 (2026-09-07)
+Androsphinx · Balor · Bearded Devil · Black Pudding · Bone Devil · Chain Devil · Copper Dragon · Crab · Cryohydra · Dust Mephit · Elk · Ettin · Fire Giant · Flying Snake · Gargoyle · Giant Crab · Glabrezu · Gorgimera · Grick · Gynosphinx · Hydra · Ice Devil · Ice Mephit · Jackal · Magma Mephit · Ogre · Ogre Zombie · Otyugh · Pteranodon · Rakshasa · Sahuagin · Salamander · Steam Mephit · Xorn · Yeti
 
-Compendium navigation tidied: "Creatures by Challenge" has one page per challenge rating (CR 0, CR 1/8, CR 1/4, CR 1/2, CR 1, CR 2 and so on), "Creatures by Type" one page per type, no page split into parts, and journal names no longer carry counts. No image changes.
+</details>
 
-## 2.2.0 (2026-09-07)
+## 2.3.3 — Banners, cover and icon (2026-09-07)
 
-Compendium: creatures can now be browsed three ways. Besides the A-to-Z journal, "Creatures by type" groups them as beasts, humanoids, undead, dragons, fiends and the rest, and "Creatures by challenge" groups them by challenge rating band with each creature's CR shown. Pick the journal you want; its page list on the left is the navigation. Types and ratings come from the SRD 5.1 monster table where the name matches, and from the reviewer for the rest. No image changes.
+Presentation art painted in the library's own hand.
 
-## 2.1.0 (2026-09-07)
+**Added**
 
-New: a compendium. The module now carries one journal compendium, "Dakk's Ultimate Tokens", that catalogues every image by kind with a thumbnail, its name and its file path, so the library can be browsed inside Foundry in any game system. No image changes.
+- Eleven compendium banners (`art/banners/`), shared by every Dakk module so the sidebar matches across the 2e and 5e cores
+- A module cover and icon for Foundry's setup and install screens
+- A banner on the Art Library catalogue
 
-## 2.0.1 (2026-09-07)
+No token or icon changes.
 
-Manifest fix only, no image changes: the module now declares Foundry VTT 11 as its minimum (it was wrongly set to 14). The library is art only, so it runs on any version from 11 up; verified on 14.
+## 2.3.2 — Five spell emblems redrawn (2026-09-07)
 
-## 2.0.0 (2026-09-06)
+Every spell emblem was read against its spell; five were redrawn.
 
-Every image re-rendered with a new image model: 109 redesigned, 126 changed noticeably, 1173 polished. Filenames are unchanged, so existing worlds pick up the new art on update.
+**Fixed**
 
-### Redesigned
+- Control Temperature: frost and flame instead of a thermometer
+- Hypnotism: a swinging spiral pendant instead of a pocket watch
+- Time Stop: a frozen hourglass instead of a pocket watch
+- Hold Monster: a held beast instead of a weapon
+- Grease: a slick puddle instead of a block
 
-New paintings where the previous image had the wrong body plan, identity or object.
+No other changes.
 
-- Black Dragon: repainted in the house style
-- Blue Dragon: repainted in the house style
-- Brass Dragon: repainted in the house style
-- Bronze Dragon: repainted in the house style
-- Chimera: corrected body plan
-- Cloud Giant: repainted in the house style
-- Troll: repainted in the house style
-- Basilisk: corrected body plan
-- Behir: corrected body plan
-- Black Pudding: corrected body plan
-- Brownie: corrected body plan
-- Cockatrice: corrected body plan
-- Corpse Ravager: corrected body plan
-- Couatl: corrected body plan
-- Dretch: corrected body plan
-- Efreeti: corrected body plan
-- Gazer: corrected body plan
-- Griffon: repainted in the house style
-- Manticore: corrected body plan
-- Medusa: corrected body plan
-- Night Hag: repainted in the house style
-- Nixie: corrected body plan
-- Otyugh: corrected body plan
-- Owlbear: repainted in the house style
-- Rakshasa: repainted in the house style
-- Remorhaz: corrected body plan
-- Salamander: corrected body plan
-- Sprite: corrected body plan
-- Triton: corrected body plan
-- Tunnel Lurk: corrected body plan
-- Winter Wolf: repainted in the house style
-- Yeti: no gear on a wild animal
-- Barding, Full Scale: correct weapon
-- Barding, Half Scale: correct weapon
-- Arquebus: correct weapon
-- Arquebus Shot: correct weapon
-- Awl Pike: correct weapon
-- Bardiche: correct weapon
-- Bec de Corbin: correct weapon
-- Fauchard: correct weapon
-- Guisarme: correct weapon
-- Guisarme-Voulge: correct weapon
-- Khopesh: correct weapon
-- Jousting Lance: correct weapon
-- Lucern Hammer: correct weapon
-- Man Catcher: correct weapon
-- Partisan: correct weapon
-- Hand Quarrel (10): correct weapon
-- Light Quarrel (10): correct weapon
-- Spetum: correct weapon
-- Arquebus: correct weapon
-- Awl Pike: correct weapon
-- Bardiche: correct weapon
-- Bec de Corbin: correct weapon
-- Bow (Weaponry Group): correct weapon
-- Fauchard: correct weapon
-- Guisarme: correct weapon
-- Guisarme-Voulge: correct weapon
-- Khopesh: correct weapon
-- Lucern Hammer: correct weapon
-- Man Catcher: correct weapon
-- Morning Star: correct weapon
-- Partisan: correct weapon
-- Spetum: correct weapon
-- Animal Growth: clearer spell emblem
-- Blink: clearer spell emblem
-- Chill Touch: clearer spell emblem
-- Glass Steel: clearer spell emblem
-- Hold Person: clearer spell emblem
-- Leprechaun’s Lamentable Belaborment: clearer spell emblem
-- Leprechaun’s Secret Chest: clearer spell emblem
-- Leprechaun’s Secure Shelter: clearer spell emblem
-- Leprechaun’s Tiny Hut: clearer spell emblem
-- Leprechaun’s Trap: clearer spell emblem
-- Pass Without Trace: clearer spell emblem
-- Rope Trick: clearer spell emblem
-- Awakened Tree: repainted in the house style
-- Balor: repainted in the house style
-- Bearded Devil: repainted in the house style
-- Bone Devil: repainted in the house style
-- Constrictor Snake: repainted in the house style
-- Crawling Claw: corrected body plan
-- Dire Wolf: no gear on a wild animal
-- Dragon Turtle: repainted in the house style
-- Drider: corrected body plan
-- Erinyes: corrected body plan
-- Ettercap: corrected body plan
-- Flameskull: corrected body plan
-- Giant Ape: no gear on a wild animal
-- Giant Constrictor Snake: repainted in the house style
-- Giant Sea Horse: corrected body plan
-- Glabrezu: corrected body plan
-- Gold Dragon: repainted in the house style
-- Green Dragon: repainted in the house style
-- Grick: corrected body plan
-- Grimlock: repainted in the house style
-- Hell Hound: no gear on a wild animal
-- Hippogriff: corrected body plan
-- Killer Whale: repainted in the house style
-- Kraken: repainted in the house style
-- Lemure: corrected body plan
-- Merrow: corrected body plan
-- Quasit: corrected body plan
-- Rug of Smothering: corrected body plan
-- Silver Dragon: repainted in the house style
-- Stone Giant: repainted in the house style
-- Vrock: corrected body plan
-- Water Elemental: no gear on a wild animal
-- White Dragon: repainted in the house style
+## 2.3.1 — One sidebar folder (2026-09-07)
 
-### Changed noticeably
+Everything of Dakk's now sits under one compendium folder, Dakk's Ultimate Tokens.
 
-Same design, visibly different rendering.
+**Changed**
 
-Lizard, Fire, Earth Elemental, Phase Spider, Tarrasque, Wereboar, Chain Mail, Field Plate, Barrel of Picked Fish, Plain Brooch, Canoe, War, Eggs or Fresh Vegetables, Firewood (per day), Meals, Poor (per day), Salt (per lb.), Clerk (per letter), Sheep, Blind-Fight, Endurance, Healing, Weapon Specialization: Heavy Crossbow (Levels 1-6), Weapon Specialization: Heavy Crossbow (Levels 13+), Instrument, Weapon Specialization: Light Crossbow (Levels 13+), Mining, Missile-Weapon Method, Religion, Singing, Sling, Spellcraft, Stonemason, Weapon Specialization: Thrown Dart (Levels 13+), Weapon Specialization: Thrown Dart (Levels 7-12), Unarmed Combat Specialization (Fighter Only), Move Silently, Aerial Servant, Airy Water, Animal Friendship, Armor, Call Lightning, Cantrip, Chariot of the Sun, Cloud Kill, Conjure Animals, Control Temperature, 10’ Radius, Creeping Doom, Cure Disease, Cure Light Wounds, Detect Invisibility, Dream, Dust Devil, Enthrall, Faerie Fire, Find the Path, Fire Charm, Flame Arrow, Floating Disc, Force Cage, Freezing Sphere, Globe of Invulnerability, Good Berry, Gust of Wind, Hallucinatory Forest, Hallucinatory Terrain, Hold Animal, Hold Monster, Imprisonment, Irritation, Legend Lore, Mage’s Lucubration, Mass Charm, Maze, Minor Creation, Minor Globe of Invulnerability, Monster Summoning V, Part Water, Permanency, Plant Door, Plant Growth, Power Word, Blind, Power Word, Kill, Power Word, Stun, Prayer, Protection From Evil, 10’ Radius, Purify Food & Drink, Rainbow Pattern, Sink, Solid Fog, Speak With Dead, Spell Turning, Stinking Cloud, Trap the Soul, Wall of Fire, Wall of Ice, Wall of Thorns, Whispering Wind, Wish, Wizard Lock, Objects of Art, Books and Tomes, Combined Hoard Table, Random Gemstones, Jewels & Jewelry — Sub-Table B, Rings, Treasure Type D, Treasure Type H, Treasure Hiding, Treasure Type M, Treasure Type O, Treasure Type R, Treasure Type Z, Awakened Shrub, Badger, Boar, Gelatinous Cube, Giant Crocodile, Giant Vulture, Hawk, Mimic, Panther, Rat, Rust Monster, Sea Horse, Stone Golem, Swarm of Centipedes, Swarm of Quippers, Violet Fungus
+- This module's catalogue appears as Art Library (all systems)
+- Dakk's D&D 5e Core and D&D 2e Core add their own subfolders (D&D 5e (2014), D&D 2e) to the same tree, so the sidebar stacks instead of listing every pack
 
-### Polished
+No image changes.
 
-Same design: sharper detail, cleaner edges, richer material.
+## 2.3.0 — Monster Manual (2014) alignment (2026-09-07)
 
-Bugbear, Cryohydra, Fire Giant, Frost Giant, Gnoll, Goblin, Half-Ogre, Half-Orc, Hobgoblin, Hydra, Lizard, Minotaur, Lizardman, Minotaur, Ogre, Orc, Dwarf, Elf, Gnome, Half-Elf, Halfling, Human, Aerial Servant, Air Elemental, Brown Pudding, Centaur, Clay Golem, Djinni, Dryad, Ettin, Flesh Golem, Ghast, Ghoul, Gorgimera, Harpy, Invisible Stalker, Juju Zombie, Kobold, Leprechaun, Lich, Marilith, Mongrelman, Mudman, Mummy, Nymph, Pit Fiend, Pixie, Satyr, Shadow, Skeleton, Specter, Spigazu, Titan, Treant, Unicorn, Vampire, Water Serpent, Werebear, Wight, Will O’ Wisp, Wolfwere, Worg, Wraith, Wyvern, Xorn, Zombie, Banded Mail, Brigandine, Bronze Plate Mail, Full Plate, Basinet, Cap, Coif, Great Helm, Open-Face Helm, Leather Armor, Padded Armor, Plate Mail, Scale Mail, Body Shield, Buckler, Medium Shield, Small Shield, Splint Mail, Studded Leather, Ale (per gallon), Backpack, Banquet (per person), Barding, Chain, Barding, Full Plate, Barding, Half Brigandine, Barding, Half Padded, Barding, Leather or Padded, Barge, Barrel, Small, Basket, Large, Basket, Small, Bell, Belt, Belt Pouch, Large, Belt Pouch, Small, Bit and Bridle, Block and Tackle, Boar, Bolt Case, Riding Boots, Soft Boots, Bread, Breeches, Bucket, Bull, Butter (per lb.), Calf, Camel, Candle, Tallow, Candle, Wax, Canoe, Small, Canvas (per square yard), Cap or Hat, Capon, Caravel, Carriage, Common, Cart Harness, Cat, Chain, Heavy (per foot), Chain, Light (per foot), Chalk, Chariot, Riding, Chariot, War, Cheese, Chest, Large, Chest, Small, Chicken, City Rooms, Common (per month), City Rooms, Poor (per month), Cloak, Common Fur, Cloak, Good Cloth, Cloth, Common (per 10 square yards), Cloth, Fine (per 10 square yards), Cloth, Rich (per 10 square yards), Coach, Ornamented, Coarse Sugar (per lb.), Coaster, Cog, Common Wine (pitcher), Cow, Crampons, Curragh, Dog, Guard, Dog, Hunting, Dog, War, Donkey, Mule, Ass, Drakkar, Dromond, Eggs (per 100), Elephant, Labor, Elephant, War, Falcon (trained), Figs (per lb.), Fishhook, Fishing Net, 10 Feet Square, Flint and Steel, Galleon, Girdle, Glass Bottle, Gloves, Goat, Goose, Gown, Common, Grappling Hook, Great Galley, Guinea Hen, Halter, Herbs (per day), Holy Item, Honey, Horse, Draft, Horse, Heavy War, Horse, Light War, Horse, Medium War, Horse, Riding, Horseshoes and Shoeing, Hose, Hourglass, Hunting Cat (jaguar, panther, etc.), Inn Lodging, Common (per day/week), Inn Lodging, Common (per day/week) - second listing, Iron Pot, Knarr, Knife Sheath, Ladder, 10 Feet, Lantern, Beacon, Lantern, Bull's-Eye, Lantern, Hooded, Lifestyle, Middle-Class (per month), Lifestyle, Poor (per month), Lifestyle, Squalid (per month), Lifestyle, Wealthy (per month), Lock, Good, Lock, Poor, Longship, Magnifying Glass, Map or Scroll Case, Meals, Common (per day), Meals, Good (per day), Meat (one meal), Merchant's Scale, Mirror, Small Metal, Mittens, Musical Instrument, Nuts (per lb.), Oar, Common, Oar, Galley, Oil, Greek Fire (per flask), Oil, Lamp (per flask), Ox, Paper (per sheet), Papyrus (per sheet), Parchment (per sheet), Partridge, Peacock, Perfume (per vial), Pig, Pigeon, Pigeon, Messenger, Pin, Piton, Pony, Quiver, Raft or Small Keelboat, Raisins (per lb.), Ram, Dry Rations (per week), Rice (per lb.), Robe, Common, Robe, Embroidered, Rope, Hemp (per 50 feet), Rope, Silk (per 50 feet), Sack, Extra-Large, Sack, Large, Sack, Small, Sack, Tiny, Saddle Bags, Large, Saddle Bags, Small, Saddle Blanket, Saddle, Pack, Saddle, Riding, Sail, Salted Herring (per 100), Sandals, Sash, Sealing/Candle Wax (per lb.), Sedan Chair, Separate Latrine for Rooms (per month), Bath, Doctor, Leech, or Bleeding, Guide, City (per day), Lantern or Torchbearer (per night), Laundry (by load), Messenger, City (per message), Minstrel (per performance), Mourner (per funeral), Teamster with Wagon (per mile), Sewing Needle, Shoes, Signal Whistle, Signet Ring or Personal Seal, Silk Jacket, Small Beer (per gallon), Soap (per lb.), Songbird, Soup, Spice, Exotic (per lb.), Spice, Rare (per lb.), Spice, Uncommon (per lb.), Spyglass, Stabling for Horse (daily), Surcoat, Swan, Sword Scabbard, Hanger, Baldric, Tabard, Tent, Large, Tent, Pavilion, Tent, Small, Thieves' Picks, Toga, Coarse, Torch, Tun of Cider (250 gal.), Tun of Good Wine (250 gal.), Tunic, Vest, Wagon or Cart Wheel, Water Clock, Whetstone, Wineskin, Winter Blanket, Writing Ink (per vial), Yoke, Horse, Yoke, Ox, Flight Arrow (12), Sheaf Arrow (6), Bastard Sword (One-Handed), Bastard Sword (Two-Handed), Battle Axe, Bill-Guisarme, Blowgun, Barbed Blowgun Dart (10), Needle Blowgun Dart (10), Broad Sword, Club, Composite Long Bow, Composite Short Bow, Cutlass, Dagger / Dirk, Dart, Fauchard-Fork, Footman's Flail, Footman's Mace, Footman's Pick, Glaive, Glaive-Guisarme, Halberd, Hand Axe (Throwing Axe), Hand Crossbow, Harpoon, Heavy Crossbow, Hook Fauchard, Horseman's Flail, Horseman's Mace, Horseman's Pick, Javelin, Knife, Heavy Lance, Light Lance, Medium Lance, Light Crossbow, Long Bow, Long Sword, Military Fork, Morning Star, Heavy Quarrel (10), Quarterstaff, Ranseur, Scimitar, Scourge, Short Bow, Short Sword, Sickle, Sling, Sling Bullet (10), Sling Stone, Spear, Staff Sling, Trident, Two-Handed Sword, Voulge, War Hammer, Whip, Abjurer, Bard, Cleric, Conjurer, Diviner, Druid, Enchanter, Fighter, Illusionist, Invoker, Mage, Necromancer, Paladin, Ranger, Thief, Transmuter, AD&D 2e Core — Documentation, Acrobatics, Agriculture, Ambidexterity, Ancient History, Animal Handling, Animal Lore, Appraise, Armorer, Artist, Astrology, Axe (Weaponry Group), Bastard Sword, Battle Axe, Bill-Guisarme, Blacksmith, Blowgun, Bludgeoning Weaponry (Type), Bowyer/Fletcher, Brawling-Attack Method, Brewing, Broad Sword, Carpentry, Cavalry (Weaponry Group), Charioteer, Climbing, Club (Weaponry Group), Cobbler, Composite Long Bow, Composite Short Bow, Cooking, Cross-Country Running, Crossbow (Weaponry Group), Cutlass, Dagger / Dirk, Dance, Dart, Disguise, Dual-Weapon Method, Engineering, Etiquette, Fauchard-Fork, Fishing, Footman's Flail, Footman's Mace, Footman's Pick, Forgery, Gaming, Gem Cutting, Glaive, Glaive-Guisarme, Halberd, Hand Axe (Throwing Axe), Hand Crossbow, Harpoon, Heavy Crossbow, Weapon Specialization: Heavy Crossbow (Levels 7-12), Herbalism, Hook Fauchard, Horseman's Flail, Horseman's Mace, Horseman's Pick, Hunting, Hurled-Weapon Method, Infantry (Weaponry Group), Javelin, Juggling, Jumping, Knife, Knowledge, Lance (Weaponry Group), Heavy Lance, Jousting Lance, Light Lance, Medium Lance, Languages, Ancient, Languages, Modern, Light Crossbow, Weapon Specialization: Light Crossbow (Levels 1-6), Weapon Specialization: Light Crossbow (Levels 7-12), Local History, Long Blade (Weaponry Group), Long Bow, Long Sword, Medium Blade (Weaponry Group), Weapon Specialization: Melee Weapon (Levels 1-6), Weapon Specialization: Melee Weapon (Levels 13+), Weapon Specialization: Melee Weapon (Levels 7-12), Military Fork, Weapon Specialization: Missile Weapons (Levels 1-6), Weapon Specialization: Missile Weapons (Levels 13+), Weapon Specialization: Missile Weapons (Levels 7-12), Navigation, Perform, Piercing Weaponry (Type), Pole Arm (Weaponry Group), Pottery, Quarterstaff, Ranseur, Read Lips, Read/Write Language, Release Action (Weaponry Group), Riding, Scimitar, Scourge, Seamanship, Seamstress/Tailor, Set Snares and Traps, Short Blade (Weaponry Group), Short Bow, Short Sword, Sickle, Single-Weapon Method, Single-Weapon Method Specialization, Slashing Weaponry (Type), Spear (Weaponry Group), Staff Sling, Survival, Swimming, Tanner, Weapon Specialization: Thrown Dagger (Levels 1-6), Weapon Specialization: Thrown Dagger (Levels 13+), Weapon Specialization: Thrown Dagger (Levels 7-12), Weapon Specialization: Thrown Dart (Levels 1-6), Tracking, Trade, Trident, Two-Handed Method, Two-Handed Sword, Use Rope, Voulge, War Hammer, Weapon-Shield Method, Weapon-Shield Method Specialization, Weaponsmith, Weaving, Whip, Wrestling-Attack Method, Backstab, Climb Walls (Bard), Detect Noise (Bard), Find/Remove Traps, Hide in Shadows, Open Locks, Pick Pockets (Bard), Read Languages (Bard), Advanced Illusion, Affect Normal Fires, Aid, Air Walk, Alarm, Alter Self, Animal Summoning I, Animal Summoning II, Animal Summoning III, Animate Dead, Animate Object, Animate Rock, Anti-Animal Shell, Anti-Magic Shell, Anti-Plant Shell, Antipathy-Sympathy, Astral Spell, Atonement, Audible Glamer, Augury, Avoidance, Banishment, Bark Skin, Big Clenched Fist, Big Crushing Hand, Big Forceful Hand, Big Grasping Hand, Big Interposing Hand, Bind, Binding, Black Tentacles, Blade Barrier, Bless, Blindness, Blur, Burning Hands, Call Woodland Beings, Chain Lightning, Change Self, Change Staff, Chant, Chaos, Charm, Charm Monster, Charm Plants, Clairaudience, Clairvoyance, Cloak of Bravery, Clone, Color Spray, Combine, Command, Commune, Commune With Nature, Comprehend Languages, Cone of Cold, Confusion, Conjure Earth Elemental, Conjure Elemental, Conjure Fire Elemental, Contact Other Plane, Contagion, Contingency, Continual Light, Control Undead, Control Weather, Control Winds, Create Food & Water, Create Water, Crystal Brittle, Cure Blindness or Deafness, Cure Critical Wounds, Cure Serious Wounds, Dancing Lights, Darkness, 15’ Radius, Deafness, Death Fog, Death Spell, Deep Pockets, Delayed Blast Fireball, Delude, Demand, Demi-Shadow Magic, Demi-Shadow Monsters, Detect Charm, Detect Evil, Detect Lie, Detect Magic, Detect Poison, Detect Scrying, Detect Snares & Pits, Detect Undead, Dig, Dimension Door, Disintegrate, Dismissal, Dispel Evil, Dispel Magic, Distance Distortion, Divination, Domination, Duo-Dimension, Earthquake, Emotion, Enchant an Item, Enchanted Weapon, Endure Heat/Endure Cold, Energy Drain, Enervation, Enlarge, Ensnarement, Entangle, Erase, ESP, Exaction, Explosive Runes, Extension I, Extension II, Extension III, Eye Bite, Fabricate, False Vision, Fear, Feather Fall, Feeble Mind, Feign Death, Find Familiar, Find Traps, Finger of Death, Fire Seeds, Fire Shield, Fire Storm, Fire Trap, Fireball, Flame Blade, Flame Strike, Flame Walk, Flaming Sphere, Fly, Fog Cloud, Fool’s Gold, Forbiddance, Foresight, Forget, Free Action, Friends, Fumble, Gate, Gaze Reflection, Geas, Giant Insect, Glass See, Glitter Dust, Glyph of Warding, Grease, Guards and Wards, Haste, Heal, Heat Metal, Heroes’ Feast, Hold Plant, Hold Portal, Hold Undead, Holy Word, Hypnotic Pattern, Hypnotism, Ice Storm, Identify, Illusory Script, Illusory Wall, Imbue With Spell Ability, Improved Invisibility, Improved Phantasmal Force, Incendiary Cloud, Infravision, Insect Plague, Instant Summons, Intense Transformation, Invisibility, Invisibility, 10’ Radius, Invisibility to Animals, Invisibility to Undead, Invisible Stalker, Irresistible Dance, Item, Jump, Knock, Know Alignment, Levitate, Light, Lightning Bolt, Limited Wish, Live Oak, Locate Animals or Plants, Locate Object, Lower Water, Mage’s Disjunction, Mage’s Faithful Hound, Mage’s Magnificent Mansion, Mage’s Sword, Magic Font, Magic Jar, Magic Mirror, Magic Missile, Magic Mouth, Magical Aura, Magical Stone, Magical Vestment, Major Creation, Mass Invisibility, Mass Morph, Mass Suggestion, Meld Into Stone, Mending, Message, Messenger, Meteor Swarm, Mind Blank, Minute Meteors, Mirage Arcana, Mirror Image, Misdirection, Mislead, Mnemonic Enhancer, Monster Summoning I, Monster Summoning II, Monster Summoning III, Monster Summoning IV, Monster Summoning VI, Monster Summoning VII, Moonbeam, Mount, Move Earth, Negative Plane Protection, Neutralize Poison, Non-detection, Obscurement, Pass Plant, Pass Wall, Permanent Illusion, Phantasmal Force, Phantasmal Killer, Phantom Steed, Phase Door, Plane Shift, Polymorph Any Object, Polymorph Other, Polymorph Self, Prismatic Sphere, Prismatic Spray, Prismatic Wall, Produce Fire, Produce Flame, Programmed Illusion, Project Image, Protection From Cantrips, Protection From Evil, Protection From Fire, Protection From Lightning, Protection From Missiles, Pyrotechnics, Quest, Rainbow, Raise Dead, Ray of Enfeeblement, Read Magic, Reflecting Pool, Regenerate, Reincarnate, Remove Curse, Remove Fear, Remove Paralysis, Repel Insects, Repulsion, Resilient Sphere, Resist Fire/Resist Cold, Restoration, Resurrection, Reverse Gravity, Sanctuary, Scare, Screen, Secret Page, Seeming, Sending, Sepia Snake Sigil, Sequester, Shades, Shadow Door, Shadow Magic, Shadow Monsters, Shadow Walk, Shape Change, Shatter, Shield, Shillelagh, Shocking Grasp, Shout, Silence, 15’ Radius, Simulacrum, Sleep, Slow, Slow Poison, Snake Charm, Snare, Speak With Animals, Speak With Monsters, Speak With Plants, Spectral Force, Spectral Hand, Spell Immunity—Arcane, Spell Immunity—Divine, Spider Climb, Spike Growth, Spike Stones, Spiritual Hammer, Spook, Star Shine, Statue, Sticks to Snakes, Stone Shape, Stone Skin, Stone Tell, Stone to Flesh, Strength, Succored Retreat, Suggestion, Summon Insects, Summon Shadow, Summon Swarm, Sunray, Symbol, Taunt, Telekinesis, Telekinetic Sphere, Teleport, Teleport Without Error, Temporal Stasis, Time Stop, Tongues, Transmute Metal to Wood, Transmute Rock to Mud, Transmute Water to Dust, Transport Via Plants, Tree, Trip, True Seeing, Turn Wood, Uncontrollable Hideous Laughter, Unseen Servant, Vacancy, Vampiric Touch, Vanish, Veil, Ventriloquism, Vision, Wall of Fog, Wall of Force, Wall of Iron, Wall of Stone, Warp Wood, Water Breathing, Water Walk, Weather Summoning, Web, Weird, Wind Walk, Wind Wall, Withdraw, Wizard Eye, Wizard Mark, Word of Recall, Wraith Form, Wyvern Watch, Magical Armor Enchantment Modifier, Magical Armor Type, Objects of Art Value Variation, Bags and Bottles, Boots and Gloves, Candles, Dusts, and Stones, Cloaks and Robes, 2-20 Encounter Table, Encounter Distance, Encounter Frequency, Encounter Reaction — Party Friendly, Gem Value Variation, Girdles and Helms, Encounter Reaction — Party Hostile, Household Items and Tools, Encounter Reaction — Party Indifferent, Jewelry and Trinkets, Jewels & Jewelry (magical), Jewels & Jewelry — Sub-Table A, Magic Hoard Table, Magical Items, Map Table, Map Distance Table, Map Location Table, Monetary Hoard Table, Musical Instruments, Odd Curios, Odd Curios — Sub-Table A, Odd Curios — second sub-table, Potion Incompatibility, Potions, Potions — Sub-Table A, Potions — Sub-Table B, Potions — Sub-Table C, Rings — Sub-Table A, Rings — Sub-Table B, Rods, Scrolls, Scrolls — Sub-Table A (Protection), Scrolls — Sub-Table B (Spell Scrolls), Special Armors, Special Weapons, Special Weapons — Sub-Table A, Special Weapons — Sub-Table B, Special Weapons — Sub-Table C, Special Weapons — Sub-Table D, Spell Scroll Failure, Staves, Encounter Reaction — Party Threatening, Treasure Type A, Treasure Type B, Treasure Type C, Treasure Container, Treasure Type E, Treasure Type F, Treasure Type G, Treasure Type I, Treasure Type J, Treasure Type K, Treasure Type L, Treasure Type N, Treasure Type P, Treasure Type Q, Treasure Type S, Treasure Type T, Treasure Traps, Treasure Type U, Treasure Type V, Treasure Type W, Treasure Type X, Treasure Type Y, Wands, Magical Weapon Enchantment Modifier, Magical Weapon Type, Magical Weapon Type — Sub-Table A, Magical Weapon Type — Sub-Table B, Aboleth, Abominable Yeti, Acolyte, Allosaurus, Androsphinx, Animated Armor, Ankheg, Ankylosaurus, Ape, Archmage, Assassin, Axe Beak, Azer, Baboon, Bandit, Bandit Captain, Banshee, Barbed Devil, Bat, Berserker, Black Bear, Blink Dog, Blood Hawk, Brown Bear, Bugbear Chief, Bulette, Camel, Cat, Cave Bear, Chain Devil, Chuul, Cloaker, Commoner, Copper Dragon, Crab, Crocodile, Cult Fanatic, Cultist, Cyclops, Darkmantle, Death Dog, Deep Gnome (Svirfneblin), Deer, Deva, Doppelganger, Draft Horse, Drow, Drow Elite Warrior, Drow Mage, Drow Priestess of Lolth, Druid, Duergar, Dust Mephit, Eagle, Elephant, Elk, Fire Elemental, Fire Snake, Flying Snake, Flying Sword, Frog, Gargoyle, Ghost, Giant Badger, Giant Bat, Giant Boar, Giant Centipede, Giant Crab, Giant Eagle, Giant Elk, Giant Fire Beetle, Giant Frog, Giant Goat, Giant Hyena, Giant Lizard, Giant Octopus, Giant Owl, Giant Poisonous Snake, Giant Rat, Giant Scorpion, Giant Shark, Giant Spider, Giant Toad, Giant Wasp, Giant Weasel, Giant Wolf Spider, Gibbering Mouther, Gladiator, Gnoll Fang of Yeenoghu, Gnoll Pack Lord, Goat, Goblin Boss, Gorgon, Gray Ooze, Green Hag, Guard, Guardian Naga, Gynosphinx, Half-Red Dragon Veteran, Hezrou, Hill Giant, Hobgoblin Captain, Hobgoblin Warlord, Homunculus, Horned Devil, Hunter Shark, Hyena, Ice Devil, Ice Mephit, Imp, Incubus, Iron Golem, Jackal, Knight, Kuo-toa Archpriest, Kuo-toa Monitor, Kuo-toa Whip, Lamia, Lion, Lizard, Lizard King, Lizard Queen, Lizardfolk, Lizardfolk Shaman, Mage, Magma Mephit, Magmin, Mammoth, Mastiff, Merfolk, Mindflayer Arcanist, Minotaur Skeleton, Mule, Mummy Lord, Nalfeshnee, Nightmare, Noble, Ochre Jelly, Octopus, Ogre Zombie, Oni, Orc Eye of Gruumsh, Orc War Chief, Owl, Pegasus, Planetar, Plesiosaurus, Poisonous Snake, Polar Bear, Pony, Priest, Pseudodragon, Pteranodon, Purple Worm, Quaggoth Thonot, Quipper, Raven, Red Dragon, Reef Shark, Rhinoceros, Riding Horse, Roc, Roper, Saber-Toothed Tiger, Sahuagin, Sahuagin Baron, Sahuagin Priestess, Scarecrow, Scorpion, Scout, Sea Hag, Shambling Mound, Shield Guardian, Shrieker, Solar, Spider, Spirit Naga, Spy, Steam Mephit, Stirge, Storm Giant, Succubus, Swarm of Bats, Swarm of Beetles, Swarm of Insects, Swarm of Poisonous Snakes, Swarm of Rats, Swarm of Ravens, Swarm of Spiders, Swarm of Wasps, Tiger, Tribal Warrior, Triceratops, Tyrannosaurus Rex, Vampire Spawn, Veteran, Vulture, Warhorse, Warhorse Skeleton, Weasel, Wererat, Weretiger, Werewolf, Wolf
+Every creature was compared with its Monster Manual (2014) picture; 68 that did not match were repainted.
 
-## 1.0.0 (2026-09-05)
+**Added**
 
-First public release: 1,408 images for classes, skills, races, proficiencies, spells, equipment, weapons, armor, creatures and tables.
+- Faces with temper: every creature now shows the expression its picture or page gives it (the ogre roars, the ghoul hungers, the lich sneers, the solar is serenely terrible)
+
+**Changed**
+
+- The compendium's plain Creatures journal and the one-image Journals journal are gone; browse Creatures by Type and Creatures by Challenge
+
+**Fixed**
+
+- Armour removed from creatures that never wear it: angels, devils, lycanthropes, giants, goblinoids, the lich, the minotaur, the orc
+- Colour and body corrected: the bronze sea dragon, the eight-legged basilisk, the cobalt behir, the blue-white phase spider, the leafy treant, the snake-headed nagas, the ogre as a pale hairless giant
+- Redrawn outright: the dryad, kraken, deep gnome, pixie and others
+
+Filenames are unchanged, so existing worlds pick up the new art on update.
+
+<details><summary>All 68 repainted creatures</summary>
+
+Ankheg · Balor · Barbed Devil · Basilisk · Bearded Devil · Behir · Blink Dog · Brass Dragon · Bronze Dragon · Bugbear · Bulette · Centaur · Cloud Giant · Couatl · Deep Gnome (Svirfneblin) · Deva · Doppelganger · Dryad · Ettercap · Ettin · Flying Snake · Ghast · Ghoul · Giant Spider · Gibbering Mouther · Glabrezu · Goblin · Guardian Naga · Hezrou · Hippogriff · Homunculus · Horned Devil · Incubus · Kobold · Kraken · Kuo-toa Archpriest · Kuo-toa Whip · Lemure · Lich · Marilith · Merfolk · Merrow · Minotaur · Minotaur Skeleton · Nalfeshnee · Night Hag · Ogre · Ogre Zombie · Oni · Orc · Owlbear · Phase Spider · Pit Fiend · Pixie · Planetar · Sahuagin · Sahuagin Baron · Sea Hag · Solar · Spirit Naga · Tarrasque · Treant · Vampire · Vampire Spawn · Werebear · Wereboar · Wight · Worg
+
+</details>
+
+## 2.2.2 — Journal image renamed (2026-09-07)
+
+One file renamed to match the 2e core's new module id.
+
+**Changed**
+
+- The D&D 2e Core documentation image is now `journals/dakks-2e.webp`
+
+No other change.
+
+## 2.2.1 — Compendium navigation tidied (2026-09-07)
+
+Cleaner creature browsing in the catalogue.
+
+**Changed**
+
+- Creatures by Challenge: one page per challenge rating (CR 0, 1/8, 1/4, 1/2, 1, 2 and so on)
+- Creatures by Type: one page per type
+- No page is split into parts, and journal names no longer carry counts
+
+No image changes.
+
+## 2.2.0 — Browse creatures by type and challenge (2026-09-07)
+
+Two new ways to browse creatures in the catalogue.
+
+**Added**
+
+- Creatures by type: beasts, humanoids, undead, dragons, fiends and the rest
+- Creatures by challenge: grouped by challenge rating, each creature's CR shown
+
+**Changed**
+
+- Types and ratings come from the SRD 5.1 monster table where the name matches
+
+No image changes.
+
+## 2.1.0 — The catalogue compendium (2026-09-07)
+
+A journal compendium that catalogues every image, browsable inside Foundry in any game system.
+
+**Added**
+
+- Dakk's Ultimate Tokens compendium: every image by kind, with a thumbnail, its name and its file path
+
+No image changes.
+
+## 2.0.1 — Foundry 11 minimum (2026-09-07)
+
+Manifest fix: the module runs on any Foundry version from 11 up.
+
+**Fixed**
+
+- The minimum Foundry version is 11 (it was wrongly set to 14); verified on 14
+
+No image changes.
+
+## 2.0.0 — Every image re-rendered (2026-09-06)
+
+All 1,408 images re-rendered with a new image model.
+
+**Changed**
+
+- 109 redesigned on corrected descriptions: body plans, weapons, spell emblems, animals without gear
+- 126 changed noticeably, same design
+- 1,173 polished: sharper detail, cleaner edges, richer material
+
+Filenames are unchanged, so existing worlds pick up the new art on update.
+
+<details><summary>The 109 redesigned images</summary>
+
+Animal Growth · Arquebus · Arquebus Shot · Awakened Tree · Awl Pike · Balor · Bardiche · Barding, Full Scale · Barding, Half Scale · Basilisk · Bearded Devil · Bec de Corbin · Behir · Black Dragon · Black Pudding · Blink · Blue Dragon · Bone Devil · Bow (Weaponry Group) · Brass Dragon · Bronze Dragon · Brownie · Chill Touch · Chimera · Cloud Giant · Cockatrice · Constrictor Snake · Corpse Ravager · Couatl · Crawling Claw · Dire Wolf · Dragon Turtle · Dretch · Drider · Efreeti · Erinyes · Ettercap · Fauchard · Flameskull · Gazer · Giant Ape · Giant Constrictor Snake · Giant Sea Horse · Glabrezu · Glass Steel · Gold Dragon · Green Dragon · Grick · Griffon · Grimlock · Guisarme · Guisarme-Voulge · Hand Quarrel (10) · Hell Hound · Hippogriff · Hold Person · Jousting Lance · Khopesh · Killer Whale · Kraken · Lemure · Leprechaun’s Lamentable Belaborment · Leprechaun’s Secret Chest · Leprechaun’s Secure Shelter · Leprechaun’s Tiny Hut · Leprechaun’s Trap · Light Quarrel (10) · Lucern Hammer · Man Catcher · Manticore · Medusa · Merrow · Morning Star · Night Hag · Nixie · Otyugh · Owlbear · Partisan · Pass Without Trace · Quasit · Rakshasa · Remorhaz · Rope Trick · Rug of Smothering · Salamander · Silver Dragon · Spetum · Sprite · Stone Giant · Triton · Troll · Tunnel Lurk · Vrock · Water Elemental · White Dragon · Winter Wolf · Yeti
+
+</details>
+
+<details><summary>The 126 noticeably changed images</summary>
+
+Aerial Servant · Airy Water · Animal Friendship · Armor · Awakened Shrub · Badger · Barrel of Picked Fish · Blind-Fight · Boar · Books and Tomes · Call Lightning · Canoe, War · Cantrip · Chain Mail · Chariot of the Sun · Clerk (per letter) · Cloud Kill · Combined Hoard Table · Conjure Animals · Control Temperature, 10’ Radius · Creeping Doom · Cure Disease · Cure Light Wounds · Detect Invisibility · Dream · Dust Devil · Earth Elemental · Eggs or Fresh Vegetables · Endurance · Enthrall · Faerie Fire · Field Plate · Find the Path · Fire Charm · Firewood (per day) · Flame Arrow · Floating Disc · Force Cage · Freezing Sphere · Gelatinous Cube · Giant Crocodile · Giant Vulture · Globe of Invulnerability · Good Berry · Gust of Wind · Hallucinatory Forest · Hallucinatory Terrain · Hawk · Healing · Hold Animal · Hold Monster · Imprisonment · Instrument · Irritation · Jewels & Jewelry — Sub-Table B · Legend Lore · Lizard, Fire · Mage’s Lucubration · Mass Charm · Maze · Meals, Poor (per day) · Mimic · Mining · Minor Creation · Minor Globe of Invulnerability · Missile-Weapon Method · Monster Summoning V · Move Silently · Objects of Art · Panther · Part Water · Permanency · Phase Spider · Plain Brooch · Plant Door · Plant Growth · Power Word, Blind · Power Word, Kill · Power Word, Stun · Prayer · Protection From Evil, 10’ Radius · Purify Food & Drink · Rainbow Pattern · Random Gemstones · Rat · Religion · Rings · Rust Monster · Salt (per lb.) · Sea Horse · Sheep · Singing · Sink · Sling · Solid Fog · Speak With Dead · Spell Turning · Spellcraft · Stinking Cloud · Stone Golem · Stonemason · Swarm of Centipedes · Swarm of Quippers · Tarrasque · Trap the Soul · Treasure Hiding · Treasure Type D · Treasure Type H · Treasure Type M · Treasure Type O · Treasure Type R · Treasure Type Z · Unarmed Combat Specialization (Fighter Only) · Violet Fungus · Wall of Fire · Wall of Ice · Wall of Thorns · Weapon Specialization: Heavy Crossbow (Levels 1-6) · Weapon Specialization: Heavy Crossbow (Levels 13+) · Weapon Specialization: Light Crossbow (Levels 13+) · Weapon Specialization: Thrown Dart (Levels 13+) · Weapon Specialization: Thrown Dart (Levels 7-12) · Wereboar · Whispering Wind · Wish · Wizard Lock
+
+</details>
+
+## 1.0.0 — First release (2026-09-05)
+
+1,408 images for classes, skills, races, proficiencies, spells, equipment, weapons, armor, creatures and tables.
