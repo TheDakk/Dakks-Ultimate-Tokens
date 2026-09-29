@@ -1,5 +1,34 @@
 # Changelog
 
+## 3.5.0 — The sourcebooks (2026-09-29)
+
+1,408 new images: 1,152 creatures from nine 5e books and 256 women and men beside them, and a review of every image in the library.
+
+**Added**
+
+- 1,152 creatures from the Monster Manual (2014) gaps, Monsters of the Multiverse, Fizban's Treasury of Dragons, Fiendish Folio Vol 1, Xanathar's, Tasha's, Tome of Beasts, Flee, Mortals! and Dr Dhrolin's, each painted from its own book picture
+- 256 sex variants for the people among them: a woman beside the man, or a man beside a woman, as `<slug>-female.webp` or `<slug>-male.webp`
+- Gem, deep and chromatic greatwyrm dragons, dinosaurs, fiends, fey, giants and many more; the Art Library catalogue lists all 2,902 images
+
+**Changed**
+
+- Every one of the 2,902 images was reviewed beside its book picture or, for a variant, beside its partner; 69 images from earlier releases were repainted where the creature, colour, gear or object did not match
+- A woman now wears her partner's costume, as bare as her kind and never barer
+
+**Fixed**
+
+- Stone golem, storm giant, shambling mound, titan, flesh golem, satyr, brown pudding and other older creatures now match their Monster Manual pictures
+- Lances, polearms, sling bullets and several spell icons show the right object, with no modern badges or letters
+- Aspect of Tiamat: all five necks rise from the chest
+
+Filenames are unchanged, so existing worlds pick up the new art on update. The Dark Sun collection is unchanged.
+
+<details><summary>All repainted images</summary>
+
+Acrobatics · Anti-Animal Shell · Bill-Guisarme · Brown Pudding · Commune · Cyclops (female) · Drider · Dwarf (female) · Eggs (per 100) · Ettin · Extension III · Fauchard · Fauchard-Fork · Field Plate · Fighter (female) · Fire Giant (female) · Fishing · Flesh Golem · Glitter Dust · Guisarme · Heavy Lance · Heavy Quarrel (10) · Hobgoblin (female) · Hobgoblin Warlord · Holy Item · Jump · Lamia · Languages, Modern · Lemure · Light Lance · Lizard, Minotaur · Mage’s Disjunction · Magnifying Glass · Man Catcher · Map Location Table · Marilith · Medium Lance · Mongrelman · Nymph · Pegasus · Pseudodragon · Rakshasa (female) · Ranseur · Release Action (Weaponry Group) · Religion · Satyr · Sea Hag · Shambling Mound · Simulacrum · Sling Bullet (10) · Spectral Force · Stone Golem · Stone to Flesh · Storm Giant · Storm Giant (female) · Swarm of Wasps · Swimming · Titan · Titan (female) · Treant · Treasure Type K · Treasure Type W · Vampire (female) · Ventriloquism · Web · Wind Walk · Wolfwere · Wolfwere (female) · Wyvern Watch
+
+</details>
+
 ## 3.0.0 — Dark Sun (2026-09-20)
 
 The Dark Sun (Athas) collection: 426 new images in their own harsher, sun-scorched look, with their own compendium.
