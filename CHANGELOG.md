@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.6.0 — Corrections (2026-10-01)
+
+Six images corrected in the generic library and fifteen Athasian women repainted.
+
+**Changed**
+
+- Dark Sun: fifteen women repainted so each reads as a woman under her station, beside her partner: the half-giant, dwarf and human women, the beasthead giant, the ex-gladiator, the assistant templar, the dwarf, human and mul gladiators, the half-giant guard and soldier, the mul gang leader, the dwarf overseer, and the dwarf and mul slaves
+- Dark Sun: the slave women are starved like their partners, the assistant templar's robe falls closed to her ankles, and the Athasian dwarf woman stands empty-handed like her partner
+
+**Fixed**
+
+- Shadow Fey Enchantress: the breastplate is closed below the gorget and the gown has no slit
+- Queen of Night and Magic: the bodice rises to a lace collar at the throat
+- Excess: four legs, one at each corner
+- Otyugh Dregsbelcher: three legs, two at the front and one stump at the rear
+- Fog Giant (female): solid black eyes and rounded fog giant ears, like her partner
+- Simulacrum: the snowflake ornament is gone from the waist
+
 ## 3.5.0 — The sourcebooks (2026-09-29)
 
 1,408 new images: 1,152 creatures from nine 5e books and 256 women and men beside them, and a review of every image in the library.
