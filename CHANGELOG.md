@@ -1,5 +1,21 @@
 # Changelog
 
+## 3.7.0 — The 5e Core, complete (2026-10-03)
+
+1,463 new images: every item, spell, feature, table and person of the D&D 5e SRD now has its own painting.
+
+**Added**
+
+- 751 items, each its own painting: every +1, +2 and +3 weapon and armour, adamantine and mithral, armor of resistance, the named magic weapons (flame tongue, frost brand, vorpal, holy avenger and the rest on every weapon they come on), 31 potions, 32 rings, wands, rods, staffs, wondrous items, tools, packs and gear
+- 125 spells, and the spell-effect tokens (arcane hand, mage hand, arcane eye, dancing lights, unseen servant)
+- The races and subraces, classes, subclasses and the acolyte, each with a woman beside the man
+- Every class feature, monster feature and racial trait as an emblem; the SRD roll tables; trade goods
+- The Art Library catalogue lists all 4,365 images, with a new Backgrounds section
+
+**Changed**
+
+- A +1, +2 and +3 item differ by the same scale of runes on every base, so siblings tell apart at a glance
+
 ## 3.6.0 — Corrections (2026-10-01)
 
 Six images corrected in the generic library and fifteen Athasian women repainted.
