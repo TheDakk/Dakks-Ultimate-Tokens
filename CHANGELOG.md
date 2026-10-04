@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.8.0 — The sourcebooks in full (2026-10-03)
+
+520 new images: every spell, magic item, feat, background, subclass and race of the 5e sourcebooks the library covers, each with its own painting.
+
+**Added**
+
+- 118 spells from Xanathar's, Tasha's, Fizban's and Dr Dhrolin's
+- 164 magic items, each its own painting: Xanathar's common items, Tasha's tattoos, shards and spellcasting focuses, Fizban's dragon hoard items, and the magic items of Tome of Beasts, Flee, Mortals! and Dr Dhrolin's
+- 41 feats as emblems, and Dr Dhrolin's three backgrounds
+- 58 subclasses from Xanathar's, Tasha's and Fizban's, each carrying the mark of its path
+- 38 races: the 33 of Monsters of the Multiverse and Dr Dhrolin's dinosaur-folk, each painted from its own book portrait
+- A woman beside the man for every subclass, race and background
+- The Art Library catalogue lists all 4,885 images
+
+**Fixed**
+
+- Defensive Tactics, Create Specter and Fire Breath, the three 5e class and monster features still missing, are painted
+
 ## 3.7.0 — The 5e Core, complete (2026-10-03)
 
 1,463 new images: every item, spell, feature, table and person of the D&D 5e SRD now has its own painting.

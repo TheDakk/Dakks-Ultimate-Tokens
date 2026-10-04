@@ -3,7 +3,7 @@
 ![Dakk's Ultimate Tokens](https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp)
 
 An edition-agnostic art library for Foundry VTT, packaged as an art-only module: journal
-compendiums that catalogue the images, no scripts, one image per subject. 4,365 images in a
+compendiums that catalogue the images, no scripts, one image per subject. 4,885 images in a
 single classic TSR oil-painting look (the Brom, Parkinson and Easley tradition), each a
 transparent WebP named by its subject's slug, so any D&D campaign suite can pick them up by
 filename. A goblin is a goblin in any edition; `art/creatures/goblin.webp` serves them all.
@@ -16,6 +16,10 @@ for the people among them.
 Since 3.7.0 it covers the whole D&D 5e SRD as well: every item (each +1, +2 and +3 weapon and armour,
 every potion, ring and wondrous item its own painting), spell, class and monster feature, roll table
 and trade good, and the races, classes and subclasses with a woman beside each man.
+
+Since 3.8.0 it covers the sourcebooks in full too: every spell, magic item, feat, background,
+subclass and race of Xanathar's, Tasha's, Fizban's, Monsters of the Multiverse and the third-party
+books the library paints, each race from its own book portrait.
 
 Since 3.0.0 the library also carries a **Dark Sun (Athas)** collection: 426 images of the
 creatures, peoples, classes, psionic abilities, weapons and gear of Athas, painted in the same
