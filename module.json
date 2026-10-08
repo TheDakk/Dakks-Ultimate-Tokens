@@ -1,0 +1,868 @@
+{
+  "id": "dakks-ultimate-tokens",
+  "title": "Dakk's Ultimate Tokens for Dungeons & Dragons",
+  "description": "<p>Unique generated artwork for Dungeons &amp; Dragons in Foundry, and the game compendia that use it, in one module. <strong>Every image</strong> (creatures, races, classes, spells, items, weapons, armor, skills, tables) works in any game system, with <strong>Art Library (All)</strong>, a journal catalogue of every image, including the Dark Sun (Athas) and Theros collections.</p><p><strong>D&amp;D 5e (2014)</strong> worlds also get ready-to-play compendia: the SRD 5.1 monsters, spells, items and character options plus creatures, spells, magic items, subclasses, races, backgrounds and feats from further sourcebooks (rules in our own words), and Theros. <strong>AD&amp;D 2e</strong> worlds on the Advanced Roleplaying System get For Gold &amp; Glory rules, creatures, spells and equipment, Dark Sun and its first campaign, Freedom. Each compendium appears only in worlds of its own system. Every actor carries its painting as portrait and token, with a female or male twin where one is painted.</p><p><strong>Requirements:</strong> Foundry VTT 13 or later (verified on 14.368). The 5e compendia need the D&amp;D 5e system 5.x (tested 5.3.3); the 2e compendia need the Advanced Roleplaying System (tested 2026.08.25) with the ruleset variant set to 2.</p><p>One small script, which only keeps each compendium's folders in their intended order (challenge ratings numerically, Cantrip before 1st Level). Free for personal, non-commercial use; game content under CC-BY-4.0 and the OGL v1.0a as LICENSE.md sets out.</p><p><em>For Gold &amp; Glory™ and FG&amp;G™ are trademarks of Justen Brown. This work is not affiliated with Justen Brown.</em></p>",
+  "version": "4.0.0",
+  "authors": [
+    {
+      "name": "TheDakk"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.368"
+  },
+  "relationships": {
+    "conflicts": [
+      {
+        "id": "dakks-5e",
+        "type": "module",
+        "reason": "Carries the same compendia as this module; enabled together, every compendium shows twice."
+      },
+      {
+        "id": "dakks-2e",
+        "type": "module",
+        "reason": "Carries the same compendia as this module; enabled together, every compendium shows twice."
+      },
+      {
+        "id": "dakks-5e-sourcebooks",
+        "type": "module",
+        "reason": "Carries the same compendia as this module; enabled together, every compendium shows twice."
+      },
+      {
+        "id": "dakks-2e-sourcebooks",
+        "type": "module",
+        "reason": "Carries the same compendia as this module; enabled together, every compendium shows twice."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/dakk.js"
+  ],
+  "url": "https://github.com/TheDakk/Dakks-Ultimate-Tokens",
+  "manifest": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/releases/latest/download/module.json",
+  "download": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/releases/download/v4.0.0/dakks-ultimate-tokens-4.0.0.zip",
+  "readme": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/blob/main/README.md",
+  "changelog": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/issues",
+  "license": "LICENSE.md",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp",
+      "caption": "Dakk's Ultimate Tokens"
+    },
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/icon.png"
+    }
+  ],
+  "packs": [
+    {
+      "name": "gallery",
+      "label": "Art Library (All)",
+      "path": "packs/gallery",
+      "type": "JournalEntry",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/art-library.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "gallery-theros",
+      "label": "Art Library (Theros)",
+      "path": "packs/gallery-theros",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/art-library.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "gallery-darksun",
+      "label": "Art Library (Dark Sun)",
+      "path": "packs/gallery-darksun",
+      "type": "JournalEntry",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/art-library.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-creatures",
+      "label": "Creatures",
+      "path": "packs/5e-creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-creatures-by-challenge",
+      "label": "Creatures by Challenge",
+      "path": "packs/5e-creatures-by-challenge",
+      "type": "Actor",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-creatures",
+      "label": "Creatures (Theros)",
+      "path": "packs/5e-theros-creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-creatures-by-challenge",
+      "label": "Creatures by Challenge (Theros)",
+      "path": "packs/5e-theros-creatures-by-challenge",
+      "type": "Actor",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-spells",
+      "label": "Spells",
+      "path": "packs/5e-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/spells.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-items",
+      "label": "Items",
+      "path": "packs/5e-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/items.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-items",
+      "label": "Magic Items (Theros)",
+      "path": "packs/5e-theros-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/items.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-races",
+      "label": "Races",
+      "path": "packs/5e-races",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-classes",
+      "label": "Classes",
+      "path": "packs/5e-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-subclasses",
+      "label": "Subclasses",
+      "path": "packs/5e-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-classfeatures",
+      "label": "Class Features",
+      "path": "packs/5e-classfeatures",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/5e-backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-feats",
+      "label": "Feats",
+      "path": "packs/5e-feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-races",
+      "label": "Races (Theros)",
+      "path": "packs/5e-theros-races",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-subclasses",
+      "label": "Subclasses (Theros)",
+      "path": "packs/5e-theros-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-backgrounds",
+      "label": "Backgrounds (Theros)",
+      "path": "packs/5e-theros-backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-monsterfeatures",
+      "label": "Monster Features",
+      "path": "packs/5e-monsterfeatures",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-tradegoods",
+      "label": "Trade Goods",
+      "path": "packs/5e-tradegoods",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/items.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-tables",
+      "label": "Tables",
+      "path": "packs/5e-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/tables.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-rules",
+      "label": "Rules",
+      "path": "packs/5e-rules",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/documentation.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "display": "table-of-contents"
+        }
+      }
+    },
+    {
+      "name": "2e-creatures",
+      "label": "Creatures",
+      "path": "packs/2e-creatures",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-creatures-by-challenge",
+      "label": "Creatures by Challenge",
+      "path": "packs/2e-creatures-by-challenge",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-classes",
+      "label": "Classes",
+      "path": "packs/2e-classes",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-races",
+      "label": "Races",
+      "path": "packs/2e-races",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-skills",
+      "label": "Skills",
+      "path": "packs/2e-skills",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/skills.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-equipment",
+      "label": "Equipment",
+      "path": "packs/2e-equipment",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/items.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-weapons",
+      "label": "Weapons",
+      "path": "packs/2e-weapons",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/weapons.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-armor",
+      "label": "Armor",
+      "path": "packs/2e-armor",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/armor.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-tables",
+      "label": "Tables",
+      "path": "packs/2e-tables",
+      "type": "RollTable",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/tables.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-documentation",
+      "label": "Documentation",
+      "path": "packs/2e-documentation",
+      "type": "JournalEntry",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/documentation.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-creatures",
+      "label": "Creatures (Dark Sun)",
+      "path": "packs/2e-darksun-creatures",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-creatures-by-challenge",
+      "label": "Creatures by Challenge (Dark Sun)",
+      "path": "packs/2e-darksun-creatures-by-challenge",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-classes",
+      "label": "Classes (Dark Sun)",
+      "path": "packs/2e-darksun-classes",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-races",
+      "label": "Races (Dark Sun)",
+      "path": "packs/2e-darksun-races",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-abilities",
+      "label": "Abilities & Features (Dark Sun)",
+      "path": "packs/2e-darksun-abilities",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/skills.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-weapons",
+      "label": "Weapons (Dark Sun)",
+      "path": "packs/2e-darksun-weapons",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/weapons.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-armor",
+      "label": "Armor (Dark Sun)",
+      "path": "packs/2e-darksun-armor",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/armor.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-equipment",
+      "label": "Equipment (Dark Sun)",
+      "path": "packs/2e-darksun-equipment",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/items.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-styles",
+      "label": "Fighting Styles (Dark Sun)",
+      "path": "packs/2e-darksun-styles",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/skills.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-freedom-npcs",
+      "label": "NPCs (Freedom)",
+      "path": "packs/2e-freedom-npcs",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/creatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-freedom-items",
+      "label": "Items & Treasure (Freedom)",
+      "path": "packs/2e-freedom-items",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/items.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-freedom-journals",
+      "label": "Journals & Handouts (Freedom)",
+      "path": "packs/2e-freedom-journals",
+      "type": "JournalEntry",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/documentation.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-freedom-tables",
+      "label": "Tables (Freedom)",
+      "path": "packs/2e-freedom-tables",
+      "type": "RollTable",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/tables.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-spells",
+      "label": "Spells",
+      "path": "packs/2e-spells",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/spells.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-spells",
+      "label": "Spells (Dark Sun)",
+      "path": "packs/2e-darksun-spells",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/spells.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-proficiencies",
+      "label": "Proficiencies",
+      "path": "packs/2e-proficiencies",
+      "type": "Item",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/skills.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Dakk's Ultimate Tokens",
+      "sorting": "m",
+      "color": "#7a5230",
+      "packs": [
+        "gallery"
+      ],
+      "folders": [
+        {
+          "name": "D&D 5e (2014)",
+          "sorting": "m",
+          "color": null,
+          "packs": [
+            "gallery-theros"
+          ],
+          "folders": [
+            {
+              "name": "Creatures",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "5e-creatures",
+                "5e-creatures-by-challenge",
+                "5e-theros-creatures",
+                "5e-theros-creatures-by-challenge"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Spells",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "5e-spells"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Items",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "5e-items",
+                "5e-theros-items"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Classes & Origins",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "5e-races",
+                "5e-classes",
+                "5e-subclasses",
+                "5e-classfeatures",
+                "5e-backgrounds",
+                "5e-feats",
+                "5e-theros-races",
+                "5e-theros-subclasses",
+                "5e-theros-backgrounds"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Reference",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "5e-monsterfeatures",
+                "5e-tradegoods",
+                "5e-tables",
+                "5e-rules"
+              ],
+              "folders": []
+            }
+          ]
+        },
+        {
+          "name": "D&D 2e",
+          "sorting": "m",
+          "color": null,
+          "packs": [
+            "gallery-darksun"
+          ],
+          "folders": [
+            {
+              "name": "Creatures",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "2e-creatures",
+                "2e-creatures-by-challenge",
+                "2e-darksun-creatures",
+                "2e-darksun-creatures-by-challenge",
+                "2e-freedom-npcs"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Spells",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "2e-spells",
+                "2e-darksun-spells"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Items",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "2e-equipment",
+                "2e-weapons",
+                "2e-armor",
+                "2e-darksun-weapons",
+                "2e-darksun-armor",
+                "2e-darksun-equipment",
+                "2e-freedom-items"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Classes & Races",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "2e-classes",
+                "2e-races",
+                "2e-darksun-classes",
+                "2e-darksun-races",
+                "2e-darksun-abilities"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Skills & Proficiencies",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "2e-skills",
+                "2e-proficiencies",
+                "2e-darksun-styles"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Reference",
+              "sorting": "a",
+              "color": null,
+              "packs": [
+                "2e-tables",
+                "2e-freedom-tables",
+                "2e-documentation",
+                "2e-freedom-journals"
+              ],
+              "folders": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
