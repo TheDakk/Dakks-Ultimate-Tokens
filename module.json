@@ -1,8 +1,8 @@
 {
   "id": "dakks-ultimate-tokens",
   "title": "Dakk's Ultimate Tokens for Dungeons & Dragons",
-  "description": "<p>Unique generated artwork for Dungeons &amp; Dragons in Foundry, and the game compendia that use it, in one module. <strong>Every image</strong> (creatures, races, classes, spells, items, weapons, armor, skills, tables) works in any game system, with <strong>Art Library (All)</strong>, a journal catalogue of every image, including the Dark Sun (Athas) and Theros collections.</p><p><strong>D&amp;D 5e (2014)</strong> worlds also get ready-to-play compendia: the SRD 5.1 monsters, spells, items and character options plus creatures, spells, magic items, subclasses, races, backgrounds and feats from further sourcebooks (rules in our own words), and Theros. <strong>AD&amp;D 2e</strong> worlds on the Advanced Roleplaying System get For Gold &amp; Glory rules, creatures, spells and equipment, Dark Sun and its first campaign, Freedom. Each compendium appears only in worlds of its own system. Every actor carries its painting as portrait and token, with a female or male twin where one is painted.</p><p><strong>Requirements:</strong> Foundry VTT 13 or later (verified on 14.368). The 5e compendia need the D&amp;D 5e system 5.x (tested 5.3.3); the 2e compendia need the Advanced Roleplaying System (tested 2026.08.25) with the ruleset variant set to 2.</p><p>One small script, which only keeps each compendium's folders in their intended order (challenge ratings numerically, Cantrip before 1st Level). Free for personal, non-commercial use; game content under CC-BY-4.0 and the OGL v1.0a as LICENSE.md sets out.</p><p><em>For Gold &amp; Glory™ and FG&amp;G™ are trademarks of Justen Brown. This work is not affiliated with Justen Brown.</em></p>",
-  "version": "4.0.0",
+  "description": "<p>Unique generated artwork for Dungeons &amp; Dragons in Foundry, and the game compendia that use it, in one module. <strong>Every image</strong> (creatures, races, classes, spells, items, weapons, armor, skills, tables) works in any game system, with <strong>Art Library (All)</strong>, a journal catalogue of the generic library; the Dark Sun (Athas) and Theros collections have their own catalogues in their systems.</p><p><strong>D&amp;D 5e (2014)</strong> worlds also get ready-to-play compendia: the SRD 5.1 monsters, spells, items and character options plus creatures, spells, magic items, subclasses, races, backgrounds and feats from further sourcebooks (rules in our own words), and Theros. <strong>AD&amp;D 2e</strong> worlds on the Advanced Roleplaying System get For Gold &amp; Glory rules, creatures, spells and equipment, Dark Sun (its weapons with their Proficient Use rules where the source gives one) and its first campaign, Freedom. Each compendium appears only in worlds of its own system. Every actor carries its painting as portrait and token, with a female or male twin where one is painted, and every painted race, class, subclass and background has a ready character of each sex for players (one for the three Dark Sun peoples painted once).</p><p><strong>Requirements:</strong> Foundry VTT 13 or later for the art and the 5e compendia (verified on 14.368). The 5e compendia need the D&amp;D 5e system 5.3.3 or later, including 6.x (tested 6.0.6, which needs Foundry VTT 14). The 2e compendia need Foundry VTT 14 and the Advanced Roleplaying System 2026.04.27 or later (tested 2026.10.06), with the ruleset variant set to 2. The download is about 315 MB.</p><p>One small script: it keeps each compendium's folders in their intended order (challenge ratings numerically, Cantrip before 1st Level) and offers an optional, off-by-default setting for dynamic token rings on this module's creatures. Free for personal, non-commercial use; game content under CC-BY-4.0 and the OGL v1.0a as LICENSE.md sets out.</p><p><em>For Gold &amp; Glory™ and FG&amp;G™ are trademarks of Justen Brown. This work is not affiliated with Justen Brown.</em></p>",
+  "version": "4.1.0",
   "authors": [
     {
       "name": "TheDakk"
@@ -41,7 +41,7 @@
   ],
   "url": "https://github.com/TheDakk/Dakks-Ultimate-Tokens",
   "manifest": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/releases/latest/download/module.json",
-  "download": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/releases/download/v4.0.0/dakks-ultimate-tokens-4.0.0.zip",
+  "download": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/releases/download/v4.1.0/dakks-ultimate-tokens-4.1.0.zip",
   "readme": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/blob/main/README.md",
   "changelog": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/blob/main/CHANGELOG.md",
   "bugs": "https://github.com/TheDakk/Dakks-Ultimate-Tokens/issues",
@@ -634,6 +634,19 @@
       "flags": {}
     },
     {
+      "name": "2e-darksun-documentation",
+      "label": "Documentation (Dark Sun)",
+      "path": "packs/2e-darksun-documentation",
+      "type": "JournalEntry",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/documentation.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "2e-freedom-journals",
       "label": "Journals & Handouts (Freedom)",
       "path": "packs/2e-freedom-journals",
@@ -697,6 +710,58 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "5e-characters",
+      "label": "Characters",
+      "path": "packs/5e-characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "5e-theros-characters",
+      "label": "Characters (Theros)",
+      "path": "packs/5e-theros-characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-characters",
+      "label": "Characters",
+      "path": "packs/2e-characters",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "2e-darksun-characters",
+      "label": "Characters (Dark Sun)",
+      "path": "packs/2e-darksun-characters",
+      "type": "Actor",
+      "system": "ars",
+      "banner": "modules/dakks-ultimate-tokens/art/banners/races.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -752,12 +817,14 @@
               "sorting": "a",
               "color": null,
               "packs": [
+                "5e-characters",
                 "5e-races",
                 "5e-classes",
                 "5e-subclasses",
                 "5e-classfeatures",
                 "5e-backgrounds",
                 "5e-feats",
+                "5e-theros-characters",
                 "5e-theros-races",
                 "5e-theros-subclasses",
                 "5e-theros-backgrounds"
@@ -829,8 +896,10 @@
               "sorting": "a",
               "color": null,
               "packs": [
+                "2e-characters",
                 "2e-classes",
                 "2e-races",
+                "2e-darksun-characters",
                 "2e-darksun-classes",
                 "2e-darksun-races",
                 "2e-darksun-abilities"
@@ -856,6 +925,7 @@
                 "2e-tables",
                 "2e-freedom-tables",
                 "2e-documentation",
+                "2e-darksun-documentation",
                 "2e-freedom-journals"
               ],
               "folders": []

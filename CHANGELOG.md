@@ -1,5 +1,34 @@
 # Changelog
 
+## 4.1.0 — Ready characters, Proficient Use and token rings (2026-10-09)
+
+Ready-made characters of each sex for every painted race, class, subclass and background, the Dark Sun Proficient Use rules, optional dynamic token rings, corrected races, and every document with its own painting.
+
+**Added**
+
+- Characters compendia (5e, Theros, 2e and Dark Sun): a ready portrait actor of each sex for every painted race, class, subclass and background, 411 in all, its painting already its portrait and token; one each for the thri-kreen, tohr-kreen and Marnitan lizardfolk, painted once. The GM imports one and gives a player ownership
+- Proficient Use for Dark Sun: each Dark Sun weapon whose source gives one states its Proficient Use rule, and a new Documentation (Dark Sun) compendium holds the rules for the seven core weapons used on Athas
+- Dynamic token rings for Dakk's creatures: a world setting, off by default, that gives tokens placed from this module's creatures Foundry's dynamic token ring around their painting; in 2e worlds the ring flashes red on damage and green on healing
+- Start here in each Art Library now explains how to open the compendium folders, place creatures, use the Characters compendia and choose a portrait by hand
+- New paintings for the Astral Projection power, the Whispers spell and the Dark Sun weapons reference: every document in the module now has its own painting (6,176 in all)
+
+**Changed**
+
+- The hydra, dracohydra and necrohydra are repainted facing the viewer, every neck rising from the chest, and the Dark Sun water elementals as living water
+- The Theros Centaur, Minotaur and Triton name Monsters of the Multiverse as their book, and the Theros Human the SRD, as the text they carry comes from there
+- Requirements: the 2e compendia need Foundry VTT 14 and the Advanced Roleplaying System 2026.04.27 or later
+- Tested on the D&D 5e system 6.0.6 and the Advanced Roleplaying System 2026.10.06; the 5e compendia still need dnd5e 5.3.3 or later
+- Links that pointed into the D&D 5e system's own monster compendium now point at this module's copy of the same creature, so they resolve on dnd5e 5.x and 6.x alike
+
+**Fixed**
+
+- Sourcebook and Theros races were built on the Dragonborn: their creature type, darkvision and flying speeds are now their own (44 races)
+- Flying sourcebook and Theros creatures that hover now carry hover
+- The 5e Sling Bullet showed the 2e painting
+- A misspelt icon path on an SRD spell, and build bookkeeping fields that should not have shipped
+
+**Requirements:** Foundry VTT 13 or later for the art, Art Library (All) and the 5e compendia (verified on 14.368). The 5e compendia need the D&D 5e system 5.3.3 or later, including 6.x (tested on 6.0.6, which needs Foundry VTT 14). The 2e compendia need Foundry VTT 14 and the Advanced Roleplaying System 2026.04.27 or later (tested on 2026.10.06), with its ruleset variant set to 2. The art and Art Library (All) work in any system.
+
 ## 4.0.0 — Everything in one module (2026-10-08)
 
 Dakk's Ultimate Tokens: painted art for Dungeons & Dragons in Foundry VTT and the game compendia that use it, D&D 5e (2014) and AD&D 2e in one module, each compendium shown only in worlds of its own system.

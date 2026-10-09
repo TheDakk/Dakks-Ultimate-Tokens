@@ -3,9 +3,9 @@
 ![Dakk's Ultimate Tokens](https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp)
 
 Unique painted artwork for Dungeons & Dragons in Foundry VTT, and the game compendia that use it, in one
-module. 6,173 images in a single classic TSR oil-painting look,
+module. 6,176 images in a single classic TSR oil-painting look,
 each a transparent WebP named by its subject: a generic library of 4,899 that works in any game system,
-plus the **Dark Sun (Athas)** collection (1,173) and the **Theros** collection (101).
+plus the **Dark Sun (Athas)** collection (1,176) and the **Theros** collection (101).
 
 It also carries the game compendia, each shown only in worlds of its own system:
 
@@ -13,22 +13,30 @@ It also carries the game compendia, each shown only in worlds of its own system:
   kind with creatures, spells, magic items, subclasses, races, backgrounds and feats from further
   sourcebooks (their rules text in our own words, the numbers unchanged), and Theros.
 - **AD&D 2e** on the Advanced Roleplaying System: For Gold & Glory's rules, creatures, spells and
-  equipment; Dark Sun's creatures, races, classes, psionics, weapons, armour, fighting styles and spells;
-  and its first campaign, Freedom (statistics only, no adventure text).
+  equipment; Dark Sun's creatures, races, classes, psionics, weapons (with their Proficient Use rules where the source gives one),
+  armour, fighting styles and spells; and its first campaign, Freedom (statistics only, no adventure text).
 
 Every actor carries its painting as portrait and token, with a female or male twin beside it where one is
-painted, so the GM places the one they want.
+painted, so the GM places the one they want. For players, every painted race, class, subclass and background
+also has a ready character of each sex in a **Characters** compendium (one, sexless, for the three Dark Sun
+peoples painted once: the thri-kreen, the tohr-kreen and the Marnitan lizardfolk).
 
 ## Install
 
-**Requirements:** Foundry VTT 13 or later (verified on 14.368). The 5e compendia need the D&D 5e system 5.x
-(tested on 5.3.3); the 2e compendia need the Advanced Roleplaying System (tested on 2026.08.25) with its
-ruleset variant set to 2. The art and Art Library (All) work in any system.
+**Requirements:** Foundry VTT 13 or later for the art, Art Library (All) and the 5e compendia (verified on
+14.368). The 5e compendia need the D&D 5e system 5.3.3 or later, including 6.x (tested on 6.0.6,
+which needs Foundry VTT 14). The 2e compendia need Foundry VTT 14 and the Advanced Roleplaying System
+2026.04.27 or later (tested on 2026.10.06), with its ruleset variant set
+to 2; every ARS release since 2026.04.27 requires Foundry 14. The art and Art Library (All) work in any
+system.
 
 - In Foundry VTT, open **Add-on Modules → Install Module** and paste the manifest URL
   `https://github.com/TheDakk/Dakks-Ultimate-Tokens/releases/latest/download/module.json`.
 - Or download the zip from the latest release and unzip it into
   `Data/modules/dakks-ultimate-tokens`.
+
+The download is about 315 MB, almost all of it paintings; on a hosted server, check its upload or install
+limit allows a module that size.
 
 
 ## Getting started
@@ -45,16 +53,16 @@ Dakk's Ultimate Tokens
 │  ├─ Creatures                       Creatures, Creatures by Challenge, and their (Theros) twins
 │  ├─ Spells
 │  ├─ Items
-│  ├─ Classes & Origins               races, classes, subclasses, class features, backgrounds, feats
+│  ├─ Classes & Origins               characters, races, classes, subclasses, class features, backgrounds, feats
 │  ├─ Reference                       monster features, trade goods, tables, rules
 │  └─ Art Library (Theros)
 └─ D&D 2e                             ARS worlds only
    ├─ Creatures                       For Gold & Glory, Dark Sun and Freedom
    ├─ Spells                          Wizard Spells and Priest Spells inside
    ├─ Items
-   ├─ Classes & Races
+   ├─ Classes & Races                 characters, classes, races, Dark Sun abilities
    ├─ Skills & Proficiencies
-   ├─ Reference                       tables, documentation, the Freedom journals
+   ├─ Reference                       tables, documentation (Dark Sun weapons reference), the Freedom journals
    └─ Art Library (Dark Sun)
 ```
 
@@ -69,11 +77,17 @@ Each world shows only its own system's branch: a 5e world never lists the 2e com
   handy for building encounters.
 - **Spells, items, classes and races** carry their paintings as their icons; drag them onto a character
   sheet as usual.
-- **Player characters:** every race and class is painted as a man and as a woman. A race or class shows
-  one painting as its icon, so pick your character's own: open **Art Library (All) → Races** (or
-  **Classes**), where the two sit side by side (`dwarf.webp` and `dwarf-female.webp`), then on the
-  character sheet click the portrait and choose that file under `modules/dakks-ultimate-tokens/art/races/`
-  or `art/classes/`. In the token settings, set the same file as the token image.
+- **Player characters:** the **Characters** compendium (in Classes & Origins, or Classes & Races in 2e,
+  with "(Theros)" and "(Dark Sun)" twins) holds a ready character for every painted race, class, subclass
+  and background, one of each sex (one for the thri-kreen, tohr-kreen and Marnitan lizardfolk, painted
+  once), such as "Hill Dwarf (male)" and "Hill Dwarf (female)", its painting already its portrait and token. The GM imports one and gives the player ownership (players cannot create
+  actors unless the GM grants them that permission); the player then drops the race and class (and in 5e
+  the background) on the sheet as usual; the character's biography links the race, class, subclass or background it was
+  made for.
+- **A painting by hand:** every race and class is painted as a man and as a woman, side by side in
+  **Art Library (All) → Races** (or **Classes**), such as `dwarf.webp` and `dwarf-female.webp`. On a
+  character sheet click the portrait and choose the file under `modules/dakks-ultimate-tokens/art/races/`
+  or `art/classes/`, then set the same file as the token image in the token settings.
 
 ### Using any painting yourself
 
@@ -93,9 +107,12 @@ Each world shows only its own system's branch: a 5e world never lists the 2e com
 - After installing or updating, return to Setup and launch the world again; Foundry builds the compendium
   folders when a world launches, not on a browser refresh.
 
-The module runs one small script, which only keeps each compendium's folders in their intended order
-(challenge ratings numerically, Cantrip before 1st Level). A pack whose order you set with its sort button
-keeps your choice.
+The module runs one small script. It keeps each compendium's folders in their intended order (challenge
+ratings numerically, Cantrip before 1st Level; a pack whose order you set with its sort button keeps your
+choice), and it adds one optional world setting, **Dynamic token rings for Dakk's creatures** (Configure
+Settings, off by default): tokens placed from this module's actors get Foundry's token ring with their
+painting inside, and in 2e worlds the ring flashes red on damage and green on healing, as dnd5e's own rings
+do in 5e.
 
 ## What is inside
 
@@ -117,7 +134,7 @@ art/aliases.json    alternate names that resolve to the same image
 art/settings/darksun/   the Dark Sun (Athas) collection
 art/settings/theros/    the Theros collection
 packs/              the game compendia and the three Art Library catalogues
-scripts/dakk.js     the folder-order script
+scripts/dakk.js     the folder-order and token-ring script
 ```
 
 People come in both sexes: `dwarf.webp` and `dwarf-female.webp` side by side. Every image is a square WebP

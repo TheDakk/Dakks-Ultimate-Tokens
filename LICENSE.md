@@ -1,6 +1,6 @@
 # Dakk's Ultimate Tokens — Licence
 
-Version 2.0.0, 2026-10-08 (game content added in module 4.0). Copyright (c) 2026 TheDakk.
+Version 2.1.0, 2026-10-09 (the Characters compendia added in module 4.1). Copyright (c) 2026 TheDakk.
 
 ## The artwork
 
@@ -54,9 +54,9 @@ with its system, so a world sees only its own; the artwork and the catalogue ope
 ### D&D 5e (2014): System Reference Document 5.1
 
 The 5e core compendia reproduce the System Reference Document 5.1 as the D&D 5e system for Foundry VTT
-ships it, with these changes: every document points at this module's artwork; a creature, race or class
-painted in both sexes gains a twin actor with the same statistics ("Ogre (female)"); page references are
-removed and two in-text page citations reworded; a misspelt token name is corrected; and links between
+ships it, with these changes: every document points at this module's artwork; a creature painted in both
+sexes gains a twin actor with the same statistics ("Ogre (female)"); page references are
+removed and two in-text page citations reworded; a misspelt token name and a misspelt icon path are corrected; and links between
 documents point at this module's compendia. That content is used under the Creative Commons Attribution
 4.0 International License (CC-BY-4.0):
 
@@ -67,6 +67,14 @@ documents point at this module's compendia. That content is used under the Creat
 
 The Foundry document structure of that content comes from the D&D 5e game system for Foundry VTT
 (https://github.com/foundryvtt/dnd5e, MIT); this module carries no code from it.
+
+### The Characters compendia
+
+The Characters compendia (5e, Theros, 2e, Dark Sun) hold this module's own portrait actors, one per
+painted race, class, subclass and background in each sex (one, without a sex, for the three Dark Sun
+peoples painted once): a name, a portrait and token from this module's
+artwork, the sex, the race's size and one sentence, written by TheDakk, linking the item the actor was made
+for. They carry no rules text and no statistics beyond the systems' blank character.
 
 ### D&D 5e (2014): further creatures, spells, items and character options
 
