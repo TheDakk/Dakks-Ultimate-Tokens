@@ -31,21 +31,62 @@ ruleset variant set to 2. The art and Art Library (All) work in any system.
   `Data/modules/dakks-ultimate-tokens`.
 
 
-## Where things appear
+## Getting started
 
-Everything sits under the sidebar folder **Dakk's Ultimate Tokens**:
+1. In your world, open **Game Settings → Manage Modules**, tick **Dakk's Ultimate Tokens** and save.
+2. Open the **Compendium** tab of the sidebar and find the folder **Dakk's Ultimate Tokens**.
+3. **Click each folder to open it.** Foundry shows new compendium folders closed, so at first you see only
+   Art Library (All) and a closed folder for your system. Everything else is inside:
 
-- **Art Library (All)**, in every world: one journal per kind, creatures browsed by type and by
-  challenge rating, every other kind by its own groups (spells by level, weapons by family); pages of
-  thumbnails with each image's name and file path.
-- **D&D 5e (2014)** in 5e worlds: Creatures, Spells, Items, Classes & Origins and Reference folders, and
-  **Art Library (Theros)**.
-- **D&D 2e** in ARS worlds: Creatures, Spells, Items, Classes & Races, Skills & Proficiencies and Reference folders,
-  and **Art Library (Dark Sun)**.
+```
+Dakk's Ultimate Tokens
+├─ Art Library (All)                  every world
+├─ D&D 5e (2014)                      5e worlds only
+│  ├─ Creatures                       Creatures, Creatures by Challenge, and their (Theros) twins
+│  ├─ Spells
+│  ├─ Items
+│  ├─ Classes & Origins               races, classes, subclasses, class features, backgrounds, feats
+│  ├─ Reference                       monster features, trade goods, tables, rules
+│  └─ Art Library (Theros)
+└─ D&D 2e                             ARS worlds only
+   ├─ Creatures                       For Gold & Glory, Dark Sun and Freedom
+   ├─ Spells                          Wizard Spells and Priest Spells inside
+   ├─ Items
+   ├─ Classes & Races
+   ├─ Skills & Proficiencies
+   ├─ Reference                       tables, documentation, the Freedom journals
+   └─ Art Library (Dark Sun)
+```
 
-To put an image on anything else, use its image picker and browse to
-`modules/dakks-ultimate-tokens/art/` and the kind folder named under the thumbnail. Updating in place is
-safe: filenames never change between versions.
+Each world shows only its own system's branch: a 5e world never lists the 2e compendia, and the reverse.
+
+### Putting tokens on the map
+
+- **Creatures:** open a Creatures compendium and drag a creature onto the scene. Its painting is already
+  its portrait and its token. Where a creature has a female or male version, both are listed side by side,
+  for example "Ogre" and "Ogre (female)"; drag the one you want.
+- **Creatures by Challenge** holds the same creatures sorted by challenge rating (5e) or hit dice (2e),
+  handy for building encounters.
+- **Spells, items, classes and races** carry their paintings as their icons; drag them onto a character
+  sheet as usual.
+
+### Using any painting yourself
+
+- Open **Art Library (All)** (or the Dark Sun or Theros library) to browse every painting as thumbnails,
+  with its name and file path under each.
+- To use one on your own actor, token, item or tile, click its image and in the file picker browse to
+  `modules/dakks-ultimate-tokens/art/`, then the kind folder shown under the thumbnail (for example
+  `creatures/ogre.webp`). The Dark Sun and Theros paintings are under `art/settings/darksun/` and
+  `art/settings/theros/`.
+- Updating in place is safe: filenames never change between versions.
+
+### If something seems missing
+
+- **Open the folders first.** A closed folder hides everything inside it, including the setting packs.
+- Check the module is enabled in this world, and that the world runs the right system: D&D 5e for the 5e
+  compendia, the Advanced Roleplaying System for the 2e ones.
+- After installing or updating, return to Setup and launch the world again; Foundry builds the compendium
+  folders when a world launches, not on a browser refresh.
 
 The module runs one small script, which only keeps each compendium's folders in their intended order
 (challenge ratings numerically, Cantrip before 1st Level). A pack whose order you set with its sort button
