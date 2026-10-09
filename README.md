@@ -69,6 +69,11 @@ Each world shows only its own system's branch: a 5e world never lists the 2e com
   handy for building encounters.
 - **Spells, items, classes and races** carry their paintings as their icons; drag them onto a character
   sheet as usual.
+- **Player characters:** every race and class is painted as a man and as a woman. A race or class shows
+  one painting as its icon, so pick your character's own: open **Art Library (All) → Races** (or
+  **Classes**), where the two sit side by side (`dwarf.webp` and `dwarf-female.webp`), then on the
+  character sheet click the portrait and choose that file under `modules/dakks-ultimate-tokens/art/races/`
+  or `art/classes/`. In the token settings, set the same file as the token image.
 
 ### Using any painting yourself
 
