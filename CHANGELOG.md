@@ -2,7 +2,7 @@
 
 ## 4.3.0 — The 2014 core options, the Artificer and the Forgotten Realms adventures (2026-11-08)
 
-What the SRD leaves out of the 2014 Player's Handbook and Dungeon Master's Guide, the Artificer, 260 creatures from nine Forgotten Realms adventures, and more than 400 further character options, spells and magic items, each with its own painting; Theros now sits in the main 5e compendia.
+What the SRD leaves out of the 2014 Player's Handbook and Dungeon Master's Guide, the Artificer, 260 creatures from nine Forgotten Realms adventures, and more than 400 further character options, spells and magic items, each with its own painting; Theros now sits in the main 5e compendia. There was no separate 4.2: what was planned for it (the 2014 core options and the Artificer) ships in this release.
 
 **Added**
 
