@@ -1,6 +1,6 @@
 # Dakk's Ultimate Tokens — Licence
 
-Version 2.1.0, 2026-10-09 (the Characters compendia added in module 4.1). Copyright (c) 2026 TheDakk.
+Version 2.2.0, 2026-10-15 (the Artificer, the 2014 core options and the Forgotten Realms books added in module 4.3). Copyright (c) 2026 TheDakk.
 
 ## The artwork
 
@@ -29,9 +29,9 @@ and documentation, and licenses all of it to you on the terms below.
 
 - "Dungeons & Dragons" is a trademark of Wizards of the Coast. This module is not
   affiliated with or endorsed by Wizards of the Coast. Subjects were described in our own
-  words from game mechanics and, for sourcebook creatures, from each book's published
-  picture and description; a creature's book picture was shown to the image tool as an
-  anatomy reference only. No publisher text or image is included in this module.
+  words from game mechanics and, for sourcebook documents, from each book's published
+  picture and description; a creature's or race's own book picture was shown to the image
+  tool as an anatomy reference only. No publisher text or image is included in this module.
 - The subject list drew on the *System Reference Document 5.1* (Wizards of the Coast,
   CC-BY-4.0) and on the name index of *Too Many Tokens* (MIT). No image from either
   source is included; only names and mechanical fields were read.
@@ -70,7 +70,7 @@ The Foundry document structure of that content comes from the D&D 5e game system
 
 ### The Characters compendia
 
-The Characters compendia (5e, Theros, 2e, Dark Sun) hold this module's own portrait actors, one per
+The Characters compendia (5e, 2e, Dark Sun) hold this module's own portrait actors, one per
 painted race, class, subclass and background in each sex (one, without a sex, for the three Dark Sun
 peoples painted once): a name, a portrait and token from this module's
 artwork, the sex, the race's size and one sentence, written by TheDakk, linking the item the actor was made
@@ -79,7 +79,7 @@ for. They carry no rules text and no statistics beyond the systems' blank charac
 ### D&D 5e (2014): further creatures, spells, items and character options
 
 The remaining 5e compendia hold game statistics and rules for creatures, spells, magic items,
-subclasses, races, backgrounds and feats that appear in published 5e sourcebooks. Game mechanics are
+classes, class features, subclasses, races, backgrounds and feats that appear in published 5e sourcebooks. Game mechanics are
 not subject to copyright. Every description in them is this module's own wording of the rule, written
 by TheDakk from the mechanics; wording identical to the SRD 5.1 is used under CC-BY-4.0 as above. No
 publisher's text, artwork or trade dress is reproduced. Creature, spell and item names identify the

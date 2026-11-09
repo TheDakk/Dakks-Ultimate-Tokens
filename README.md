@@ -3,15 +3,20 @@
 ![Dakk's Ultimate Tokens](https://raw.githubusercontent.com/TheDakk/Dakks-Ultimate-Tokens/main/art/cover.webp)
 
 Unique painted artwork for Dungeons & Dragons in Foundry VTT, and the game compendia that use it, in one
-module. 6,176 images in a single classic TSR oil-painting look,
-each a transparent WebP named by its subject: a generic library of 4,899 that works in any game system,
-plus the **Dark Sun (Athas)** collection (1,176) and the **Theros** collection (101).
+module. 7,287 images in a single classic TSR oil-painting look,
+each a transparent WebP named by its subject: a generic library of 6,010 that works in any game system,
+the **Dark Sun (Athas)** collection (1,176), and 101 paintings for *Mythic Odysseys of Theros*, catalogued
+with the generic library.
 
 It also carries the game compendia, each shown only in worlds of its own system:
 
 - **D&D 5e (2014):** the SRD 5.1 monsters, spells, items, classes and character options, joined kind by
-  kind with creatures, spells, magic items, subclasses, races, backgrounds and feats from further
-  sourcebooks (their rules text in our own words, the numbers unchanged), and Theros.
+  kind with what the SRD leaves out of the 2014 Player's Handbook and Dungeon Master's Guide, the Artificer
+  class, the creatures of the Forgotten Realms adventures (Tomb of Annihilation, Out of the Abyss, Princes of
+  the Apocalypse, Tyranny of Dragons, Descent into Avernus, Tales from the Yawning Portal, Storm King's
+  Thunder, Rime of the Frostmaiden, Lost Mine of Phandelver), and creatures, spells, magic items, races,
+  subclasses, backgrounds and feats from further sourcebooks, Mythic Odysseys of Theros among them (their
+  rules text in our own words, the numbers unchanged).
 - **AD&D 2e** on the Advanced Roleplaying System: For Gold & Glory's rules, creatures, spells and
   equipment; Dark Sun's creatures, races, classes, psionics, weapons (with their Proficient Use rules where the source gives one),
   armour, fighting styles and spells; and its first campaign, Freedom (statistics only, no adventure text).
@@ -24,7 +29,7 @@ peoples painted once: the thri-kreen, the tohr-kreen and the Marnitan lizardfolk
 ## Install
 
 **Requirements:** Foundry VTT 13 or later for the art, Art Library (All) and the 5e compendia (verified on
-14.368). The 5e compendia need the D&D 5e system 5.3.3 or later, including 6.x (tested on 6.0.6,
+14.369). The 5e compendia need the D&D 5e system 5.3.3 or later, including 6.x (tested on 6.0.6,
 which needs Foundry VTT 14). The 2e compendia need Foundry VTT 14 and the Advanced Roleplaying System
 2026.04.27 or later (tested on 2026.10.06), with its ruleset variant set
 to 2; every ARS release since 2026.04.27 requires Foundry 14. The art and Art Library (All) work in any
@@ -35,7 +40,7 @@ system.
 - Or download the zip from the latest release and unzip it into
   `Data/modules/dakks-ultimate-tokens`.
 
-The download is about 315 MB, almost all of it paintings; on a hosted server, check its upload or install
+The download is about 400 MB, almost all of it paintings; on a hosted server, check its upload or install
 limit allows a module that size.
 
 
@@ -50,12 +55,11 @@ limit allows a module that size.
 Dakk's Ultimate Tokens
 ├─ Art Library (All)                  every world
 ├─ D&D 5e (2014)                      5e worlds only
-│  ├─ Creatures                       Creatures, Creatures by Challenge, and their (Theros) twins
+│  ├─ Creatures                       Creatures, Creatures by Challenge
 │  ├─ Spells
 │  ├─ Items
 │  ├─ Classes & Origins               characters, races, classes, subclasses, class features, backgrounds, feats
-│  ├─ Reference                       monster features, trade goods, tables, rules
-│  └─ Art Library (Theros)
+│  └─ Reference                       monster features, trade goods, tables, rules
 └─ D&D 2e                             ARS worlds only
    ├─ Creatures                       For Gold & Glory, Dark Sun and Freedom
    ├─ Spells                          Wizard Spells and Priest Spells inside
@@ -78,7 +82,7 @@ Each world shows only its own system's branch: a 5e world never lists the 2e com
 - **Spells, items, classes and races** carry their paintings as their icons; drag them onto a character
   sheet as usual.
 - **Player characters:** the **Characters** compendium (in Classes & Origins, or Classes & Races in 2e,
-  with "(Theros)" and "(Dark Sun)" twins) holds a ready character for every painted race, class, subclass
+  with a "(Dark Sun)" twin) holds a ready character for every painted race, class, subclass
   and background, one of each sex (one for the thri-kreen, tohr-kreen and Marnitan lizardfolk, painted
   once), such as "Hill Dwarf (male)" and "Hill Dwarf (female)", its painting already its portrait and token. The GM imports one and gives the player ownership (players cannot create
   actors unless the GM grants them that permission); the player then drops the race and class (and in 5e
@@ -91,12 +95,12 @@ Each world shows only its own system's branch: a 5e world never lists the 2e com
 
 ### Using any painting yourself
 
-- Open **Art Library (All)** (or the Dark Sun or Theros library) to browse every painting as thumbnails,
+- Open **Art Library (All)** (or the Dark Sun library) to browse every painting as thumbnails,
   with its name and file path under each.
 - To use one on your own actor, token, item or tile, click its image and in the file picker browse to
   `modules/dakks-ultimate-tokens/art/`, then the kind folder shown under the thumbnail (for example
-  `creatures/ogre.webp`). The Dark Sun and Theros paintings are under `art/settings/darksun/` and
-  `art/settings/theros/`.
+  `creatures/ogre.webp`). The Dark Sun paintings are under `art/settings/darksun/` and the Theros ones
+  under `art/settings/theros/`.
 - Updating in place is safe: filenames never change between versions.
 
 ### If something seems missing
@@ -132,8 +136,8 @@ art/tables/         treasure and encounter table emblems
 art/journals/       journal art
 art/aliases.json    alternate names that resolve to the same image
 art/settings/darksun/   the Dark Sun (Athas) collection
-art/settings/theros/    the Theros collection
-packs/              the game compendia and the three Art Library catalogues
+art/settings/theros/    the Mythic Odysseys of Theros paintings (in Art Library (All))
+packs/              the game compendia and the two Art Library catalogues
 scripts/dakk.js     the folder-order and token-ring script
 ```
 

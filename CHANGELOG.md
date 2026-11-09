@@ -1,5 +1,30 @@
 # Changelog
 
+## 4.3.0 — The 2014 core options, the Artificer and the Forgotten Realms adventures (2026-11-08)
+
+What the SRD leaves out of the 2014 Player's Handbook and Dungeon Master's Guide, the Artificer, 260 creatures from nine Forgotten Realms adventures, and more than 400 further character options, spells and magic items, each with its own painting; Theros now sits in the main 5e compendia.
+
+**Added**
+
+- The 2014 Player's Handbook beyond the SRD: its races and subraces, subclasses, backgrounds, feats and spells, and the Dungeon Master's Guide's magic items, each with its own painting
+- The Artificer class from Tasha's Cauldron of Everything, with its class features
+- 260 creatures from the Forgotten Realms adventures (Tomb of Annihilation, Out of the Abyss, Princes of the Apocalypse, Tyranny of Dragons, Descent into Avernus, Tales from the Yawning Portal, Storm King's Thunder, Rime of the Frostmaiden, Lost Mine of Phandelver), 56 of them with a female or male twin
+- Magic items and spells from those adventures, and magic items, spells and character options from further sourcebooks (among them the Sword Coast Adventurer's Guide, Acquisitions Incorporated, Ravnica, Eberron, Wildemount, Strixhaven, Van Richten's Guide, Dragonlance, Spelljammer, Glory of the Giants and the Plane Shift supplements): more than 400 documents, each with its own painting
+- Ready characters of each sex for every new race, subclass and background in the 5e Characters compendium
+
+**Changed**
+
+- Mythic Odysseys of Theros is part of the main 5e compendia: its creatures, races, subclasses, backgrounds and items sit beside the other sourcebooks' and name their book. The separate Theros compendia, the Art Library (Theros) catalogue and the Theros Characters compendium are gone; the Theros paintings are catalogued in Art Library (All)
+- Where a later book revised an adventure creature (Monsters of the Multiverse), only the revision is kept; where two books print the same race, the better painting is used
+- The download is about 400 MB
+
+**Fixed**
+
+- 890 paintings re-keyed from their original captures with the improved keyer: no raspberry fringe on glows, spirits and magic circles
+- Bows and crossbows across the library redrawn or retouched so that every string runs straight from tip to tip, or from each tip to the nock on a drawn bow and to the latch on a crossbow
+
+**Requirements:** Foundry VTT 13 or later for the art, Art Library (All) and the 5e compendia (verified on 14.369). The 5e compendia need the D&D 5e system 5.3.3 or later, including 6.x (tested on 6.0.6, which needs Foundry VTT 14). The 2e compendia need Foundry VTT 14 and the Advanced Roleplaying System 2026.04.27 or later (tested on 2026.10.06), with its ruleset variant set to 2. The art and Art Library (All) work in any system.
+
 ## 4.1.0 — Ready characters, Proficient Use and token rings (2026-10-09)
 
 Ready-made characters of each sex for every painted race, class, subclass and background, the Dark Sun Proficient Use rules, optional dynamic token rings, corrected races, and every document with its own painting.
