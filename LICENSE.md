@@ -1,6 +1,6 @@
 # Dakk's Ultimate Tokens — Licence
 
-Version 2.2.0, 2026-10-15 (the Artificer, the 2014 core options and the Forgotten Realms books added in module 4.3). Copyright (c) 2026 TheDakk.
+Version 2.3.0, 2026-11-11 (the setting books and the third-party bestiaries added in module 4.5; no page citation). Copyright (c) 2026 TheDakk.
 
 ## The artwork
 
@@ -157,6 +157,6 @@ OPEN GAME LICENSE VERSION 1.0A The following text is the property of Wizards of 
 
 END OF LICENSE
 
-*The Open Game License text above is reproduced verbatim from Appendix D (pp. 367-368) of For Gold &
+*The Open Game License text above is reproduced verbatim from Appendix D of For Gold &
 Glory by Justen Brown. Section 15 has been extended with this module's own entry as required by
 clause 6 of the license.*

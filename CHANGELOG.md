@@ -1,5 +1,26 @@
 # Changelog
 
+## 4.5.0 — The setting creatures and the bestiaries (2026-11-12)
+
+There was no separate 4.4: its setting creatures ship here, rolled into 4.5. 533 creatures from thirteen setting books and adventures, and 2,999 creatures from eleven third-party 5e bestiaries, every one painted, 950 of them with a female or male twin; every third-party text is written in our own words.
+
+**Added**
+
+- 533 creatures from the setting books and adventures (Curse of Strahd, Guildmasters' Guide to Ravnica, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Strixhaven, Van Richten's Guide to Ravenloft, Planescape, Dragonlance: Shadow of the Dragon Queen, Dragon of Icespire Peak, Spelljammer, Bigby Presents: Glory of the Giants, Call of the Netherdeep, Minsc and Boo's Journal of Villainy), 136 of them with a female or male twin
+- 2,999 creatures from third-party 5e bestiaries (Tome of Beasts 2 and 3, Monster Manual Expanded I to III, Grim Hollow: The Monster Grimoire, The Infernal Tome, Ultimate Bestiary: Revenge of the Horde, Big Bad Creatures, Big Book of Big Bads, Fifth Edition Foes), 814 of them with a female or male twin, their mechanics converted and every text written in our own words
+- The new creatures in Creatures and Creatures by Challenge, foldered by type and challenge like the rest, each naming its book
+
+**Changed**
+
+- The download is larger, about 700 MB (about 800 MB installed): 4,390 new paintings
+- The vampire spawn's twin is now a man, since its painting is a woman; the skulk and the ghost knight lose the female twins 4.3.0 gave them by mistake
+
+**Fixed**
+
+- 65 creatures in 4.3.0 pointed at paintings that release did not carry and showed no portrait or token: the SRD kobold, death dog, blood hawk, vampire spawn and adult chromatic dragons, and creatures from Monsters of the Multiverse, Tomb of Annihilation and other books that share a name with a later bestiary's creature. Each has its own painting again
+- 177 creatures from earlier releases had stat lines or actions a scan had misread, now read off the printed page: flying and swimming speeds that were missing (the atropal, the brain in a jar, the vampiric ixitxachitl), senses, skills, saving throws and alignments, and the traits of the Storm King's Thunder townsfolk, which sat in their Languages line
+- Some creature texts from the 4.3 release no longer point to a book's appendices, which the module does not contain: the Elemental Evil cultists' spell notes, Acererak, Rezmir, Sir Braford and the Zuggtmoy spores
+
 ## 4.3.0 — The 2014 core options, the Artificer and the Forgotten Realms adventures (2026-11-08)
 
 What the SRD leaves out of the 2014 Player's Handbook and Dungeon Master's Guide, the Artificer, 260 creatures from nine Forgotten Realms adventures, and more than 400 further character options, spells and magic items, each with its own painting; Theros now sits in the main 5e compendia. There was no separate 4.2: what was planned for it (the 2014 core options and the Artificer) ships in this release.

@@ -1,5 +1,3 @@
-2026/11/08-23:51:03.817 40c8 Delete type=3 #1
-2026/11/08-23:51:03.867 b40 Level-0 table #5: started
-2026/11/08-23:51:03.884 b40 Level-0 table #5: 437278 bytes OK
-2026/11/08-23:51:03.888 b40 Delete type=0 #3
-2026/11/08-23:51:03.889 b40 Manual compaction at level-0 from '!journal!9wbBiOtokoDAmNXZ' @ 72057594037927935 : 1 .. '!journal.pages!yO2UKfyJFaR7gMiE.v4zbafcxPcXoz6aU' @ 0 : 0; will stop at (end)
+2026/11/12-23:49:45.936 6c74 Recovering log #15
+2026/11/12-23:49:45.943 6c74 Delete type=0 #15
+2026/11/12-23:49:45.943 6c74 Delete type=3 #13
